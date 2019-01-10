@@ -34,4 +34,11 @@ $('.owl-carousel').owlCarousel({
             items:5
         }
     }
-})
+});
+
+var menuButton = document.querySelector(".menu-toggler");
+var menuBar = document.querySelector("nav");
+
+menuButton.addEventListener("click", function(){
+    menuBar.classList.toggle("menu-active");
+});
