@@ -95,7 +95,7 @@ nav > ul li {
     list-style: none;
     margin: 0;
     display: block;
-    text-align: right;
+    text-align: left;
     padding: 0;
     opacity: 0;
     transition: opacity 150ms ease-in-out;
@@ -118,12 +118,28 @@ nav > ul a {
     transition: opacity 350ms ease-in-out 300ms;
 }
 
+/*
 nav a:hover {
-    background: #fff;
-    color: #246eb5;
+    background: #468ce3;
+    color: #fff;
+}
+*/
+
+/*dropdown menu styles*/
+li.drop-down li {
+    background-color: #468ce3;
+    padding-left: 20px;
+    display: none;
+    
 }
 
+li.drop-down:hover li {
+    display: block;
+}
 
+.fa-sort-down {
+    float: right;
+}
 
 /*-------- HOMEPAGE MASTHEAD --------*/
 
@@ -155,28 +171,38 @@ figcaption a {
     margin-top: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 20px;
 }
 
 .card-menu-tile {
     background-color: #246eb5;
     padding: 10px 5px;
     display: grid;
-    grid-template-columns: 30px auto;
+    grid-template-columns: 1fr;
     align-items: center;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+}
+
+.card-menu-tile a {
+    text-align: center;
+    text-decoration: none;
 }
 
 .card-menu-tile img {
     width: 25px;
+    margin: 0 auto;
 }
 
 .card-menu-tile p {
     color: #fff;
     font-size: 0.7em;
+    text-align: center;
+    margin: 0;
+    margin-top: 5px;
 }
 
 .white-bg {
-    padding: 10px;
+    padding: 30px 10px;
 }
 
 .officer {
@@ -293,10 +319,7 @@ footer a {
 
 @media screen and (min-width: 991px) {
     
-    header {
         
-    }
-    
     .govt-punjab-link a {
         font-size: 0.8em;
     }
@@ -335,10 +358,12 @@ footer a {
     nav {
         position: relative;
         transform: scale(1,1);
+        box-sizing: border-box;
     }
     
     nav ul {
         padding: 0;
+        text-align: center;
     }
     
     nav > ul li {
@@ -352,7 +377,33 @@ footer a {
  
     nav > ul a {
         display: inline-block;
-        padding: 10px 15px;
+        padding: 10px 20px;
+    }
+    
+    /*dropdown menu styles*/
+    .fa-sort-down {
+        padding-left: 5px;
+    }
+    
+    li.drop-down ul {
+        position: absolute;
+        min-width: 150px;
+        border: 2px solid #246eb5;
+        border-top: none;
+        display: none;
+    }
+    
+    li.drop-down:hover ul {
+        display: block;
+    }
+    
+    li.drop-down li {
+        text-align: left;
+        padding-left: 0;
+    }
+    
+    li.drop-down li a {
+        
     }
     
 
@@ -392,12 +443,10 @@ footer a {
     
     #notification-board {
         grid-column: 1/2;
-        order: 1;
     }
     
     .officer {
         grid-column: 2/3;
-        order: 2;
     }
     
     .tabcontent {
@@ -423,11 +472,9 @@ footer a {
         padding: 10px 5%;    
     }
     
-/*
     nav {
         padding: 0 5%;
     }
-*/
     
     .masthead,
     #notification-section,

@@ -42,3 +42,11 @@ var menuBar = document.querySelector("nav");
 menuButton.addEventListener("click", function(){
     menuBar.classList.toggle("menu-active");
 });
+
+//var subMenu1 = document.querySelector("#sub-menu-1");
+//var dropDown1 = document.querySelector("#drop-menu-1");
+//
+//subMenu1.addEventListener("click", function(){
+//    dropDown1.classList.toggle("sub-menu-active");
+//});
+
