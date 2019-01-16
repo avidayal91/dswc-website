@@ -406,16 +406,19 @@ footer a {
     padding: 20px 10px;
 }
 
-#dept-intro h1 {
+#dept-intro h1,
+#programmes h1 {
     color: #fff;
     font-size: 1.5rem;
+    line-height: 1.2em;
     text-align: center;
     margin: 0;
     background: #246eb5;
     padding: 10px 5px;
 }
 
-#dept-intro h2 {
+#dept-intro h2,
+#programmes h2 {
     color: #246eb5;
     font-size: 1rem;    
     margin: 15px 0 5px;
@@ -435,6 +438,7 @@ footer a {
     margin-bottom: 5px;
 }
 
+#programmes,
 #dept-intro p,
 #dept-intro li {
     font-size: 0.8rem;
@@ -469,7 +473,7 @@ table th {
     text-align: left;
 }
 
-table th:first-of-type {
+#dept-intro th:first-of-type {
     width: 100px;
 }
 
@@ -477,7 +481,7 @@ table td {
     padding: 10px 5px;
 }
 
-table td:nth-child(odd) {
+table td:first-of-type {
     font-weight: 700;
 }
 
@@ -489,6 +493,9 @@ table tr:nth-child(even) {
     background-color: #f7f7f7;
 }
 
+#programmes table th:first-of-type {
+    width: 50px;
+}
 
 @media screen and (min-width: 400px){
     .dept-title h1 {
@@ -590,6 +597,7 @@ table tr:nth-child(even) {
         font-weight: 400;
     }
     
+    nav > ul a:hover,
     li.drop-down li:hover a {
         background-color: #fff;
         color: #246eb5;
@@ -716,6 +724,7 @@ table tr:nth-child(even) {
         font-size: 0.8rem;
     }
     
+    #programmes h1,
     #dept-intro h1 {
         font-size: 2rem;
     }
@@ -724,6 +733,12 @@ table tr:nth-child(even) {
         font-size: 1.6rem;
     }
     
+    #programmes h2 {
+        font-size: 1.6rem;
+        margin-bottom: 10px;
+    }
+    
+    #programmes h3,
     #dept-intro h3 {
         font-size: 1.3rem;
     }
@@ -732,6 +747,7 @@ table tr:nth-child(even) {
         font-size: 1rem;
     }
     
+    #programmes p,
     #dept-intro p,
     #dept-intro li {
         font-size: 0.9rem;
@@ -749,8 +765,22 @@ table tr:nth-child(even) {
         font-size: 1rem;
     }
     
-    table th:first-of-type {
+    #dept-intro table th:first-of-type {
         width: 250px;
+    }
+    
+    #programmes table th:nth-of-type(2) {
+        width: 300px;
+    }
+
+    #programmes table th:last-of-type {
+        width: 200px;
+    }
+
+    .break-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 20px;
     }
 }
 
