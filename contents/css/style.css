@@ -5,12 +5,15 @@ COLOR CODES
 Dark Blue: #246eb5
 Light Blue: #468ce3
 -----------------*/
-
+html {
+    font-size: 16px;
+}
 
 body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    background-color: #fcfcfc;
 }
 
 img {
@@ -31,7 +34,7 @@ header {
 .govt-punjab-link a {
     text-decoration: none;
     color: #fff;
-    font-size: 0.6em;
+    font-size: 0.6rem;
     font-weight: 400;
 }
 
@@ -50,13 +53,13 @@ header {
 .dept-title h1 {
     padding-left: 2px;
     font-weight: 700;
-    font-size: 0.9em;
+    font-size: 0.9rem;
     border-left: 2px solid #246eb5;
 }
 
 .dept-title h1 span {
     font-weight: 400;
-    font-size: 0.7em;
+    font-size: 0.7rem;
 }
 
 .logo {
@@ -81,7 +84,7 @@ header {
 .menu-toggler a {
     text-decoration: none;
     color: #000;
-    font-size: 0.5em;
+    font-size: 0.5rem;
 }
 
 nav {
@@ -114,7 +117,7 @@ nav > ul li {
 
 nav > ul a {
     color: #fff;
-    font-size: 0.8em;
+    font-size: 0.8rem;
     text-decoration: none;
     display: block;
     padding: 10px;
@@ -169,7 +172,7 @@ figure {
 figcaption {
     background-color: rgba(36, 110, 181, 0.9);
     color: #fff;
-    font-size: 0.7em;
+    font-size: 0.7rem;
     padding: 10px;
     line-height: 1.3em;
     position: absolute;
@@ -210,7 +213,7 @@ figcaption a {
 
 .card-menu-tile p {
     color: #fff;
-    font-size: 0.7em;
+    font-size: 0.7rem;
     text-align: center;
     margin: 0;
     margin-top: 5px;
@@ -236,13 +239,13 @@ figcaption a {
 }
 .officer h2 {
     margin: 0;
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: 700;
 }
 
 .officer h3 {
     margin: 0;
-    font-size: 0.8em;
+    font-size: 0.8rem;
     font-weight: 400;
 }
 
@@ -264,26 +267,27 @@ figcaption a {
     cursor: pointer;
     padding: 5px 10px;
     transition: 0.3s;
-    font-size: 1em;
+    font-size: 0.8rem;
     color: #fff;
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #246eb5;
+    background-color: #246eb5;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #246eb5;
+    background-color: #246eb5;
 }
 
 /* Style the tab content */
 .tabcontent {
-  display: none;
-  padding: 6px 12px;
-  border: 3px solid #246eb5;
-  border-top: none;
+    display: none;
+    font-size: 0.9rem;
+    padding: 6px 12px;
+    border: 3px solid #246eb5;
+    border-top: none;
 }
 
 .bulletin li {
@@ -323,12 +327,12 @@ footer {
 #quick-links h2 {
     grid-column: 1/3;
     text-align: center;
-    font-size: 0.9em;
+    font-size: 0.9rem;
     margin: 0;
 }
 
 #connect h2 {
-    font-size: 0.9em;
+    font-size: 0.9rem;
     margin: 0;
 }
     
@@ -359,7 +363,7 @@ footer {
 }
 
 #connect li:first-of-type {
-    font-size: 0.8em;
+    font-size: 0.8rem;
 }
 
 #connect .fa-phone {
@@ -388,23 +392,107 @@ footer {
 
 
 #dev-note {
-    font-size: 0.8em;
+    font-size: 0.7rem;
     margin: 20px 10px;
     text-align: center;
 }
 
 footer a {
     color: #fff;
-    font-size: 0.8em;
+    font-size: 0.8rem;
 }
 
 #logo-banner {
     padding: 20px 10px;
 }
 
+#dept-intro h1 {
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0;
+    background: #246eb5;
+    padding: 10px 5px;
+}
+
+#dept-intro h2 {
+    color: #246eb5;
+    font-size: 1rem;    
+    margin: 15px 0 5px;
+    text-decoration: underline;
+}
+
+#dept-intro h3 {
+    margin: 0;
+    color: #246eb5;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+#dept-intro h4 {
+    margin: 0;
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+}
+
+#dept-intro p,
+#dept-intro li {
+    font-size: 0.8rem;
+    line-height: 1.5em;
+    margin: 0;
+    margin-bottom: 0.8em;
+}
+
+div.activities {
+    margin-bottom: 15px;
+}
+
+#dept-intro img {
+    max-width: 350px;
+}
+
+div.table-styles {
+    overflow-x: auto
+}
+
+table {
+    border: 2px solid #246eb5;
+    margin-bottom: 20px;
+    font-size: 0.8rem;
+}
+
+table th {
+    background-color: #468ce3;
+    color: #fff;
+    font-size: 0.9rem;
+    padding: 10px 5px;
+    text-align: left;
+}
+
+table th:first-of-type {
+    width: 100px;
+}
+
+table td {
+    padding: 10px 5px;
+}
+
+table td:nth-child(odd) {
+    font-weight: 700;
+}
+
+table tr {
+    background-color: #e2e2e2;
+}
+
+table tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+
 @media screen and (min-width: 400px){
     .dept-title h1 {
-        font-size: 1.2em;
+        font-size: 1.2rem;
     }
 }
 
@@ -412,7 +500,7 @@ footer a {
     
         
     .govt-punjab-link a {
-        font-size: 0.8em;
+        font-size: 0.8rem;
     }
     
     .header-bar {
@@ -433,12 +521,12 @@ footer a {
     }
     
     .dept-title h1 {
-        font-size: 1.8em;
+        font-size: 1.8rem;
         margin: 0;
     }
     
-    .dept-title span {
-        font-size: 0.8em;
+    .dept-title h1 span {
+        font-size: 1.2rem;
     }
     
     .menu-toggler {
@@ -469,7 +557,7 @@ footer a {
     nav > ul a {
         display: inline-block;
         padding: 10px 15px;
-        font-size: 0.9em;
+        font-size: 0.9rem;
         font-weight: 700;
     }
     
@@ -498,7 +586,7 @@ footer a {
         
     li.drop-down li a {
         min-width: 150px;
-        font-size: 0.8em;
+        font-size: 0.8rem;
         font-weight: 400;
     }
     
@@ -532,11 +620,11 @@ footer a {
     .card-menu-tile p {
         grid-column: 1/3;
         margin: 0 auto;
-        font-size: 0.9em;
+        font-size: 0.9rem;
     }
     
     figcaption {
-        font-size: 0.9em;
+        font-size: 0.9rem;
     }
     
     #notification-section {
@@ -613,7 +701,7 @@ footer a {
     
     #dev-note {
         align-self: center;
-        font-size: 0.9em;
+        font-size: 0.9rem;
         font-weight: 700;
         padding: 5px;
         background-color: #246eb5;
@@ -625,10 +713,45 @@ footer a {
     }
     
     #footer-links a {
-        font-size: 0.8em;
+        font-size: 0.8rem;
     }
     
-        
+    #dept-intro h1 {
+        font-size: 2rem;
+    }
+    
+    #dept-intro h2 {
+        font-size: 1.6rem;
+    }
+    
+    #dept-intro h3 {
+        font-size: 1.3rem;
+    }
+    
+    #dept-intro h4 {
+        font-size: 1rem;
+    }
+    
+    #dept-intro p,
+    #dept-intro li {
+        font-size: 0.9rem;
+    }
+    
+    div.activities {
+    padding-left: 20px;
+    }
+    
+    table {
+        font-size: 0.9rem;
+    }
+    
+    table th {
+        font-size: 1rem;
+    }
+    
+    table th:first-of-type {
+        width: 250px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
