@@ -407,38 +407,46 @@ footer a {
 }
 
 #dept-intro h1,
-#programmes h1 {
+#programmes h1,
+#achievements h1{
     color: #fff;
     font-size: 1.5rem;
     line-height: 1.2em;
     text-align: center;
     margin: 0;
+    margin-bottom: 20px;
     background: #246eb5;
     padding: 10px 5px;
 }
 
 #dept-intro h2,
-#programmes h2 {
+#programmes h2,
+#achievements h2{
     color: #246eb5;
     font-size: 1rem;    
     margin: 15px 0 5px;
     text-decoration: underline;
 }
 
-#dept-intro h3 {
+#dept-intro h3,
+#programmes h3,
+#achievements h3{
     margin: 0;
     color: #246eb5;
     font-size: 0.9rem;
     margin-bottom: 5px;
 }
 
+#achievements a,
+#programmes a,
 #dept-intro h4 {
     margin: 0;
     font-size: 0.8rem;
     margin-bottom: 5px;
 }
 
-#programmes,
+#achievements p,
+#programmes p,
 #dept-intro p,
 #dept-intro li {
     font-size: 0.8rem;
@@ -493,8 +501,36 @@ table tr:nth-child(even) {
     background-color: #f7f7f7;
 }
 
+#achievements table th:first-of-type,
 #programmes table th:first-of-type {
     width: 50px;
+}
+
+/*Inner table syles*/
+table.inner-table {
+    border: none;
+    margin-bottom: 0;
+}
+
+table.inner-table td:first-of-type {
+    font-weight: inherit;
+}
+
+table.inner-table tr {
+    background-color: transparent;
+}
+
+tr.table-sub-heading {
+    color: #246eb5;
+    font-weight: 700;
+    font-size: 0.8rem;
+    padding: 10px 5px;
+}
+
+table tr.sub-total {
+    background-color: #468ce3;
+    color: #fff;
+    font-weight: 700;
 }
 
 @media screen and (min-width: 400px){
@@ -724,6 +760,7 @@ table tr:nth-child(even) {
         font-size: 0.8rem;
     }
     
+    #achievements h1,
     #programmes h1,
     #dept-intro h1 {
         font-size: 2rem;
@@ -733,11 +770,13 @@ table tr:nth-child(even) {
         font-size: 1.6rem;
     }
     
+    #achievements h2,
     #programmes h2 {
         font-size: 1.6rem;
         margin-bottom: 10px;
     }
     
+    #achievemtns h3,
     #programmes h3,
     #dept-intro h3 {
         font-size: 1.3rem;
@@ -747,6 +786,8 @@ table tr:nth-child(even) {
         font-size: 1rem;
     }
     
+    #achievements p,
+    #programmes a,
     #programmes p,
     #dept-intro p,
     #dept-intro li {
@@ -769,6 +810,10 @@ table tr:nth-child(even) {
         width: 250px;
     }
     
+    #achievements table th:nth-child(2) {
+        width: 750px;
+    }
+    
     #programmes table th:nth-of-type(2) {
         width: 300px;
     }
@@ -776,7 +821,10 @@ table tr:nth-child(even) {
     #programmes table th:last-of-type {
         width: 200px;
     }
-
+    
+    tr.table-sub-heading {
+        font-size: 0.9rem;
+    }
     .break-list {
         display: grid;
         grid-template-columns: 1fr 1fr;
