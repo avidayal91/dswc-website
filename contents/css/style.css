@@ -39,7 +39,6 @@ header {
 }
 
 .header-bar {
-/*    background-color: #fafafa;*/
     padding: 5px 10px;
     display: grid;
     grid-template-columns: 70px auto 50px;
@@ -151,12 +150,14 @@ li.drop-down:hover li {
 
 /*-------- HOMEPAGE MASTHEAD --------*/
 .masthead {
-    background-color: #468ce3;
+    background: #468ce3;
+    background: linear-gradient(to bottom, #468ce3, #fcfcfc);
     padding: 20px 10px;
 }
 
 .inner-masthead {
     background-color: #468ce3;
+    background: linear-gradient(to bottom, #468ce3, #fcfcfc);
     padding: 20px 10px;
 }
 
@@ -219,7 +220,7 @@ figcaption a {
     margin-top: 5px;
 }
 
-.white-bg {
+.container {
     padding: 30px 10px;
 }
 
@@ -227,23 +228,23 @@ figcaption a {
     margin-bottom: 20px;
 }
 
-.officer {
+#ccs-block {
     padding: 30px 10px;
     text-align: center;
     border: 3px solid #246eb5;
     margin-bottom: 20px
 }
 
-.officer img {
+#ccs-block img {
     width: 150px;
 }
-.officer h2 {
+#ccs-block h2 {
     margin: 0;
     font-size: 1rem;
     font-weight: 700;
 }
 
-.officer h3 {
+#ccs-block h3 {
     margin: 0;
     font-size: 0.8rem;
     font-weight: 400;
@@ -295,6 +296,7 @@ figcaption a {
 }
 
 article {
+/*    background: linear-gradient(to bottom, #fcfcfc, #468ce3);*/
     padding: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -406,9 +408,7 @@ footer a {
     padding: 20px 10px;
 }
 
-#dept-intro h1,
-#programmes h1,
-#achievements h1{
+.container h1 {
     color: #fff;
     font-size: 1.5rem;
     line-height: 1.2em;
@@ -419,43 +419,37 @@ footer a {
     padding: 10px 5px;
 }
 
-#dept-intro h2,
-#programmes h2,
-#achievements h2{
+.container h2 {
     color: #246eb5;
     font-size: 1rem;    
     margin: 15px 0 5px;
     text-decoration: underline;
 }
 
-#dept-intro h3,
-#programmes h3,
-#achievements h3{
+.container h3 {
     margin: 0;
     color: #246eb5;
     font-size: 0.9rem;
     margin-bottom: 5px;
 }
 
-#achievements a,
-#programmes a,
-#dept-intro h4 {
+.container a,
+.container h4 {
     margin: 0;
     font-size: 0.8rem;
     margin-bottom: 5px;
 }
 
-#achievements p,
-#programmes p,
-#dept-intro p,
-#dept-intro li {
+.container p,
+.container li {
     font-size: 0.8rem;
     line-height: 1.5em;
     margin: 0;
     margin-bottom: 0.8em;
 }
 
-div.activities {
+div.h2-sub_content,
+{
     margin-bottom: 15px;
 }
 
@@ -502,7 +496,8 @@ table tr:nth-child(even) {
 }
 
 #achievements table th:first-of-type,
-#programmes table th:first-of-type {
+#programmes table th:first-of-type,
+#success-stories th:first-of-type {
     width: 50px;
 }
 
@@ -531,6 +526,11 @@ table tr.sub-total {
     background-color: #468ce3;
     color: #fff;
     font-weight: 700;
+}
+
+.container h2 span {
+    font-size: 0.8em;
+    text-decoration: none;
 }
 
 @media screen and (min-width: 400px){
@@ -639,7 +639,6 @@ table tr.sub-total {
         color: #246eb5;
     }
     
-
     .masthead {
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -684,7 +683,7 @@ table tr.sub-total {
         
     }
     
-    .officer {
+    #ccs-block {
         grid-column: 2/3;
         margin-bottom: 0;
     }
@@ -760,42 +759,31 @@ table tr.sub-total {
         font-size: 0.8rem;
     }
     
-    #achievements h1,
-    #programmes h1,
-    #dept-intro h1 {
+    .container h1 {
         font-size: 2rem;
     }
     
-    #dept-intro h2 {
-        font-size: 1.6rem;
-    }
-    
-    #achievements h2,
-    #programmes h2 {
+    .container h2 {
         font-size: 1.6rem;
         margin-bottom: 10px;
     }
     
-    #achievemtns h3,
-    #programmes h3,
-    #dept-intro h3 {
+    .container h3 {
         font-size: 1.3rem;
     }
     
-    #dept-intro h4 {
+    .container h4 {
         font-size: 1rem;
     }
     
-    #achievements p,
-    #programmes a,
-    #programmes p,
-    #dept-intro p,
-    #dept-intro li {
+    .container p,
+    .container li,
+    .container a {
         font-size: 0.9rem;
     }
     
-    div.activities {
-    padding-left: 20px;
+    div.h2-sub_content {
+        padding-left: 20px;
     }
     
     table {
@@ -804,6 +792,16 @@ table tr.sub-total {
     
     table th {
         font-size: 1rem;
+    }
+    
+    tr.table-sub-heading {
+        font-size: 0.9rem;
+    }
+    
+    .break-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 20px;
     }
     
     #dept-intro table th:first-of-type {
@@ -822,14 +820,31 @@ table tr.sub-total {
         width: 200px;
     }
     
-    tr.table-sub-heading {
-        font-size: 0.9rem;
+    #ugps-story table th:nth-of-type(2) {
+        width: 400px;
     }
-    .break-list {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 20px;
+    
+    #ugps-story table th:nth-of-type(3) {
+        width: 450px;
     }
+    
+    #harvesting-story table th:nth-of-type(2),
+    #makkowal-story table th:nth-of-type(2),
+    #fatehpur-kangar-story table th:nth-of-type(2){
+        width: 250px;
+    }
+    
+    #harvesting-story table th:last-of-type,
+    #fatehpur-kangar-story table th:last-of-type {
+        width: 150px;
+    }
+    
+    #makkowal-story table th:nth-of-type(3),
+    #makkowal-story table th:last-of-type {
+        min-width: 150px;
+    }
+    
+    
 }
 
 @media screen and (min-width: 1200px) {
@@ -859,7 +874,7 @@ table tr.sub-total {
     .inner-masthead,
     #notification-section,
     article,
-    .white-bg{
+    .container {
         padding: 20px 5%;
     }
 }
@@ -869,7 +884,7 @@ table tr.sub-total {
     #notification-section,
     article,
     .inner-masthead,
-    .white-bg {
+    .container {
         padding: 20px 10%;
     }
     
