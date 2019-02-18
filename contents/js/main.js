@@ -21,6 +21,8 @@ $('.owl-carousel').owlCarousel({
 var menuButton = document.querySelector(".menu-toggler");
 var menuBar = document.querySelector("nav");
 
+var subMenuToggle = document.querySelectorAll(".drop-down");
+
 menuButton.addEventListener("click", function(){
     menuBar.classList.toggle("menu-active");
 });
@@ -30,5 +32,15 @@ menuButton.addEventListener("click", function(){
 //
 //subMenu1.addEventListener("click", function(){
 //    dropDown1.classList.toggle("sub-menu-active");
+
+//});
+//
+//subMenuToggle.addEventListener("click", function(){
+//   console.log("sub menu opened"); 
 //});
 
+for(var i =0; i<subMenuToggle.length; i++) {
+  subMenuToggle[i].addEventListener("click", function(){
+     this.classList.toggle("drop-menu");
+  });
+}

@@ -140,9 +140,13 @@ li.drop-down li {
     
 }
 
-li.drop-down:hover li {
+
+li.drop-menu li {
     display: block;
 }
+
+
+
 
 .fa-sort-down {
     float: right;
@@ -626,6 +630,13 @@ table tr.sub-total {
         padding-left: 0;
         background-color: #468ce3;
     }
+    
+    
+
+    li.drop-down:hover li {
+        display: block;
+    }
+
         
     li.drop-down li a {
         min-width: 150px;
