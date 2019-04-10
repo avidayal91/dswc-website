@@ -537,6 +537,21 @@ table tr.sub-total {
     text-decoration: none;
 }
 
+.gallery-main figure,
+.photo-gallery figure {
+    margin-bottom: 20px;
+    max-width: 500px;
+}
+
+#faq span {
+    color: #246eb5;
+    font-weight: 700;
+}
+
+#faq p {
+    margin-bottom: 25px;
+}
+
 @media screen and (min-width: 400px){
     .dept-title h1 {
         font-size: 1.2rem;
@@ -855,6 +870,18 @@ table tr.sub-total {
         min-width: 150px;
     }
     
+    .gallery-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 20px;
+    }
+    
+    .photo-gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 20px;
+    }
+    
     
 }
 
@@ -905,6 +932,12 @@ table tr.sub-total {
     
     nav > ul a {
         padding: 10px 25px;
+    }
+    
+    .photo-gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column-gap: 20px;
     }
 }
 
