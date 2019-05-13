@@ -296,7 +296,7 @@ figcaption a {
 }
 
 .bulletin li {
-    padding: 10px 5px;
+    padding: 5px 5px;
 }
 
 article {
@@ -410,6 +410,7 @@ footer a {
 
 #logo-banner {
     padding: 20px 10px;
+    background-color: #fff;
 }
 
 .container h1 {
@@ -503,6 +504,27 @@ table tr:nth-child(even) {
 #programmes table th:first-of-type,
 #success-stories th:first-of-type {
     width: 50px;
+}
+
+/*contact list styles*/
+#branch-offices th:first-of-type {
+    width: 50px;
+}
+
+#branch-offices th:nth-of-type(2) {
+    width: 350px;
+}
+
+#branch-offices th:nth-of-type(3) {
+    width: 400px;
+}
+
+#branch-offices th:nth-of-type(4) {
+    width: 200px;
+}
+
+#branch-offices th:nth-of-type(5) {
+    width: 250px;
 }
 
 /*Inner table syles*/
