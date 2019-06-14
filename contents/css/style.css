@@ -170,7 +170,7 @@ figure {
     display: flex;
     flex-flow: column;
     width: 100%;
-    margin: 0 auto;
+    margin: 10px auto;
     position: relative;
 }
 
@@ -412,6 +412,12 @@ footer a {
     background-color: #fff;
 }
 
+.project-box {
+    border: 3px solid #246eb5;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
 .container h1 {
     color: #fff;
     font-size: 1.5rem;
@@ -426,7 +432,7 @@ footer a {
 .container h2 {
     color: #246eb5;
     font-size: 1rem;    
-    margin: 15px 0 5px;
+    margin: 25px 0 5px;
     text-decoration: underline;
     text-transform: uppercase;
 }
@@ -435,7 +441,6 @@ footer a {
     margin: 0;
     color: #246eb5;
     font-size: 0.9rem;
-    margin-bottom: 5px;
 }
 
 .container a,
@@ -451,6 +456,7 @@ footer a {
     line-height: 1.5em;
     margin: 0;
     margin-bottom: 0.8em;
+    text-align: justify;
 }
 
 div.h2-sub_content,
@@ -501,8 +507,7 @@ table tr:nth-child(even) {
 }
 
 #achievements table th:first-of-type,
-#programmes table th:first-of-type,
-#success-stories th:first-of-type {
+#programmes table th:first-of-type {
     width: 50px;
 }
 
@@ -588,12 +593,12 @@ table tr.sub-total {
     
     .text-image-box {
         display: grid;
-        grid-template-columns: 2fr 1fr;
-        grid-column-gap: 10px;
+        grid-template-columns: 3fr 2fr;
+        grid-column-gap: 20px;
     }
     
     .text-image-box figure {
-        align-self: center;
+        align-self: flex-start;
     }
     
 }
@@ -827,7 +832,7 @@ table tr.sub-total {
     }
     
     .container h3 {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
     
     .container h4 {
@@ -878,30 +883,7 @@ table tr.sub-total {
         width: 200px;
     }
     
-    #ugps-story table th:nth-of-type(2) {
-        width: 400px;
-    }
-    
-    #ugps-story table th:nth-of-type(3) {
-        width: 450px;
-    }
-    
-    #harvesting-story table th:nth-of-type(2),
-    #makkowal-story table th:nth-of-type(2),
-    #fatehpur-kangar-story table th:nth-of-type(2){
-        width: 250px;
-    }
-    
-    #harvesting-story table th:last-of-type,
-    #fatehpur-kangar-story table th:last-of-type {
-        width: 150px;
-    }
-    
-    #makkowal-story table th:nth-of-type(3),
-    #makkowal-story table th:last-of-type {
-        min-width: 150px;
-    }
-    
+        
     .gallery-main {
         display: grid;
         grid-template-columns: 1fr 1fr;
