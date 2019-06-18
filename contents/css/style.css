@@ -146,8 +146,6 @@ li.drop-menu li {
 }
 
 
-
-
 .fa-sort-down {
     float: right;
 }
@@ -170,7 +168,7 @@ figure {
     display: flex;
     flex-flow: column;
     width: 100%;
-    margin: 10px auto;
+    margin: 0 auto 10px;
     position: relative;
 }
 
@@ -589,18 +587,7 @@ table tr.sub-total {
     article {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-    }
-    
-    .text-image-box {
-        display: grid;
-        grid-template-columns: 3fr 2fr;
-        grid-column-gap: 20px;
-    }
-    
-    .text-image-box figure {
-        align-self: flex-start;
-    }
-    
+    }   
 }
 
 @media screen and (min-width: 991px) {
@@ -871,8 +858,8 @@ table tr.sub-total {
         width: 250px;
     }
     
-    #achievements table th:nth-child(2) {
-        width: 750px;
+    #achievements table tr:first-of-type th:nth-child(2) {
+        width: 400px;
     }
     
     #programmes table th:nth-of-type(2) {
@@ -881,8 +868,7 @@ table tr.sub-total {
 
     #programmes table th:last-of-type {
         width: 200px;
-    }
-    
+    }    
         
     .gallery-main {
         display: grid;
@@ -894,8 +880,7 @@ table tr.sub-total {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 20px;
-    }
-    
+    }   
     
 }
 
@@ -928,6 +913,16 @@ table tr.sub-total {
     article,
     .container {
         padding: 20px 5%;
+    }
+    
+    .text-image-box {
+        display: grid;
+        grid-template-columns: auto 400px;
+        grid-column-gap: 20px;
+    }
+    
+    .text-image-box figure {
+        align-self: flex-start;
     }
 }
 
