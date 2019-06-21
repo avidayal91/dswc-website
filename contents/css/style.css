@@ -505,8 +505,11 @@ table tr:nth-child(even) {
 }
 
 #achievements table th:first-of-type,
-#programmes table th:first-of-type {
-    width: 50px;
+#programmes table th:first-of-type,
+#success-stories th:first-of-type,
+#rti-page th:first-of-type,
+#downloads th:first-of-type {
+    min-width: 50px;
 }
 
 /*contact list styles*/
@@ -529,6 +532,15 @@ table tr:nth-child(even) {
 #branch-offices th:nth-of-type(5) {
     width: 250px;
 }
+
+#rti-page th:nth-child(2) {
+    width: 250px;
+}
+
+#rti-page th:nth-child(3) {
+    width: 250px;
+}
+
 
 /*Inner table syles*/
 table.inner-table {
@@ -882,6 +894,17 @@ table tr.sub-total {
         grid-column-gap: 20px;
     }
     
+    #downloads th:nth-of-type(2) {
+        min-width: 400px;
+    }
+    
+    #downloads th:nth-of-type(3) {
+        min-width: 150px;
+    }
+    
+    #downloads th:nth-of-type(4) {
+        min-width: 150px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
