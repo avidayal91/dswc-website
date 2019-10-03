@@ -23,21 +23,41 @@
   
   <body>
       <header>
-          <div class="govt-punjab-link">
-              <a href="http://punjab.gov.in/" target="_blank" title="GOVERNMENT OF PUNJAB, External Link that opens in a new window">GOVERNMENT OF PUNJAB</a>
+          <div class="top-bar">
+              <div class="govt-punjab-link">
+                  <a href="http://punjab.gov.in/" title="GOVERNMENT OF PUNJAB, External Link">GOVERNMENT OF PUNJAB<span>| ਪੰਜਾਬ ਸਰਕਾਰ</span></a>
+              </div>
+              <div class="site-tools">
+                  <a id="search-btn" href="#"><i class="fas fa-search"></i></a>
+                  <a href="site-map.html" title="Sitemap"><i class="fas fa-sitemap"></i></a>
+                  <a id="font-dec" href="#" title="Small Font">A<sup>-</sup></a>
+                  <a id="font-default" title="Medium Font" href="#">A</a>
+                  <a id="font-inc" href="#" title="Large Font">A<sup>+</sup></a>
+              </div>
+              <div id="custom-search" class="search-box">
+                 <script async src="https://cse.google.com/cse.js?cx=003156846267314940718:d95eba3fojr"></script>
+                    <div class="gcse-search"></div>
+              </div>
           </div>
           <div class="header-bar">
-              <div class="logo">
-                  <a href="../index.html"><img src="images/dswc_logo.png" alt="logo"></a>
+              <div class="dept-area">
+                  <div class="logo">
+                      <a href="../homepage.html" title="Department of Soil and Water Conservations Logo"><img src="images/dswc_logo.png" alt="Department of Soil and Water Conservations Logo"></a>
+                  </div>
+                  <div class="dept-title">
+                      <a href="../homepage.html" title="Department of Soil and Water Conservations"><h1><span>DEPARTMENT OF</span><br> SOIL &amp; WATER CONSERVATION, PUNJAB</h1></a>
+                  </div>
+                  <div id="fifty-year">
+                      <a href="http://www.550yearsofgurunanakdevji.com/" target="_blank" title="Celebrating 550 Years of Guru Nanak Dev Ji"><img src="images/sikhism-logo.png" alt="Celebrating 550 Years of Guru Nanak Dev Ji"></a>
+                  </div>
               </div>
-              <div class="dept-title">
-                  <a href="../index.html"><h1><span>DEPARTMENT OF</span><br> SOIL &amp; WATER CONSERVATION, PUNJAB</h1></a>
-              </div>
-              <div id="swachh">
-                  <img src="images/swachBharat.png" alt="">
-              </div>
-              <div id="emblem">
-                  <img src="images/emblem-dark.png" alt="">
+              <div class="logo-area">
+                  <div id="swachh">
+                      <img src="images/swachBharat.png" alt="Swachh Bharat Logo" title="Swachh Bharat logo">
+                  </div>
+                  <div id="emblem">
+                      <img src="images/scmip-footer-logos/punjab-govt.svg" alt="Government Of Punjab Logo" title="Government Of Punjab Logo">
+                  </div>
               </div>
               <div class="menu-toggler">
                   <a href="#">
@@ -51,118 +71,116 @@
           </div>
           <nav>
               <ul>
-                  <li><a href="../index.html"><i class="fas fa-home"></i></a></li>
-                  <li><a href="introduction.html">About</a></li>
-                  <li class="drop-down"><a href="#">Organization <i class="fas fa-sort-down"></i></a>
-                      <ul>
-                         <li><a href="#">Organization Chart</a></li>
-                         <li><a href="docs/Citizen_Charter_13.pdf" target="_blank">Citizen Charter</a></li>
-                      </ul>
+                  <li><a href="../homepage.html" title="Home"><i class="fas fa-home"></i></a></li>
+                  <li class="drop-down"><a href="#">About <i class="fas fa-sort-down"></i></a>
+                      <div class="drop-down-box">
+                          <ul>
+                             <li><a href="introduction.html">Department Introduction</a></li>
+                             <li><a href="docs/Organization_Chart.pdf">Organization Chart</a></li>
+                             <li><a href="docs/Citizen_Charter_13.pdf">Citizen Charter</a></li>         
+                          </ul>
+                          <ul>
+                              <li><a href="slub.html">State Land Use Board</a></li>
+                              <li><a href="punjab_soils.html">Punjab Soils</a></li>
+                              <li><a href="punjab_waters.html">Punjab Waters</a></li>
+                          </ul>
+                      </div>
                   </li>
                   <li class="drop-down"><a href="#">Guidelines <i class="fas fa-sort-down"></i></a>
-                      <ul>
-                         <li><a href="docs/PMKSY_Guidelines.pdf" target="_blank">PMKSY</a></li>
-                         <li><a href="docs/Guidelines_MI_PMKSY.pdf" target="_blank">Micro Irrigatiom</a></li>
-                         <li><a href="docs/CommonGuidelines2008.pdf" target="_blank">Watershed</a></li>
-                         <li><a href="docs/Rkvy.pdf" target="_blank">RKVY</a></li>
-                         <li><a href="docs/tdet_guidelines.pdf" target="_blank">TDET</a></li>
-                      </ul>
+                      <div class="drop-down-box">
+                          <ul>
+                             <li><a href="docs/PMKSY_Guidelines.pdf">Pradhan Mantri Krishi Sinchayee Yojna</a></li>
+                             <li><a href="docs/Guidelines_Micro-Irrigation.pdf">Micro Irrigatiom - Operational Guidelines</a></li>
+                             <li><a href="docs/Watershed.pdf">Guidelines for Watershed Developmeny</a></li>
+                             <li><a href="docs/RKVY_RAFTAAR.pdf">Rashtriya Krishi Vikas Yojana</a></li>
+                          </ul>
+                          <ul>
+                              <li><a href="docs/tdet_guidelines.pdf">Technology Development Extension Training</a></li>
+                              <li><a href="docs/CWC-Piped-Network.pdf">Guidelines of Planning &amp; Designing Pipeline Network</a></li>
+                          </ul>
+                      </div>
                   </li>
                   <li class="drop-down"><a href="#">Rules &amp; Acts <i class="fas fa-sort-down"></i></a>
-                      <ul>
-                         <li><a href="docs/Land_Impvt_Act.pdf" target="_blank">Land Improvement Act</a></li>
-                         <li><a href="docs/orders/Work_Manual-2018.pdf" target="_blank">Works Manual</a></li>
-                         <li><a href="docs/Group_A_Rules.pdf" target="_blank">Group A Rules</a></li>
-                         <li><a href="docs/Schemes_Rules.pdf" target="_blank">Schemes Rules</a></li>
-                         <li><a href="docs/Duty_chart_deptt.pdf" target="_blank">Duty Chart</a></li>
-                         <li><a href="docs/orders/Amendment_ACT-25-of-2017-Right-of-Way.pdf" target="_blank">UGPS Amendment</a></li>
-                      </ul>
+                      <div class="drop-down-box">
+                          <ul><h3>DSWC Rules</h3>
+                             <li><a href="docs/Rules%20of%20Business-DSWC.docx">Rules of Business DSWC</a></li>
+                             <li><a href="docs/Land_Impvt_Act.pdf">Land Improvement Act 1963</a></li>
+                             <li><a href="docs/Punjab_Land_Improvement_Schemes_2017.pdf">Punjab Land Improvement Amendment Act</a></li>
+                             <li><a href="docs/Notifcation%20Land%20Improvement%20Scheme%20(Amendment),%20Act,%202017.pdf">Notification Land Improvement Scheme</a></li>
+                             <li><a href="docs/Work_Manual-2018.pdf">Works Manual</a></li>
+                             <li><a href="docs/Group_A_Rules.pdf">Group A Service Rules 2014</a></li>
+                             <li><a href="docs/Schemes_Rules.pdf">Schemes Rules</a></li>
+                             <li><a href="docs/Duty_chart_deptt.pdf">Duty Chart</a></li>                             
+                          </ul>
+                          <ul><h3>Governemt of Punjab Rules</h3>
+                              <li><a href="docs/Pb-preservation-of-Subsoil-Act,2009.pdf">Punjab Preservation of Sub Soil Act</a></li>
+                              <li><a href="docs/Valuation%20under%20GST.pdf">Valuation Under GST</a></li>
+                              <li><a href="docs/Labour%20Cess_Rules.pdf">Labour Cess Notification</a></li>
+                              <li><a href="docs/TDS-%20GST.pdf">TDS Mechanism Under GST</a></li>
+                              <li><a href="docs/Work%20Contracts%20in%20GST.pdf">Work Contracts in GST</a></li>
+                              <li><a href="docs/GEM%20Notification.pdf">GeM Notification</a></li>                              
+                          </ul>
+                      </div>
                   </li>
-                  <li class="drop-down"><a href="#">Services <i class="fas fa-sort-down"></i></a>
-                      <ul>
-                         <li><a href="#">Machinery on Rent</a></li>
-                         <li><a href="#">Other Services</a></li>
-                      </ul>
+                   <li class="drop-down"><a href="#">Downloads <i class="fas fa-sort-down"></i></a>
+                      <div class="drop-down-box">
+                          <ul><h3>Forms for Employees</h3>
+                             <li><a href="gpf-forms.html">GPF Forms</a></li>
+                             <li><a href="docs/ITR%20Form.xls">ITR Form</a></li>
+                             <li><a href="docs/Form%2016.xls">Form 16</a></li>
+                             <li><a href="ltc-forms.html">LTC Forms</a></li>
+                             <li><a href="docs/Property%20Return%20Proforma.docx">Property Return Performa</a></li>
+                             <li><a href="docs/downloads/Medical_Reimbursement/Medical_Reimbursement.doc">Medical Reimbursement Form</a></li>
+                             <li><a href="docs/downloads/Pension_Form/PENSION_form.docx">Pension Form</a></li>
+                             <li><a href="docs/downloads/Registration_form_Digital_Certificate/Registration_Digital_Certificate.pdf">Registration for Digital Certificate</a></li>
+                          </ul>
+                          <ul><h3>Technical Instruction &amp; Orders</h3>
+                             <li><a href="docs/DSWC_Inspection_Schedule.pdf">DSWC Inspection Schedule</a></li>
+                             <li><a href="docs/DEPARTMENTAL%20FINANCIAL%20RULES.doc.pdf">Department Financial Rules</a></li>
+                             <li><a href="csr.html">Common Schedule of Rates</a></li>
+                             <li><a href="docs/pwd_specifications.pdf">PWD Specificatons</a></li>
+                             <li><a href="docs/PWD_Code23102017.pdf">PWD Code</a></li>
+                             <li><a href="civil-services-rules.html">Civil Services Rules</a></li>
+                             <li><a href="docs/The_Punjab_Government_Employees_(Conduct)_Rules.pdf">The Punjab Government Employees (Conduct) Rules, 1966</a></li>
+                             <li><a href="docs/The%20Punjab%20civil%20services%20(Punishment%20and%20Appeal)%20Rules,%201970.docx">The Punjab Civil Services (Punishment and Appeal) Rules, 1970</a></li>
+                          </ul>
+                      </div>
+                  </li>
+                  <li class="drop-down"><a href="#">Reports <i class="fas fa-sort-down"></i></a>
+                      <div class="drop-down-box">
+                          <ul>
+                             <li><a href="administrative-reports.html">Administrative Reports</a></li>
+                             <li><a href="soil-survey-reports.html">Soil Survey Reports</a></li>
+                          </ul>
+                      </div>
                   </li>
                   <li class="drop-down"><a href="#">RTI <i class="fas fa-sort-down"></i></a>
-                      <ul>
-                         <li><a href="pios-apios.html">PIOs &amp; APIOs </a></li>
-                         <li><a href="#">Other options</a></li>
-                      </ul>
+                      <div class="drop-down-box">
+                          <ul>
+                             <li><a href="state-information-comission.html">State Information Comission Orders</a></li>
+                             <li><a href="rti.html">RTI Proactive Manual</a></li>
+                             <li><a href="pios-apios.html">Public Information Officer </a></li>
+                             <li><a href="docs/rti-docs/RTI-Application_Form.pdf">RTI Application Form</a></li>
+                          </ul>
+                      </div>
                   </li>
-                  <li class="drop-down"><a href="#">Employee Center<i class="fas fa-sort-down"></i></a>
-                      <ul>
-                         <li><a href="downloads.html">Downloads</a></li>
-                         <li><a href="#">Other options</a></li>
-                      </ul>
-                  </li>
-                  <li><a href="faq.html">FAQ</a></li>
-                  <li><a href="contact_us.html">Contact Us</a></li>
-                  
+                  <li><a href="training.html">Trainings</a></li>
+                  <li><a href="regional-offices.html">Regional Offices</a></li>
+                  <li><a href="contact_us.html">Contact Us</a></li>                  
               </ul>
-          </nav>
+          </nav>          
+          <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-alt-circle-up"></i></button>
       </header>
       <main>
-          <section class="inner-masthead">
-             <figure>
-                  <img src="https://via.placeholder.com/800x200" alt="mockup-image">
-             </figure>
+          <section class="inner-masthead container">
+             <h1>SUCCESS STORIES</h1>
           </section>
           <section id="success-stories" class="container">
-              <h1>SUCCESS STORIES</h1>
               <div class="project-box">
                   <h2>Solar Powered Community Lift-Micro Irrigation Project</h2>
                   <div class="text-image-box">
                       <div class="text-container">
-                          <div class="table-styles">
-                              <table>
-                                  <tr>
-                                      <th>S. No</th>
-                                      <th colspan="2">Project Brief</th>                                      
-                                  </tr>
-                                  <tr>
-                                      <td>1.</td>
-                                      <td>Name of District</td>
-                                      <td>Hoshiarpur</td>
-                                  </tr>
-                                  <tr>
-                                      <td>2.</td>
-                                      <td>Namo of Project</td>
-                                      <td>Solar Powered Community Lift-Micro Irrigation Project in Talwara and Hazipur Blocks of District, Hoshiarpur</td>
-                                  </tr>
-                                  <tr>
-                                      <td>3.</td>
-                                      <td>Remarking Feature</td>
-                                      <td>World's Largest Solar Standalone Lift-Micro Irrigation Project</td>
-                                  </tr>
-                                  <tr>
-                                      <td>4.</td>
-                                      <td>Name of Office under which project executed:</td>
-                                      <td>DSCO, Hoshiarpur</td>
-                                  </tr>
-                                  <tr>
-                                      <td>5.</td>
-                                      <td>Contact Details</td>
-                                      <td>Divisional Soil Conservation Officer 4th Floor Mini Secretariat Hoshiapur <br>Phone/Mobile No: 01882240192 <br>Email: dscohsp1@yahoo.com</td>
-                                  </tr>
-                                  <tr>
-                                      <td>6.</td>
-                                      <td>Date of Start of Project</td>
-                                      <td>28/01/2015</td>
-                                  </tr>
-                                  <tr>
-                                      <td>7.</td>
-                                      <td>Date of Completion of Project</td>
-                                      <td>07/08/2017</td>
-                                  </tr>
-                                  <tr>
-                                      <td>8.</td>
-                                      <td>Cost of project</td>
-                                      <td>Total Cost: Rs. 42.10 cr <br>Assistance from RKVY: Rs 9.36 cr <br>NABARD Loan: Rs. 31.57 cr</td>
-                                  </tr>
-                              </table>
-                          </div>
-                          <h3>Objectives of Project:</h3>
+                          <h3>Objectives</h3>
                           <ul>
                               <li>
                                   To develop a comprehensive land-use and water and energy management model that demonstrates efficient on-farm water use and fully meets the aspirations of people to improve agriculture productivity and thereby their income. 
@@ -176,239 +194,32 @@
                               <li>
                                   To ensure that the community recognizes the essential role of irrigation water and importance of its responsible use in its well-being and thereby develop local institutions to promote sustainable irrigation water management. 
                               </li>
-                          </ul>                      
+                          </ul>
                           <h3>Number of Beneficiaries of project:</h3>
                           <p>
                               Total Households1200 (nos), Farmer Households: 820 nos, Total Beneficiaries: 8500 nos <br>Women Beneficiaries 3730 nos, SC Beneficiaries: 2450 nos
                           </p>
-                          <h3>Pre Project Status / Problems of project area:</h3>
+                          <h3>Benefits/Outcomes of project:</h3>
                           <p>
-                              The Kandi belt comprising 10% of the total area of the State is predominately rainfed, infact the name Kandi is Urdu word meaning 'Water Scarce'. The area suffers from acute shortage of drinking water besides poor socio-economic conditions of farmers. Hoshiarpur district falls in this kandi belt and is characterized by highest number of seasonal choes (rivulets) criss-crossing its lands but due to undulating topography and steep slopes, most of it gets wasted as runoff. Soil erosion is another major concern in this area as during monsoon period most of fertile soils gets eroded, thereby leaving farmers with double whammy i.e. unavailability of assured irrigation source coupled with soil degradation. These problems are just tip of iceberg as largely being forest area, the agriculture is threatened by wild animals. The farmers could not even grow fruits or vegetables for thier households needs because of threat of wild animals. Being sub-mountenous and remote area, the electricity supply is highly unreliable, mainly because of logists involved. The productivity is among the lowest as farmers are only able to cultivate single crop in a year and that too at mercy of rainfalls only. Govt of Punjab taking stock of this situation, constructed Kandi canal, called lifeline of kandi area, but the irony was that the area to the right of canal being at lower elevation is irrigated through gravitational flow whereas the area to the right of canal being at higher elevation could be irrigated utilizing lift irrigation only.
+                              The project has given a much needed opportunity to the farming community of the project area as the villagers have not only ventured into conventional agriculture but even some of them, given the support of Department have started growing cash crops such as vegetables and horticulture crops. The Department in order to provide assured marketing of such crops had made elaborate arrangements with local processing units. The training centre which has been set up as part of project besides providing trainings on agricultural and technological aspects are also providing livelihood based trainings to landless and women community. Because of proximity of urban areas, allied activities such as dairy farming is mushrooming as fodder cultivation earlier dependent on rainfall, is now being grown all over the year. This besides giving an additional source of income has also provided a fiscal cushion for the local populace. Encouraged by assured irrigation, the farmers are also opting for mechanized tools such as tillers etc for agriculture compared to purely traditional agriculture followed earlier.
                           </p>
-                          <h3>Details of Project executed: </h3>    
-                          <p>
-                            The Govt of Punjab approved the project with total cost of 42.10 cr with funding from under RKVY and NABARD. The work on project was started in January, 2015 and was divided into three phases. The Project was completed and commissioned on 7th August, 2017. The project shall be operated and maintained by Department by hand holding local community and Water User Associations(WUA's) for initial 7 years thus providing gestation period for farmers to develop their fiscal and technical capacity. The project initially planned as a conventional irrigation project spanned out to be World's most innovative and largest Integrated Solar Powered Lift -Micro Irrigation Project mainly because of stakeholders' efforts and keen participation. The main stakeholders i.e. community of project area belongs to poor socio-economic strata and was solely dependent upon rains for agriculture. Farmers were not able to utilize water from kandi canal, flowing nearby because their agricultural lands were located at higher elevation and lift based system was required from canal to irrigate their lands. The project was designed as integrated solar powered, fully computerized and automated micro irrigation project wherein the solar energy gives leverage over grid based systems besides micro irrigation and automation helping water conservation and equitable distribution of scarce resource respectively. The project consists of 3 main lift points from kandi canal and to enable water to reach at higher elevations, booster stations (sump wells) are also provided at various points. The following systems have been installed
-                          </p>
-                          <div class="table-styles">
-                              <table>
-                                  <tr>
-                                      <th>Name of the System</th>
-                                      <th>Total Units Installed</th>
-                                  </tr>
-                                  <tr>
-                                      <td>Siphons</td>
-                                      <td>3</td>
-                                  </tr>
-                                  <tr>
-                                      <td>Sump Wells </td>
-                                      <td>12</td>
-                                  </tr>
-                                  <tr>
-                                      <td>Pump Houses</td>
-                                      <td>12</td>
-                                  </tr>
-                                  <tr>
-                                      <td>Training Hall</td>
-                                      <td>1</td>
-                                  </tr>
-                                  <tr>
-                                      <td>HDPE pipe(450mm to 180mm)</td>
-                                      <td>8610m</td>
-                                  </tr>
-                                  <tr>
-                                      <td>PVC (180 mm to 110mm)</td>
-                                      <td>10600m</td>
-                                  </tr>
-                                  <tr>
-                                      <td>Micro Irrigation systems( each section of 3 to 5.5 acres)</td>
-                                      <td>378 sections</td>
-                                  </tr>
-                                  <tr>
-                                      <td>Solar pumps (20hp to 25hp)</td>
-                                      <td>46</td>
-                                  </tr>
-                                  <tr>
-                                      <td>Solar panels</td>
-                                      <td>1.1 megawatt</td>
-                                  </tr>
-                                  <tr>
-                                      <td>Automation(SCADA, Hydraulic valves, Remote Terminal Units, Level transmitters, Pressure Transmitters)</td>
-                                      <td>664 hectares</td>
-                                  </tr>
-                                  <tr>
-                                      <td>Forest Fencing</td>
-                                      <td>11000m</td>
-                                  </tr>
-                                  <tr>
-                                      <td>Secondary Fencing around solar panels and pump houses </td>
-                                      <td>4307m</td>
-                                  </tr>
-                                  <tr>
-                                      <td>LLDPE Pipe</td>
-                                      <td>650624m</td>
-                                  </tr>
-                                  <tr>
-                                      <td>Sprinklers</td>
-                                      <td>40015 pieces</td>
-                                  </tr>
-                                  <tr>
-                                      <td>Floating solar panels on the surface of pond (one unit</td>
-                                      <td>41760 watts</td>
-                                  </tr>
-                              </table>
-                          </div>                                             
+                          <h4><a href="success-stories/Solar-Powered-Community-Lift-Micro-Irrigation-Project.html">Read Full Story>></a></h4>
                       </div>
-                      <div>
+                      <div class="image-container">
                           <figure>
-                             <img src="images/success-stories/image01.jpg" alt="mockup-image">                     
+                             <img src="images/success-stories/image02.jpg" alt="story-image">                     
                           </figure>
                           <figure>
-                             <img src="images/success-stories/image02.jpg" alt="mockup-image">                     
+                             <img src="images/success-stories/image01.jpg" alt="story-image">                     
                           </figure>
-                          <figure>
-                             <img src="images/success-stories/image03.jpg" alt="mockup-image">                     
-                          </figure>
-                          <figure>
-                             <img src="images/success-stories/image04.jpg" alt="mockup-image">                     
-                          </figure>
-                          <figure>
-                             <img src="images/success-stories/image05.jpg" alt="mockup-image">                     
-                          </figure>
-                          <figure>
-                             <img src="images/success-stories/image06.png" alt="mockup-image">                     
-                          </figure>                                                   
                       </div>
                   </div>
-                  <div class="text-container">
-                     <h3>Pre Project and Post project status/comparison:</h3>
-                     <p>
-                        Due to project interventions, barren lands are now brimming with agricultural activity. Farmers of area for first time ever; have grown crops in last years' Rabi season besides, productivity has more than doubled in just last two seasons since farmers started getting irrigation water. Fencing erected as part of project has thwarted the threat of wild animals, helping farmers to diversify into vegetables and horticulture crops. People who earlier migrated for work are now tilling their own lands and linkages established with local processing units are helping farmers getting instant cash returns. Training centre besides a demonstration farm provides farmers the latest knowhow by roping in experts from prestigious institutions. The project has also given employment to local youth, who are working in project as helpers and guards. The comparative figures of pre and post project are as follows:
-                     </p>
-                     <div class="table-styles">
-                        <table>
-                            <tr>
-                                <th>S. No.</th>
-                                <th>Crop</th>
-                                <th colspan="2">Pre Project</th>
-                                <th colspan="2">Post Project</th>
-                                <th>%age Income Increase</th>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td>Yield (qt/ha)</td>
-                                <td>Avg Income</td>
-                                <td>Yield (qt/ha)</td>
-                                <td>Avg Income</td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>1.</td>
-                                <td>Maize</td>
-                                <td>12-14</td>
-                                <td>16900</td>
-                                <td>22-25</td>
-                                <td>31200</td>
-                                <td>85</td>
-                            </tr>
-                            <tr>
-                                <td>2.</td>
-                                <td>Wheat</td>
-                                <td>14-16</td>
-                                <td>21750</td>
-                                <td>32-36</td>
-                                <td>49300</td>
-                                <td>127</td>
-                            </tr>
-                            <tr>
-                                <td>3.</td>
-                                <td>Mustard</td>
-                                <td>3-5</td>
-                                <td>13200</td>
-                                <td>7-10</td>
-                                <td>29700</td>
-                                <td>125</td>
-                            </tr>
-                            <tr>
-                                <td>4.</td>
-                                <td>Sesamum</td>
-                                <td>0.5</td>
-                                <td>2350</td>
-                                <td>3-4.5</td>
-                                <td>16450</td>
-                                <td>229</td>
-                            </tr>
-                            <tr>
-                                <td>5.</td>
-                                <td>Vegetables</td>
-                                <td>Nil</td>
-                                <td>Nil</td>
-                                <td>varied</td>
-                                <td>125000</td>
-                                <td>NA</td>
-                            </tr>
-                        </table>
-                     </div>                           
-                     <h3>Benefits/Outcomes of project:</h3>
-                     <p>
-                         The project has given a much needed opportunity to the farming community of the project area as the villagers have not only ventured into conventional agriculture but even some of them, given the support of Department have started growing cash crops such as vegetables and horticulture crops.  The Department in order to provide assured marketing of such crops had made elaborate arrangements with local processing units. The training centre  which has been set up as part of project besides providing trainings on agricultural and technological aspects are also providing livelihood based trainings to landless and women community.  Because of proximity of urban areas, allied activities such as dairy farming is mushrooming as fodder cultivation earlier dependent on rainfall, is now being grown all over the year. This besides giving an additional source of income has also provided a fiscal cushion for the local populace. Encouraged by assured irrigation, the farmers are also opting for mechanized tools such as tillers etc for agriculture compared to purely traditional agriculture followed earlier. 
-                     </p>
-                     <h3>Contact Person for this success story:</h3>
-                     <p>
-                        <strong>Name:</strong> Sukhwinder Singh, Divisional Soil Conservation Officer Hoshiarpur <br>
-                        <strong>Mob:</strong> 9646175305, <br>
-                        <strong>Email:</strong> dscohsp1@yahoo.com
-                     </p>   
-                  </div>                
               </div>
               <div class="project-box">
                   <h2>Community Underground Pipeline Project at Village Bhangewala</h2>
                   <div class="text-image-box">
                       <div class="text-container">
-                          <div class="table-syles">
-                              <table>
-                                  <tr>
-                                      <th>S. No.</th>
-                                      <th colspan="2">Project Brief</th>
-                                  </tr>
-                                  <tr>
-                                      <td>1.</td>
-                                      <td>Name of District</td>
-                                      <td>Sri Muktsar Sahib</td>
-                                  </tr>
-                                  <tr>
-                                      <td>2.</td>
-                                      <td>Name of Project</td>
-                                      <td>Community Underground Pipeline Project, Sh. Iqbal Singh S/O Sh. Balwant Singh, Place of Project (Village Name): Bhangewala</td>
-                                  </tr>
-                                  <tr>
-                                      <td>3.</td>
-                                      <td>Name of Office under which project executed</td>
-                                      <td>Divisional Soil Conservation Officer, Sri Muktsar Sahib</td>
-                                  </tr>
-                                  <tr>
-                                      <td>4.</td>
-                                      <td>Contact Details</td>
-                                      <td>Phone/Mobile No: 01633-240466, <br>Email: dscomukatsar@gmail.com</td>
-                                  </tr>
-                                  <tr>
-                                      <td>5.</td>
-                                      <td>Date of Start of Project</td>
-                                      <td>01/06/17</td>
-                                  </tr>
-                                  <tr>
-                                      <td>6.</td>
-                                      <td>Date of Completion of Project</td>
-                                      <td>14/07/17</td>
-                                  </tr>
-                                  <tr>
-                                      <td>7.</td>
-                                      <td>Cost of project</td>
-                                      <td>Total Cost: Rs. 12,74,000/- <br>Assistance from RKVY: Rs. 11,46,600/- <br>Beneficiary Share: Rs. 1,27,400/-</td>
-                                  </tr>
-                              </table>
-                          </div>
-                          <h3>Objectives of the Project:</h3>
+                          <h3>Objectives</h3>
                           <ul>
                               <li>
                                   Conjunctive use of irrigation water (good quality + saline underground water).
@@ -426,91 +237,25 @@
                           <h3>Number of Beneficiaries of Project:</h3>
                           <p>
                               Total: 36 (nos), Men: 26 (nos), Women: 10 (nos), <br>Marginal farmers: 29 (nos), Small Farmers: 03 (nos), <br>Others: 04 (nos)
-                          </p>                                                                       
+                          </p>
+                          <h3>Benefits/Outcomes of project:</h3>
+                          <p>
+                              After laying the underground pipes, there is no seepage of water and a lot of water now saved. The farmers now irrigate their fields properly. The project include saving in the productive farm land by removing field channels and also saving in time, energy and labour cost. Field crop production and water availability has been increased. The cost of the land has also been increased after laying pipeline. Today farmers have a joy on their face.
+                          </p>
+                          <h4><a href="success-stories/Community-Underground-Pipeline-Project-Bhangewala.html">Read Full Story>></a></h4>
                       </div>
-                      <div>
+                      <div class="image-container">
                           <figure>
-                              <img src="images/success-stories/image07.jpg" alt="mockup-image">                     
-                          </figure>
-                          <figure>
-                              <img src="images/success-stories/image08.jpg" alt="mockup-image">                     
-                          </figure>                          
-                      </div>                  
+                              <img src="images/success-stories/image08.jpg" alt="story-image">                     
+                          </figure> 
+                      </div>
                   </div>
-                  <div class="text-container">
-                      <h3>Pre Project Status/Problems of project area: </h3>
-                      <p>
-                          The water quality is very poor which is not fit for irrigation. Due to lack of canal irrigation, the farmers cannot irrigate their fields properly. But at some locations the water quality is good and at these places farmers install the tubewells. Due to irrigate their fields through water channels (kacca), about 25-30% water go waste. This is also a labour consuming, time taken and money wastage process. Mostly the farmers have less than 1 ha land and cannot afford high cost labour and machinery and also due to poor quality water they are not in a position to get good yield and cash back.
-                      </p>
-                      <h3>Details of the Work executed:</h3>
-                      <p>
-                          To save water, time and money, the farmers of this village decide to layout the underground pipes. As per the site conditions and the discharge of the tubewell, the project of 450 mm dia pipes of about 1280 mtr. length covering an area of 28.05 hectare owned by 36 beneficiaries, including 26 men and 10 women farmers, the project has been initiated under RKVY scheme by approving cost of Rs. 1274000/- in the year 2016-17. The project has been approved by giving 90% govt. subsidy and 10% farmers share. The farmers layout the pipeline themselves by taking permission from the dept. in the favour of Sh. Iqbal Singh S/o Sh Balwant Singh, village Bhangewala. The pipeline has been layout under the supervision of the department. The material required (cement, sand, bajri etc.)for this project is also supplied by the department. After completion of the project, the labour payment has been given to Sh. Iqbal singh S/o Sh. Balwant Singh.
-                      </p>
-                      <h3>Benefits/Outcomes of Project</h3>
-                      <p>
-                          After laying the underground pipes, there is no seepage of water and a lot of water now saved. The farmers now irrigate their fields properly. The project include saving in the productive farm land by removing field channels and also saving in time, energy and labour cost. Field crop production and water availability has been increased. The cost of the land has also been increased after laying pipeline. Today farmers have a joy on their face.
-                      </p>
-                      <h3>Pre Project and Post Project Status/Comparison</h3>
-                      <p>
-                          From production point of view, the farmers took only rice crop after laying of pipeline and they got about 12-15 qt/ha more yield than before execution of the project. Water availability has also been increased. Before execution of pipeline, the water reaches to the fields at slow rate because most of the water go waste through seepage of kacca water channels but after execution there is no seepage and rate of flow has also increased. Because of availability of assured irrigation water, socio economic conditions have also improved.
-                      </p>
-                      <h3>Contact Person for this success story:</h3>
-                      <p>
-                          <strong>Name:</strong> Harmandeep Singh <br>
-                          <strong>Designation:</strong> Soil Conservation Officer <br>
-                          <strong>Mobile No.</strong> 9465609961 <br>
-                          <strong>Email:</strong> hd2480@gmail.com
-                      </p>      
-                  </div>                  
               </div>
               <div class="project-box">
                   <h2>Community Underground Pipeline Project at Village Doda (Sri Muktsar Sahib)</h2>
                   <div class="text-image-box">
                       <div class="text-container">
-                          <div class="table-syles">
-                              <table>
-                                  <tr>
-                                      <th>S. No.</th>
-                                      <th colspan="2">Project Brief</th>
-                                  </tr>
-                                  <tr>
-                                      <td>1.</td>
-                                      <td>Name of District</td>
-                                      <td>Sri Muktsar Sahib</td>
-                                  </tr>
-                                  <tr>
-                                      <td>2.</td>
-                                      <td>Name of Project</td>
-                                      <td>Community Underground Pipeline Project Sh. Ramandeep Singh S/o Avtaar Singh, Village: Doda</td>
-                                  </tr>
-                                  <tr>
-                                      <td>3.</td>
-                                      <td>Name of Office under which project executed</td>
-                                      <td>Divisional Soil Conservation Officer, Sri Muktsar Sahib</td>
-                                  </tr>
-                                  <tr>
-                                      <td>4.</td>
-                                      <td>Contact Details</td>
-                                      <td>Phone/Mobile No: 01633-240466, <br>Email: dscomukatsar@gmail.com</td>
-                                  </tr>
-                                  <tr>
-                                      <td>5.</td>
-                                      <td>Date of Start of Project</td>
-                                      <td>20/04/16</td>
-                                  </tr>
-                                  <tr>
-                                      <td>6.</td>
-                                      <td>Date of Completion of Project</td>
-                                      <td>03/06/17</td>
-                                  </tr>
-                                  <tr>
-                                      <td>7.</td>
-                                      <td>Cost of project</td>
-                                      <td>Total Cost: Rs. 34,82,000/- <br>Assistance from RKVY: Rs. 31,33,800/-, <br>Beneficiary Share: Rs. 3,48,200/-</td>
-                                  </tr>
-                              </table>
-                          </div>
-                          <h3>Objectives of the Project:</h3>
+                          <h3>Objectives</h3>
                           <ul>
                               <li>
                                   Increasing water use efficiency
@@ -528,88 +273,25 @@
                           <h3>Number of Beneficiaries of Project:</h3>
                           <p>
                               Total: 97 (nos), Men: 86 (nos), Women: 11 (nos), <br>Marginal farmers: 80 (nos), <br>Small Farmers: 12 (nos), Others: 05 (nos)
-                          </p>                                              
+                          </p>
+                          <h3>Benefits/Outcomes of Project:</h3>
+                          <p>
+                              After laying the underground pipes, there is no seepage of water and a lot of water now saved. The farmers now irrigate their fields properly. The project include saving in the productive farm land by removing field channels and also saving in time, energy and labour cost. Field crop production and water availability has been increased. The cost of the land has also been increased after laying pipeline.Today farmers have a joy on their face.
+                          </p> 
+                          <h4><a href="success-stories/Community-Underground-Pipeline-Project-Doda(Muktsar).html">Read Full Story>></a></h4>
                       </div>
-                      <div>
+                      <div class="image-container">
                           <figure>
-                              <img src="images/success-stories/image09.jpg" alt="mockup-image">                     
-                          </figure>                          
-                      </div>                  
+                              <img src="images/success-stories/image09.jpg" alt="story-image">                     
+                          </figure> 
+                      </div>
                   </div>
-                  <div class="text-container">
-                      <h3>Pre Project Status/Problems of project area:</h3>
-                      <p>
-                          The water quality is very poor which is not fit for irrigation. Due to lack of canal irrigation, the farmers cannot irrigate their fields properly. But at some locations the water quality is good and at these places farmers install the tubewells. Due to irrigate their fields through water channels (kacca), about 25-30% water go waste. This is also a labour consuming, time taken and money wastage process. Mostly the farmers have less than 1 ha land and cannot afford high cost labour and machinery and also due to poor quality water they are not in a position to get good yield and cash back.
-                      </p>
-                      <h3>Details of the Work executed:</h3>
-                      <p>
-                          To save water, time and money, the farmers of this village decide to layout the underground pipes. As per the site conditions and the discharge of the tubewell, the project of 500 mm dia pipes of about 2825 metre length covering an area of 63.67 hectare owned by 97 beneficiaries, including 86 men and 11 women farmers, the project has been initiated under RKVY scheme by approving cost of Rs. 3482000/- in the year 2016-17. The project has been approved by giving 90% govt. subsidy and 10% farmers share. The farmers layout the pipeline themselves by taking permission from the dept. in the favour of Sh. Charanjit Singh S/o Sh Gulzar Singh, village Doda. The pipeline has been layout under the supervision of the department. The material required (cement, sand, bajri etc.)for this project is also supplied by the department. After completion of the project, the labour payment has been given to Sh. Charanjit Singh S/o Sh Gulzar Singh.
-                      </p>
-                      <h3>Benefits/Outcomes of Project:</h3>
-                      <p>
-                          After laying the underground pipes, there is no seepage of water and a lot of water now saved. The farmers now irrigate their fields properly. The project include saving in the productive farm land by removing field channels and also saving in time, energy and labour cost. Field crop production and water availability has been increased. The cost of the land has also been increased after laying pipeline.Today farmers have a joy on their face.
-                      </p>
-                      <h3>Pre Project and Post Project Status/Comparison:</h3>
-                      <p>
-                          From production point of view, the farmers took only rice crop after laying of pipeline and they got about 10-12 qt/ha more yield than before execution of the project. Water availability has also been increased. Before execution of pipeline, the water reaches to the fields at slow rate because most of the water go waste through seepage of kacca water channels but after execution there is no seepage and rate of flow has also increased. Socio economic conditions has also been increased.
-                      </p>
-                      <h3>Contact Person for this success story:</h3>
-                      <p>
-                          <strong>Name:</strong> Harmandeep Singh <br>
-                          <strong>Designation:</strong> Soil Conservation Officer <br>
-                          <strong>Mobile No.</strong> 9465609961 <br>
-                          <strong>Email:</strong> hd2480@gmail.com
-                      </p>   
-                  </div>                  
               </div>
               <div class="project-box">
-                  <h2>Multipurpose Water Harvesting Structure cum Underground Pipeline Irrigation water Conveyance System at village Hardosaran (Gurdaspur)</h2>
+                  <h2>Multipurpose Water Harvesting Structure cum Underground Pipeline Irrigation System at village Hardosaran (Gurdaspur)</h2>
                   <div class="text-image-box">
                       <div class="text-container">
-                          <div class="table-syles">
-                              <table>
-                                  <tr>
-                                      <th>S. No.</th>
-                                      <th colspan="2">Project Brief</th>
-                                  </tr>
-                                  <tr>
-                                      <td>1.</td>
-                                      <td>Name of District</td>
-                                      <td>Pathankot</td>
-                                  </tr>
-                                  <tr>
-                                      <td>2.</td>
-                                      <td>Name of Project</td>
-                                      <td>Multipurpose Water Harvesting Structure cum Underground Pipeline Irrigation water Conveyance System Village: Hardosaran</td>
-                                  </tr>
-                                  <tr>
-                                      <td>3.</td>
-                                      <td>Name of Office under which project executed</td>
-                                      <td>Divisional Soil Conservation Officer, Guradspur</td>
-                                  </tr>
-                                  <tr>
-                                      <td>4.</td>
-                                      <td>Contact Details</td>
-                                      <td>Divisional Soil Conservation Officer, Guradspur <br>Phone/Mobile No:  9417085658 <br>Email: dsco.gsp@gmail.com</td>
-                                  </tr>
-                                  <tr>
-                                      <td>5.</td>
-                                      <td>Date of Start of Project</td>
-                                      <td>11/05/2008</td>
-                                  </tr>
-                                  <tr>
-                                      <td>6.</td>
-                                      <td>Date of Completion of Project</td>
-                                      <td>30/10/2008</td>
-                                  </tr>
-                                  <tr>
-                                      <td>7.</td>
-                                      <td>Cost of project</td>
-                                      <td>Total Cost: Rs. 4.07 Lacs <br>Assistance from RKVY: Rs 3.40 Lacs <br>Beneficiary Share: 0.66 Lacs</td>
-                                  </tr>
-                              </table>
-                          </div>
-                          <h3>Objectives of Project</h3>
+                          <h3>Objectives</h3>
                           <ul>
                               <li>To meet ever increasing demand of irrigation water.</li>
                               <li>Harvesting and Recharging of rain water</li>
@@ -617,164 +299,25 @@
                               <li>Enhancement of agriculture productivity and production in suitable manner.</li>
                               <li>To raise the underground water table by recharging ground water.</li>
                               <li>To reduce the ground water pollution</li>
-                          </ul>
-                          <h3>Number of Beneficiaries ( Nos.) of project:</h3>
-                          <div class="table-styles">
-                              <table>
-                                  <tr>
-                                      <th>Total</th>
-                                      <th>Men</th>
-                                      <th>Women</th>
-                                      <th>SC/ST</th>
-                                      <th>Marginal<br>Farmers</th>
-                                      <th>Small<br>Farmers</th>
-                                      <th>Others</th>
-                                  </tr>
-                                  <tr>
-                                      <td>19</td>
-                                      <td>12</td>
-                                      <td>07</td>
-                                      <td>06</td>
-                                      <td>11</td>
-                                      <td>05</td>
-                                      <td>03</td>
-                                  </tr>
-                              </table>
-                          </div>                                                                          
+                          </ul>   
+                          <h3>Benefits/Outcomes of project:</h3>
+                          <p>
+                              Regular and assured supply of water throughout the year also in the peak summer season in the month of june and july had adequate water to meets the needs of local community for irrigation at least three to four live saving irrigations. Nineteen families belonging to different communities are enjoying the benefit of this water Harvesting structure. Animal needs of drinking water also being met. 
+                          </p> 
+                          <h4><a href="success-stories/Multipurpose-Water-Harvesting-Hardosaran(Gurdaspur).html">Read Full Story>></a></h4>
                       </div>
-                      <div>
-                          <figure>
-                              <img src="images/success-stories/image10.jpg" alt="mockup-image">                     
-                          </figure>
-                          <figure>
-                              <img src="images/success-stories/image11.jpg" alt="mockup-image">                     
-                          </figure>
-                          <figure>
-                              <img src="images/success-stories/image12.jpg" alt="mockup-image">                     
+                      <div class="image-container">
+                         <figure>
+                              <img src="images/success-stories/image11.jpg" alt="story-image">                     
                           </figure>
                       </div>
                   </div>
-                  <div class="text-container">
-                      <h3>Pre Project Status / Problems of project area: </h3>
-                      <ul>
-                          <li>Land is highly degraded and erosion is occurring at a large stage from arable and non arable lands with high rate of sedimentation.</li>
-                          <li>Deep and scarce ground Water.</li>
-                          <li>Long Dry Spells causing drought like conditions.</li>
-                          <li>Water scarcity for both humans and livestock, as ponds and natural water bodies dry up during peak summer.</li>
-                          <li>Even adopting all possible management practices under natural conditions a huge amount of rainfall flow as runoff.</li>
-                          <li>Acute storage of fuel and fodder prevails in the area.</li>
-                      </ul>
-                      <h3>Details of Work executed:</h3>
-                      <p>
-                          A water harvesting structure has been constructed across the Kajul Karnal Khad, Four kilometer from Block Dhaar Kalan in the village Hardosaran. The total catchment area of the project 25 ha and command area 10 ha. The total height of the water harvesting structure is 2.0 mts. The gross storage capacity of reservoir is 4.41hectare mt out of which 3.30 is live storage. Total length of the conveyance system is 200 mt Pvc Pipe 110 mm and 150 mts M.S Pipe.
-                      </p>
-                      <h3>Benefits/Outcomes of project:</h3>
-                      <p>
-                          Regular and assured supply of water throughout the year also in the peak summer season in the month of june and july had adequate water to meets the needs of local community for irrigation at least three to four live saving irrigations. Nineteen families belonging to different communities are enjoying the benefit of this water Harvesting structure. Animal needs of drinking water also being met. 
-                      </p>
-                      <h3>Pre Project and Post project status/comparison</h3>
-                      <div class="table-styles">
-                          <table>
-                              <tr>
-                                  <th>S. No.</th>
-                                  <th>Crop</th>
-                                  <th>Pre Status</th>
-                                  <th>Post Status</th>
-                              </tr>
-                              <tr class="table-sub-heading">
-                                  <td></td>
-                                  <td></td>
-                                  <td colspan="2">(Yield per ha in quintals)</td>
-                              </tr>
-                              <tr>
-                                  <td>1.</td>
-                                  <td>Wheat</td>
-                                  <td>17</td>
-                                  <td>42</td>
-                              </tr>
-                              <tr>
-                                  <td>2.</td>
-                                  <td>Maize</td>
-                                  <td>14</td>
-                                <td>35</td>
-                              </tr>
-                              <tr>
-                                  <td>3.</td>
-                                  <td>Sorghum</td>
-                                  <td>98</td>
-                                  <td>220</td>
-                              </tr>
-                              <tr>
-                                  <td>4.</td>
-                                  <td>Barseen</td>
-                                  <td>105</td>
-                                  <td>230</td>
-                              </tr>
-                              <tr>
-                                  <td>5.</td>
-                                  <td>Pulses</td>
-                                  <td>02</td>
-                                  <td>05</td>
-                              </tr>
-                          </table>
-                      </div>
-                      <h3>Contact Person for this success story:</h3>
-                      <p>
-                          <strong>Name:</strong> Gurpreet Singh <br>
-                          <strong>Designation:</strong> SDSCO Pathankot <br>
-                          <strong>Mobile No.</strong> 8195866766 <br>
-                          <strong>Email:</strong> sdscopathankot@gmail.com
-                      </p>
-                  </div>                 
               </div>
               <div class="project-box">
-                  <h2>Multipurpose Water Harvesting Structure cum Underground Irrigation Water Conveyance System at village Matti (Gurdaspur)</h2>
+                  <h2>Multipurpose Water Harvesting Structure cum Underground Irrigation Water Conveyance System at Village Matti (Gurdaspur)</h2>
                   <div class="text-image-box">
                       <div class="text-container">
-                          <div class="table-syles">
-                              <table>
-                                  <tr>
-                                      <th>S. No.</th>
-                                      <th colspan="2">Project Brief</th>
-                                  </tr>
-                                  <tr>
-                                      <td>1.</td>
-                                      <td>Name of District</td>
-                                      <td>Pathankot</td>
-                                  </tr>
-                                  <tr>
-                                      <td>2.</td>
-                                      <td>Name of Project</td>
-                                      <td>Multipurpose Water Harvesting Structure cum Underground Irrigation Water Conveyance System, Village Name Matti</td>
-                                  </tr>
-                                  <tr>
-                                      <td>3.</td>
-                                      <td>Name of Office under which project executed</td>
-                                      <td>Divisional Soil Conservation Officer, Gurdaspur</td>
-                                  </tr>
-                                  <tr>
-                                      <td>4.</td>
-                                      <td>Contact Details</td>
-                                      <td>Divisional Soil Conservation Officer, Guradspur <br>Phone/Mobile No:  9417085658 <br>Email: dsco.gsp@gmail.com</td>
-                                  </tr>
-                                  <tr>
-                                      <td>5.</td>
-                                      <td>Date of Start of Project</td>
-                                      <td>08/03/2008</td>
-                                  </tr>
-                                  <tr>
-                                      <td>6.</td>
-                                      <td>Date of Completion of Project</td>
-                                      <td>09/05/2008</td>
-                                  </tr>
-                                  <tr>
-                                      <td>7.</td>
-                                      <td>Cost of project</td>
-                                      <td>Total Cost: Rs 5.64 Lakh <br>Assistance from RKVY: Rs. 5.03 Lakh <br>Beneficiary Share: Rs 0.61 Lakh</td>
-                                  </tr>
-                              </table>
-                          </div>
-                          <h3>Objectives of Project</h3>
+                          <h3>Objectives</h3>
                           <ul>
                               <li>
                                   Rain water harvesting and natural recharging of water
@@ -797,164 +340,25 @@
                               <li>
                                   To reduce the ground water pollution
                               </li>
-                          </ul>
-                          <h3>Number of Beneficiaries ( Nos.) of project: </h3>
-                          <div class="table-styles">
-                              <table>
-                                  <tr>
-                                      <th>Total</th>
-                                      <th>Men</th>
-                                      <th>Women</th>
-                                      <th>SC/ST</th>
-                                      <th>Marginal<br>Farmers</th>
-                                      <th>Small<br>Farmers</th>
-                                      <th>Others</th>
-                                  </tr>
-                                  <tr>
-                                      <td>15</td>
-                                      <td>09</td>
-                                      <td>06</td>
-                                      <td>02</td>
-                                      <td>04</td>
-                                      <td>07</td>
-                                      <td>04</td>
-                                  </tr>
-                              </table>
-                          </div>                
+                          </ul>   
+                          <h3>Benefits/Outcomes of project:</h3>
+                          <p>
+                              Regular and assured supply of water throughout the year also in the peak summer season in the month of june and july had adequate water to meets the needs of local community for irrigation at least three to four live saving irrigations. Fifteen families belonging to different communities are enjoying the benefit of this water Harvesting structure. Animal needs of drinking water also being met. 
+                          </p>
+                          <h4><a href="success-stories/Multipurpose-Water-harvesting-Matti(Gurdaspur).html">Read Full Story>></a></h4>
                       </div>
-                      <div>
-                          <figure>
-                              <img src="images/success-stories/image13.jpg" alt="mockup-image">                     
+                      <div class="image-container">
+                         <figure>
+                              <img src="images/success-stories/image13.jpg" alt="story-image">                     
                           </figure>
-                          <figure>
-                              <img src="images/success-stories/image14.jpg" alt="mockup-image">                     
-                          </figure>
-                          <div class="table-styles">
-                              <table>
-                                  <tr>
-                                      <th>S. No.</th>
-                                      <th style="width: 100px">Crop</th>
-                                      <th style="width: 100px">Pre Status</th>
-                                      <th style="width: 100px">Post Status</th>
-                                  </tr>
-                                  <tr class="table-sub-heading">
-                                      <td></td>
-                                      <td></td>
-                                      <td colspan="2">(Yield per ha in  Qtl)</td>
-                                  </tr>
-                                  <tr>
-                                      <td>1.</td>
-                                      <td>Wheat</td>
-                                      <td>15</td>
-                                      <td>40</td>
-                                  </tr>
-                                  <tr>
-                                      <td>2.</td>
-                                      <td>Maize</td>
-                                      <td>12</td>
-                                      <td>32</td>
-                                  </tr>
-                                  <tr>
-                                      <td>3.</td>
-                                      <td>Sorghum</td>
-                                      <td>90</td>
-                                      <td>200</td>
-                                  </tr>
-                              </table>
-                          </div>
                       </div>
                   </div>
-                  <div class="text-container">
-                      <h3>Pre Project Status / Problems of project area:</h3>
-                      <ul>
-                          <li>
-                              Land is highly degraded and erosion is occurring at a large stage from arable and non arable lands with high rate of sedimentation. 
-                          </li>
-                          <li>
-                              Deep and scarce ground Water.
-                          </li>
-                          <li>
-                              Long Dry Spells causing drought like conditions.
-                          </li>
-                          <li>
-                              Water scarcity for both humans and livestock, as ponds and natural water bodies dry up during peak summer.
-                          </li>
-                          <li>
-                              Even adopting all possible management practices under natural conditions a huge amount of rainfall flow as runoff.
-                          </li>
-                          <li>
-                              Acute storage of fuel and fodder prevails in the area.
-                          </li>
-                      </ul>
-                      <h3>Details of Work executed: </h3>
-                      <p>
-                          A water harvesting structure has been constructed across the doong khad, one kilometer from doong in the village  Matti. The total catchment area of the project 35 ha and command area 10 ha. The total height of the water harvesting structure is 1.50 mts. The gross storage capacity of reservoir is 3.81hectare mt out of which 2.30 is live storage. Total length of the conveyance system is 120 mt.     
-                      </p>
-                      <h3>Benefits/Outcomes of project:</h3>
-                      <p>
-                          Regular and assured supply of water throughout the year also in the peak summer season in the month of june and july had adequate water to meets the needs of local community for irrigation at least three to four live saving irrigations. Fifteen families belonging to different communities are enjoying the benefit of this water Harvesting structure. Animal needs of drinking water also being met. 
-                      </p>
-                      <h3>Contact Person for this success story</h3>
-                      <p>
-                          <strong>Name:</strong> Gurpreet Singh <br>
-                          <strong>Designation:</strong> SDSCO Pathankot <br>
-                          <strong>Mobile No.</strong> 8195866766, <br>
-                          <strong>Email:</strong> sdscopathankot@gmail.com
-                      </p>
-                  </div>           
               </div>
               <div class="project-box">
                   <h2>Common Underground Pipeline Project for Utilization of water for Irrigation  from Village Water Body at village Ajnoud (Ludhiana)</h2>
                   <div class="text-image-box">
                       <div class="text-container">
-                          <div class="table-syles">
-                              <table>
-                                  <tr>
-                                      <th>S. No.</th>
-                                      <th colspan="2">Project Brief</th>
-                                  </tr>
-                                  <tr>
-                                      <td>1.</td>
-                                      <td>Name of District</td>
-                                      <td>Ludhiana</td>
-                                  </tr>
-                                  <tr>
-                                      <td>2.</td>
-                                      <td>Name of Project</td>
-                                      <td>Common UGPL Project for Utilization of water for Irrigation  from Village Water Body, Village: Ajnoud, Tehsil : Payal , Ludhiana</td>
-                                  </tr>
-                                  <tr>
-                                      <td>3.</td>
-                                      <td>Name of Office under which project executed</td>
-                                      <td>Divisional Soil Conservation Officer, Ludhiana</td>
-                                  </tr>
-                                  <tr>
-                                      <td>4.</td>
-                                      <td>Contact Details</td>
-                                      <td>Divisional Soil Conservation Officer Ludhiana, <br>Agriculture complex, Agar-Nagar Extension,<br>Ferozpur Road, Ludhiana <br>Phone No: 0161-2551273 <br>Email: dscoludhiana@yahoo.co.in </td>
-                                  </tr>
-                                  <tr>
-                                      <td>5.</td>
-                                      <td>Date of Start of Project</td>
-                                      <td>Block 1 = 20/06/2016  ; Block 2 = 29/03/2017</td>
-                                  </tr>
-                                  <tr>
-                                      <td>6.</td>
-                                      <td>Date of Completion of Project</td>
-                                      <td>Block 1 = 26/08/2016  ; Block 2 = 12/06/2017</td>
-                                  </tr>
-                                  <tr>
-                                      <td>7.</td>
-                                      <td>Cost of project</td>
-                                      <td>
-                                          Total Cost: Rs. 14,22,000 (Lacs) ( Block 1 and Block 2 ) <br>
-                                          Assistance from RKVY: Rs12,79,800 /- <br>
-                                          Beneficiary Share: Rs. 1,42,200/- 
-                                      </td>
-                                  </tr>
-                              </table>
-                          </div>
-                          <h3>Objectives of Project:</h3>
+                          <h3>Objectives</h3>
                           <ul>
                               <li>
                                   Judicious and efficient use of Available water with underground pipeline system for conveyance.
@@ -983,314 +387,71 @@
                               <li>
                                   Reuse of pond water for irrigation will help small/marginal farmers by way of cutting down the cost of installation and operation of tubewells.
                               </li>
-                          </ul>
-                          <h3>Number of Beneficiaries of project:</h3>
-                          <p>
-                              Total 51 Nos. (Block 1 and Block 2) <br>Men 50(Nos.); Women: 01(Nos.); SC/ST N/A (Nos.) <br>Marginal farmers: 18(Nos.); Small Farmers 33(Nos.); Others N/A (Nos.)
-                          </p>
-                          <h3>Pre Project Status / Problems of project area:</h3>
-                          <p>
-                              The village Ajnoud lies in the Doraha block which is categorized as over-exploited (OE) block with respect to ground water development by CGWB. The village has two ponds and their water overflows especially during rainy season, which causes  severe damage to agriculture fields and sanitation problems in the adjoining residential area. Also the overflowed water accumulates as small puddles on kacha/pucca paths , whereby causing problem for the village residents and school children for commuting. Low productivity of the land belonging to the marginal and small farmers as they cannot afford to irrigate their fields with tube well water.
-                          </p>
-                          <h3>Details of Work executed:</h3>
-                          <p>
-                              The Gram Panchayat of village approached the Department of Soil and Water Conservation, Punjab stating their woes regarding the overflowing water from the village ponds and seeking solution for the same. The departmental officials visited the site and as this area falls in over-exploited (OE) block with respect to ground water development, after getting the pond water tested for its suitability for irrigation suggested laying of underground pipeline from these ponds to irrigate agricultural fields. To convince the panchayat members and the proposed beneficiaries, various meetings were held in the village. With the consistent efforts of the department officers and sarpanch of village , a resolution was passed for laying of underground pipeline. The Govt. of Punjab approved the project under RKVY 90:10 assistance. 
-                          </p>
-                          <p>
-                              RCC pipes of dia- 300 mm and length 1080 meter and 875 m have been laid in Block-1 and Block 2, respectively, to irrigate 38.47 ha of Command Area. The water from ponds is lifted by 2 no. 5 hp diesel operated engines.
-                          </p>
+                          </ul>   
                           <h3>Benefits/Outcomes of project:</h3>
                           <p>
-                              By utilising the pond water for irrigation by laying Under Ground Pipe line, efficient use of Available water was accomplished.UGPL is helping saving of about 30% water as compared to open channels annually. As there is zero withdrawal of ground water in the command area, this project is surely limiting the declining water table in this declared Over-Exploited area with respect to ground water Development. About 3% of additional land is put under agriculture which will increase per unit production. As now no open channel for irrigation, therefore, no regular cleaning required and hence there is decreased labour input. Continuous use of organic matter rich pond water for agriculture will reduce the fertilizer consumption as well as will improve the soil conditions for a better plant growth. Now there is decreased power consumption for irrigation, thereby reducing cost of production and hence making agriculture more profitable.As now the pond water is utilised fully for agriculture, there is no overflowing water into the residential area, which is greatly helping in checking the spread of water/vector borne diseases in the village and the project has also improved the village aesthetically. Reuse of pond water for irrigation is helping small/marginal farmers by way of cutting down the cost of installation and operation of tubewells.
-                          </p>                    
+                              By utilising the pond water for irrigation by laying Under Ground Pipe line, efficient use of Available water was accomplished.UGPL is helping saving of about 30% water as compared to open channels annually. As there is zero withdrawal of ground water in the command area, this project is surely limiting the declining water table in this declared Over-Exploited area with respect to ground water Development. About 3% of additional land is put under agriculture which will increase per unit production. As now no open channel for irrigation, therefore, no regular cleaning required and hence there is decreased labour input. Continuous use of organic matter rich pond water for agriculture will reduce the fertilizer consumption as well as will improve the soil conditions for a better plant growth. Now there is decreased power consumption for irrigation, thereby reducing cost of production and hence making agriculture more profitable.As now the pond water is utilised fully for agriculture, there is no overflowing water into the residential area, which is greatly helping in checking the spread of water/vector borne diseases in the village and the project has also improved the village aesthetically. Reuse of pond
+                          </p>
+                          <h4><a href="success-stories/Common-Underground-Pipeline-Project-Ajnoud(Ludhiana).html">Read Full Story>></a></h4>
                       </div>
-                      <div>
-                          <figure>
-                              <img src="images/success-stories/image15.jpg" alt="mockup-image">                     
+                      <div class="image-container">
+                         <figure>
+                              <img src="images/success-stories/image15.jpg" alt="story-image">                     
                           </figure>
                           <figure>
-                              <img src="images/success-stories/image16.jpg" alt="mockup-image">                     
-                          </figure>
-                          <figure>
-                              <img src="images/success-stories/image17.jpg" alt="mockup-image">                     
-                          </figure>
-                          <h3>Supporting Documents/Information</h3>
-                          <figure>
-                              <img src="images/success-stories/image18.jpg" alt="mockup-image">                     
-                          </figure>
-                          <figure>
-                              <img src="images/success-stories/image19.jpg" alt="mockup-image">                     
+                              <img src="images/success-stories/image16.jpg" alt="story-image">                     
                           </figure>
                       </div>
-                  </div>
-                  <div class="text-container">                       
-                      <h3>Pre Project and Post project status/comparison:</h3>
-                      <div class="table-styles">
-                          <table>
-                              <tr>
-                                  <th>S. No.</th>
-                                  <th>Pre Project</th>
-                                  <th>Post Project</th>
-                              </tr>
-                              <tr>
-                                  <td>1.</td>
-                                  <td>High ground water withdrawal for irrigation in the command area.</td>
-                                  <td>Zero withdrawal of ground water in the command area.</td>
-                              </tr>
-                              <tr>
-                                  <td>2.</td>
-                                  <td>Increased power consumption due to withdrawal of ground water from deeper layers by installing tube wells for irrigating the fields.</td>
-                                  <td>Reduction in power consumption for irrigating the fields because of nil to very less ground water withdrawal in the command area, leading to reduction in cost of production.</td>
-                              </tr>
-                              <tr>
-                                  <td>3.</td>
-                                  <td>The overflowing water of the pond was going waste and was causing damage to the agricultural fields and adjoining residential areas.</td>
-                                  <td>The available pond water is Judiciously and efficiently utilised for irrigating agricultural fields by laying of underground pipeline.</td>
-                              </tr>
-                              <tr>
-                                  <td>4.</td>
-                                  <td>Poor sanitation in the village due to over flowing water from the ponds causing water/vector borne diseases.</td>
-                                  <td>Improved sanitary conditions of the village, thereby preventing the outbreak of  various water/vector borne diseases like cholera, malaria, dengue, chickenguniya etc.,</td>
-                              </tr>
-                              <tr>
-                                  <td>5.</td>
-                                  <td>Commuting problem for villagers and school children due to puddles of overflowing pond water onto kacha/pucca paths in the village.</td>
-                                  <td>No such problem now.</td>
-                              </tr>
-                              <tr>
-                                  <td>6.</td>
-                                  <td>Very low irrigation facility for small /marginal farmers because of high cost of Installation of tube wells for irrigation.</td>
-                                  <td>Reuse of pond water for irrigation will help small/marginal farmers by way of cutting down the cost of installation and operation of tube wells.</td>
-                              </tr>
-                              <tr>
-                                  <td>7.</td>
-                                  <td>High fertilizer consumption.</td>
-                                  <td>Usage of nutrient rich pond water for irrigation will cut down the fertilizer consumption.</td>
-                              </tr>
-                              <tr>
-                                  <td>8.</td>
-                                  <td>Farmers were less aware of saving water.</td>
-                                  <td>Increased awareness amongst the villagers regarding saving the precious water.</td>
-                              </tr>
-                          </table>
-                      </div>
-                      <h3>Contact Person for this success story</h3>
-                      <p>
-                          <strong>Name:</strong> Inderpal Singh, <br>
-                          <strong>Designation:</strong> Soil Conservation officer <br>
-                          <strong>Mobile No:</strong> 96469-00031 <br>
-                          <strong>Email:</strong> scodhamot@gmail.com
-                      </p>
                   </div>
               </div>
               <div class="project-box">
-                  <h2>On farm water Conservation through Underground Pipeline Irrigation System at village Jaid (Bathinda)</h2>
+                  <h2>Farm Water Conservation Through Underground Pipeline Irrigation System at village Jaid (Bathinda)</h2>
                   <div class="text-image-box">
                       <div class="text-container">
-                          <div class="table-syles">
-                              <table>
-                                  <tr>
-                                      <th>S. No.</th>
-                                      <th colspan="2">Project Brief</th>
-                                  </tr>
-                                  <tr>
-                                      <td>1.</td>
-                                      <td>Name of District</td>
-                                      <td>Bathinda</td>
-                                  </tr>
-                                  <tr>
-                                      <td>2.</td>
-                                      <td>Name of Project</td>
-                                      <td>On farm water Conservation through Underground Pipeline Irrigation System, Jaswinder Singh and others, Teh Ballianwali, Village : Jaid, Bathinda</td>
-                                  </tr>
-                                  <tr>
-                                      <td>3.</td>
-                                      <td>Name of Office under which project executed</td>
-                                      <td> Divisional Soil Conservation Officer, Bathinda</td>
-                                  </tr>
-                                  <tr>
-                                      <td>4.</td>
-                                      <td>Contact Details</td>
-                                      <td>DSCO, Bathinda, Room No 212E, Mini Secretariat, Bathinda <br>Phone/Mobile No: 01642211629: <br>Email:dscobathinda@rediffmail.com</td>
-                                  </tr>
-                                  <tr>
-                                      <td>5.</td>
-                                      <td>Date of Start of Project</td>
-                                      <td>02/05/2016</td>
-                                  </tr>
-                                  <tr>
-                                      <td>6.</td>
-                                      <td>Date of Completion of Project</td>
-                                      <td>02/03/2017</td>
-                                  </tr>
-                                  <tr>
-                                      <td>7.</td>
-                                      <td>Cost of project</td>
-                                      <td>
-                                          Total Cost: Rs. 190.21 Lakh <br>Assistance from RKVY: Rs 171.18 lakh <br>Beneficiary Share: Rs. 19.02 lakh
-                                      </td>
-                                  </tr>
-                              </table>
-                          </div>
                           <h3>Objectives of Project:</h3>
                           <p>
                               The main objective of this project was to highlight the importance of underground pipeline system and to demonstrate its importance to the farmers of the village and nearby areas. The purpose of this project was also to create mass awareness about the importance of UGPS and also its role in socio economic upliftment of the beneficiaries. Main objective was also to give assured irrigation facilities to the farmers and also to save precious water and conserve the ground water. 
                           </p>
-                          <h3>Number of Beneficiaries of project:</h3>
+                          <h3>Benefits/Outcomes of project:</h3>
                           <p>
-                              Total: 308 (nos) <br>Men 240 (nos) : Women 68 (nos) <br>
-                              Marginal farmers: 208 (nos) <br>Small Farmers : 68 (nos) <br>Others 32 (nos)
+                              After completion of the project and taking into consideration talks we had with villages/beneficiaries following benefits/outcomes have been identified. 
                           </p>
-                                                                         
+                          <ul>
+                              <li>
+                                  UGPS according to our analysis has lead to about 22-25% saving of irrigation water as compared to irrigation carried out by open channels earlier. 
+                              </li>
+                              <li>
+                                  Due to availability of water to all the command area, usage of electricity pump sets has been reduced thereby helping in increase of groundwater table of the area. 
+                              </li>
+                              <li>
+                                  Now farmers are getting more water in their fields as compared to earlier system. 
+                              </li>
+                              <li>
+                                  Productivity of the crops has been increased upto 15-17% as compared to earlier system. 
+                              </li>
+                              <li>
+                                  Area of the land which was earlier blocked due to lined channels in the fields is now free for cultivation and farmers are using this land for crop production. 
+                              </li>
+                              <li>
+                                  After implementation of the UGPS farmers income has also increased due to increase in productivity and increase in area of cultivation. 
+                              </li>
+                          </ul>
+                          <h4><a href="success-stories/Farm-Water-Conservation-Village-Jaid(Bathinda).html">Read Full Story>></a></h4>
                       </div>
-                      <div>
-                          <figure>
-                              <img src="images/success-stories/image20.jpg" alt="mockup-image">                     
+                      <div class="image-container">
+                         <figure>
+                              <img src="images/success-stories/image20.jpg" alt="story-image">                     
                           </figure>
                           <figure>
-                              <img src="images/success-stories/image21.jpg" alt="mockup-image">                     
+                              <img src="images/success-stories/image21.jpg" alt="story-image">                     
                           </figure>
-                          
                       </div>
                   </div>
-                  <div class="text-container">
-                      <h3>Pre Project Status / Problems of project area:</h3>
-                      <p>
-                          This project has a command area of 868 Acre, out of which 250 Acre was deprived of irrigation water through lined channel due to its breakage, leakage, seepage and other factors. Farmers who were at tail end were not getting the benefit of canal water and they were using underground water for irrigating their fields and were using electricity motors for this purpose. Farmers, who were using the canal water, were not getting sufficient quantity of water due to breakage of the lined channel, seepage and other factors. Therefore they were also forced to use the underground water and run their electricity motors for irrigation purpose. Lot of labour was wasted to make the bunds/channels and to clean the lined channel and other works. 
-                      </p>
-                      <h3>Details of Work executed:</h3>
-                      <p>
-                          The site of the project was at Village Jaid, Rampura Phul, Bathinda. The project was  at outlet No 20575/TL, Ghanoula Minor. Total command area of the project was about 868 Acre. There were 308 beneficiaries in the village out of which 208 were small farmers, 68 marginal farmers and 32 others. There were 68 female beneficiaries.  The earlier system of water conveyance to the fields was through 5” lined channels which were about 26-27 years old and were damaged from many places. Due to this farmers were facing lot of difficulties for irrigating their respective fields. Water was not reaching the tail end and those farmers were forced to use electricity tube wells for irrigating their fields. Lot of money and energy was wasted in repair and maintenance of these lined channels. 
-                      </p>
-                      <p>
-                          Total length of the pipeline designed for this project was 8945m. Pipe diameter of 700mm was selected for the project keeping in mind the discharge from the outlet (2.44 Cusec). Total 63 Alfa-Alfa Valves were provided to take out water from the pipeline at various fields. Due to lengthy pipeline a total of 11 gate valves were also provided at different junctions from where 2-3 pipelines were diverging or after certain length of the pipeline. Five tanks were also fabricated at junctions and starting point of the outlet. The size of tank at outlet is 2X2X3 m. Another tank of size 3X3X3 was fabricated from where three lines are diverged. Three more tanks were fabricated of size 1.5X1.5X3m from where two lines are diverged. Thirty nine air vent pipes were also installed at specific length for preventing the pipeline from any damage.
-                      </p>
-                      <h3>Pre Project and Post project status/comparison</h3>
-                      <div class="table-styles">
-                          <table>
-                              <tr>
-                                  <th>Factor</th>
-                                  <th>Pre Project</th>
-                                  <th>Post Project</th>
-                              </tr>
-                              <tr>
-                                  <td>Ground water conservation</td>
-                                  <td>Nil</td>
-                                  <td>Considerable ground water conservation is there</td>
-                              </tr>
-                              <tr>
-                                  <td>Land Saving</td>
-                                  <td>Nil</td>
-                                  <td>About 1% land saving is there</td>
-                              </tr>
-                              <tr>
-                                  <td>Increase in Production</td>
-                                  <td>Nil</td>
-                                  <td>3-5%</td>
-                              </tr>
-                              <tr>
-                                  <td>Energy Saving</td>
-                                  <td>Nil</td>
-                                  <td>10-12%</td>
-                              </tr>
-                              <tr>
-                                  <td>Increase in Yield</td>
-                                  <td>Nil</td>
-                                  <td>15-17%</td>
-                              </tr>
-                              <tr>
-                                  <td>Area irrigated at tail end</td>
-                                  <td>Very difficult</td>
-                                  <td>Very effective and successful</td>
-                              </tr>
-                              <tr>
-                                  <td>Socio-economic up-liftment</td>
-                                  <td>Marginal</td>
-                                  <td>Substantial</td>
-                              </tr>
-                          </table>
-                      </div>
-                      <h3>Benefits/Outcomes of project:</h3>
-                      <p>
-                          After completion of the project and taking into consideration talks we had with villages/beneficiaries following benefits/outcomes have been identified. 
-                      </p>
-                      <ul>
-                          <li>
-                              UGPS according to our analysis has lead to about 22-25% saving of irrigation water as compared to irrigation carried out by open channels earlier. 
-                          </li>
-                          <li>
-                              Due to availability of water to all the command area, usage of electricity pump sets has been reduced thereby helping in increase of groundwater table of the area. 
-                          </li>
-                          <li>
-                              Now farmers are getting more water in their fields as compared to earlier system. 
-                          </li>
-                          <li>
-                              Productivity of the crops has been increased upto 15-17% as compared to earlier system. 
-                          </li>
-                          <li>
-                              Area of the land which was earlier blocked due to lined channels in the fields is now free for cultivation and farmers are using this land for crop production. 
-                          </li>
-                          <li>
-                              After implementation of the UGPS farmers income has also increased due to increase in productivity and increase in area of cultivation. 
-                          </li>
-                      </ul>
-                      <h3>Contact Person for this success story</h3>
-                      <p>
-                          <strong>Name:</strong> Jaswinder Singh S/o Pritam Singh, Chairman, Water User committee <br>
-                          <strong>Mobile No.</strong> 9815319137 <br>
-                          <strong>Email:</strong> jaswinderdhaliwal37@gmail.com
-                      </p>   
-                  </div>                 
               </div>
               <div class="project-box">
-                  <h2>Increasing Irrigation Water efficiency through Underground Pipeline Conveyance System at village Sehjadi (Ferozepur)</h2>
+                  <h2>Increasing Irrigation Water Efficiency Through Underground Pipeline Conveyance System at Village Sehjadi (Ferozepur)</h2>
                   <div class="text-image-box">
                       <div class="text-container">
-                          <div class="table-syles">
-                              <table>
-                                  <tr>
-                                      <th>S. No.</th>
-                                      <th colspan="2">Project Brief</th>
-                                  </tr>
-                                  <tr>
-                                      <td>1.</td>
-                                      <td>Name of District</td>
-                                      <td>Ferozepur</td>
-                                  </tr>
-                                  <tr>
-                                      <td>2.</td>
-                                      <td>Name of Project</td>
-                                      <td>Increasing Irrigation Water efficiency through Underground Pipeline Conveyance System C/o S.Gian Singh Village : Sehjadi Teh &amp; District: Ferozepur</td>
-                                  </tr>
-                                  <tr>
-                                      <td>3.</td>
-                                      <td>Name of Office under which project executed</td>
-                                      <td>Divisional Soil Conservation Officer, Ferozepur</td>
-                                  </tr>
-                                  <tr>
-                                      <td>4.</td>
-                                      <td>Contact Details</td>
-                                      <td>Divisional Soil Conservation Officer, Ferozepur <br>Phone: 01632-244425, Email: dscofzr@yahoo.com</td>
-                                  </tr>
-                                  <tr>
-                                      <td>5.</td>
-                                      <td>Date of Start of Project</td>
-                                      <td>25/05/2016</td>
-                                  </tr>
-                                  <tr>
-                                      <td>6.</td>
-                                      <td>Date of Completion of Project</td>
-                                      <td>01/07/2016</td>
-                                  </tr>
-                                  <tr>
-                                      <td>7.</td>
-                                      <td>Cost of project</td>
-                                      <td>
-                                          Total Cost: Rs.7,70,169 <br>Assistance from RKVY: Rs 6,93,150, <br>Beneficiary Share: Rs 77,019
-                                      </td>
-                                  </tr>
-                              </table>
-                          </div>
                           <h3>Objective of Project:</h3>
                           <ul>
                               <li>
@@ -1309,843 +470,205 @@
                                   To overcome the problem of ground water depletion, water scarcity.
                               </li>
                           </ul>
-                          <h3>Number of beneficiaries of Projects:</h3>
+                          <h3>Benefits/Outcomes of projects:</h3>
                           <p>
-                              Men: 10 (nos), Women: 2 (nos), SC/ST: 0 (nos) <br>
-                              Marginal farmers: 7 (nos),  Small Farmers: 1 (nos), Others: 4 (nos)
-                          </p>                  
-                      </div>
-                      <div>
+                              This intervention had a great impact in term of area under irrigation. Earlier water is not available for irrigation for this area, now got sufficient amount of water due to laying of underground pipe line. Pipeline was installed beneath the earth surface so there is also land saving. Water becomes available so yield of this area is increased. Thus social economical life of this area is also enhanced.
+                          </p>
+                          <h4><a href="success-stories/Underground-Pipeline-System-Village-Sehjadi(Ferozepur).html">Read Full Story>></a></h4>
+                      </div>                      
+                      <div class="image-container">
                           <figure>
-                              <img src="images/success-stories/image22.jpg" alt="mockup-image">                     
-                          </figure>
-                          <figure>
-                              <img src="images/success-stories/image23.jpg" alt="mockup-image">                     
+                              <img src="images/success-stories/image22.jpg" alt="story-image">                     
                           </figure>
                       </div>
                   </div>
-                  <div class="text-container">
-                      <h3>Pre project Status/Problems of project area</h3>
-                      <p>
-                          Project area lies in eastern part of Punjab. Farmers of this area are very poor and have very less land holding. Due to water scarcity they are unable to irrigate their entire field, only some part of their field is subjected to irrigation through unlined irrigation channels. Earlier water was distributed/conveyed through unlined irrigation channels. About 30% water was wasted by this tradition method of water conveyance. There was no technology using which they can save water.
-                      </p>
-                      <h3>Details of Work executed:</h3>
-                      <p>
-                          Group of 12 families was chosen who has adjoining fields. The entire area is near to Sehjadi miner (water channel). This area was  sanctioned 0.12 cusec of water at 7465/R outlet of Sehjadi miner. There was a tubewell already bored near this outlet. A proposal was made to club the water from water channel and tube well. Field Staff from the department collect the required documents  and with regular  meeting with the farmers pipe line was proposed. A complete field survey was done  considering the  hydraulic design and governments rates a detailed estimate was made  according to the guidelines of RKVY Scheme. Underground pipeline project was constructed to irrigate the field. The command area of this project was   16 hectare. 300 MM RCC pipe line of 1250 meter length was installed beneath the 1.20m ground level.  The estimate of project was sanctioned   Rs. 782000. 
-                      </p>
-                      <h3>Benefits/Outcomes of projects:</h3>
-                      <p>
-                          This intervention had a great impact in term of area under irrigation. Earlier water is not available for irrigation for this area, now got sufficient amount of water due to laying of underground pipe line. Pipeline was installed beneath the earth surface so there is also land saving. Water becomes available so yield of this area is increased. Thus social economical life of this area is also enhanced.
-                      </p>
-                      <h3>Pre project and Post project status/ comparison:</h3>
-                      <p>
-                          Earlier water was distributed/conveyed through unlined irrigation channels. Some part of farmer’s field is being used by formation of irrigation channels. Moreover money and labor is required at frequent stages to maintained that irrigation channels. About 30% water was wasted by this tradition method of water conveyance. Because during conveyance water seepage is there. Some water is infiltrate into soil surface and some is lost by evaporation. There was no technology using which they can save water. 
-                      </p>
-                      <p>
-                          After this intervention, water channels is replaced by underground pipeline, pipeline is installed below the ground level so area become available for cropping. Money and labor is saved. Water is conveyed through RCC pipeline as there is no losses, so at inlet and out let (farmer field, AAV) quantity of water is same. The entire field is subjected to irrigation results in increase in yield of the crop, thus Socio-Economic life of farmers is enhanced. Underground pipe line also helps in Saving of Energy, Fertilizer, Labor and Land Development. This system is highly efficient system as it has helped in catching up the time gap of conventional irrigation system. 
-                      </p>
-                      <h3>Contact person for this success story:</h3>
-                      <p>
-                          <strong>Name:</strong> Jangir Singh <br>
-                          <strong>Designation:</strong> Soil Conservation Officer, Ghal Khurd <br>
-                          <strong>Mobile:</strong>  9914025053 <br>
-                          <strong>Email:</strong> er.sukhdarshanbanga@gmail.com
-                      </p>
-                  </div>                  
               </div>
               <div class="project-box">
-                  <h2>Bhootgarh Canal Outlet No: 7737/TR at Village Bhootgarh (Patiala)</h2>
+                  <h2>Under Ground Pipe Line (UGPL) system Bhootgarh Canal at Village Bhootgarh (Patiala)</h2>
                   <div class="text-image-box">
                       <div class="text-container">
-                          <div class="table-syles">
-                              <table>
-                                  <tr>
-                                      <th>S. No.</th>
-                                      <th colspan="2">Project Brief</th>
-                                  </tr>
-                                  <tr>
-                                      <td>1.</td>
-                                      <td>Name of District</td>
-                                      <td>Patiala</td>
-                                  </tr>
-                                  <tr>
-                                      <td>2.</td>
-                                      <td>Name of Project</td>
-                                      <td>Bhootgarh, Canal Outlet No: 7737/TR, Village; Bhootgarh, Teshil: Patran</td>
-                                  </tr>
-                                  <tr>
-                                      <td>3.</td>
-                                      <td>Name of Office under which project executed</td>
-                                      <td>
-                                          Divisional Soil Conservation Officer, Zila Parishad Complex, <br>
-                                          Sirhind Road, Patiala-147001 <br>
-                                          Phone No: 0175-2366238 <br>Email: dscopatiala@yahoo.in
-                                      </td>
-                                  </tr>                                  
-                                  <tr>
-                                      <td>4.</td>
-                                      <td>Date of Start of Project</td>
-                                      <td>24/04/2016</td>
-                                  </tr>
-                                  <tr>
-                                      <td>5.</td>
-                                      <td>Date of Completion of Project</td>
-                                      <td>15/05/2017</td>
-                                  </tr>
-                                  <tr>
-                                      <td>6.</td>
-                                      <td>Cost of project</td>
-                                      <td>
-                                          Total Cost : Rs. 50,00,000 (Lacs) <br>Assistance from RKVY: Rs 45,00,000 <br>Beneficiary Share: Rs. 5,00,000
-                                      </td>
-                                  </tr>
-                              </table>
-                          </div>
                           <h3>Objectives of Project:</h3>
                           <p>
                               Under Ground Pipe Line (UGPL) system, which uses irrigation pipes placed underground to fetch the water from the source to the field, provides the most appropriate solution to tackle the above mentioned problems. Depending on the mean sea level of the source and the fields, UGPL system can bring water by gravity or by lifting and by carrying irrigation water from a source well to the field with pressure. UGPL system minimizes water losses during conveyance from water bodies to farmers’ field. Further, maintenance of irrigation channels is a bigger problem particularly during paddy growing season when weed intensity is at peak. By creating underground conveyance system, thus, additional land is also effectively brought under cultivation by saving on the lands lost in making irrigation channels. 
                           </p>
-                          <h3>Number of Beneficiaries of project:</h3>
-                          <p>
-                              Total: 89(nos)Men: 84(nos) Women: 5(nos) <br>(SC/ST: 21(nos)) (Marginal farmers: 34(nos) Small Farmers: 55(nos)
-                          </p>
-                          <h3>Pre Project Status / Problems of project area: </h3>
-                          <p>
-                              Water has to be brought from some distance to deal with the problems of farmers at the tail end, farmers without underground water sources in their fields. Traditionally, many of these farmers have tried to cope with these issues by bringing water from a distance source by digging and building open channels. However, this has had another set of problems. There is water loss in transit. Such water channels tend to get damaged very often and consequently they require constant maintenance. Such channels also consume valuable land which could be better utilized for cultivation. The farmers in the tail end of irrigation command area or the farmers not having underground water resources in their fields as a consequence suffer, as irrigation water normally does not reach the fields at the tail end. Their fields remain parched. More and more farmers in the district are joining the ranks of the water starved farmers as underground water resources in the state has been consistently declining.
-                          </p>                                                   
+                          <h3>Benefits/Outcomes of project:</h3>
+                          <ul>
+                              <li>
+                                  There is significant increase in crop productivity due to use of UGPL system in the fields. The increase is around 20% for paddy &amp; 25% for wheat.
+                              </li>
+                              <li>
+                                  There is saving of water as well. The average saving of water in irrigating one acre of paddy field is around 20% whereas the same is around 25% for the wheat crop. 
+                              </li>
+                              <li>
+                                  The UGPL system has helped in reduction of labour cost and drudgery for the farmers. 
+                              </li>
+                              <li>
+                                  A few other benefits reported were, land saving by about 2-3%, elimination of water logging near channel to the extent of 0.5%, elimination of additional wells in the area, safety in operations etc. 
+                              </li>
+                              <li>
+                                  Diversification in Crops: farmers are diversifying to other crops like Paddy, Vegetables etc. after getting assured irrigation. 
+                              </li>
+                              <li>
+                                  The water will released for irrigation through 1 riser at a time.
+                              </li>
+                              <li>
+                                  Rotational water supply/warabandi is adopted for operation of the system.
+                              </li>
+                          </ul>
+                          <h4><a href="success-stories/Bhootgarh-canal-Outlet-Patiala.html">Read Full Story>></a></h4>
                       </div>
-                      <div>
+                      <div class="image-container">
                           <figure>
-                              <img src="images/success-stories/image24.jpg" alt="mockup-image">                     
+                              <img src="images/success-stories/image24.jpg" alt="story-image">                     
                           </figure>
-                          <figure>
-                              <img src="images/success-stories/image25.jpg" alt="mockup-image">                     
-                          </figure>
-                      </div>                      
+                      </div>
                   </div>
-                  <div class="text-container">                          
-                      <h3>Details of Work executed:</h3>
-                      <p>
-                          Punjab government initiated UGPL programme. The financial assistance in Punjab for UGPL system is provided @ 90% of total cost of RCC Common pipeline project for all categories of farmers under RKVY Scheme. The farmers had used RCC pipe for laying out UGPL system of 400 mm diameter based on the discharge of the Canal outlet. In order to ensure that farmers get quality material at competitive rates while at the same time have flexibility of choice of suppliers, the Department of Soil &amp; Water Conservation has registered/empanelled the UGPL supplying firms every year with their quoted rates. Adoption of this practice has provided wider and more transparent choice to the farmers for procurement of material as well as release of subsidy. The system in Punjab is more generous considering the fact that most of the water which is used by farmers in Punjab state is canal water which virtually comes free for farmers. Government of Punjab, therefore, provides 90% of the total cost of the project under RKVY for laying UGPL system in the state.The UGPL programme of Punjab is very popular with the farming community and there is huge demand for this system. Farmers are highly convinced about its benefits.
-                      </p>
-                      <h3>Benefits/Outcomes of project:</h3>
-                      <ul>
-                          <li>
-                              There is significant increase in crop productivity due to use of UGPL system in the fields. The increase is around 20% for paddy & 25% for wheat.
-                          </li>
-                          <li>
-                              There is saving of water as well. The average saving of water in irrigating one acre of paddy field is around 20% whereas the same is around 25% for the wheat crop. 
-                          </li>
-                          <li>
-                              The UGPL system has helped in reduction of labour cost and drudgery for the farmers. 
-                          </li>
-                          <li>
-                              A few other benefits reported were, land saving by about 2-3%, elimination of water logging near channel to the extent of 0.5%, elimination of additional wells in the area, safety in operations etc. 
-                          </li>
-                          <li>
-                              Diversification in Crops: farmers are diversifying to other crops like Paddy, Vegetables etc. after getting assured irrigation. 
-                          </li>
-                          <li>
-                              The water will released for irrigation through 1 riser at a time.
-                          </li>
-                          <li>
-                              Rotational water supply/warabandi is adopted for operation of the system.
-                          </li>
-                      </ul>
-                      <h3>Pre Project and Post project status/comparison:</h3>
-                      <div class="table-styles">
-                          <table>
-                              <tr>
-                                  <th>S. No.</th>
-                                  <th>Pre Project Status</th>
-                                  <th>Post project Status</th>
-                              </tr>
-                              <tr>
-                                  <td>1.</td>
-                                  <td>Loss of cultivable command area</td>
-                                  <td>Minimum loss of cultivable command area</td>
-                              </tr>
-                              <tr>
-                                  <td>2.</td>
-                                  <td>Time consuming</td>
-                                  <td>Easy and Fast installation</td>
-                              </tr>
-                              <tr>
-                                  <td>3.</td>
-                                  <td>No operation facility</td>
-                                  <td>Better operation facility</td>
-                              </tr>
-                              <tr>
-                                  <td>4.</td>
-                                  <td>Higher maintenance cost</td>
-                                  <td>Lower maintenance cost</td>
-                              </tr>
-                              <tr>
-                                  <td>5.</td>
-                                  <td>Lesser project life span</td>
-                                  <td>Higher project life span</td>
-                              </tr>
-                              <tr>
-                                  <td>6.</td>
-                                  <td>Loss of water due to evaporation and seepage</td>
-                                  <td>No loss of water due to evaporation and seepage</td>
-                              </tr>
-                              <tr>
-                                  <td>7.</td>
-                                  <td>Interference with farming operations</td>
-                                  <td>Minimum interference with farming operations.</td>
-                              </tr>
-                          </table>
-                      </div>
-                      <h3>Contact Person for this success story:</h3>
-                      <p>
-                          <strong>Name:</strong> Er Girish Singla <br>
-                          <strong>Designation:</strong> Soil Conservation Officer <br>
-                          <strong>Mobile No.:</strong> 9041057890 <br><strong>Email:</strong> tinny9@gmail.com
-                      </p>
-                  </div>                  
               </div>
               <div class="project-box">
                   <h2>Laying of Underground Pipeline in Agricultural Fields for Irrigation at Village Langomahal (Amritsar)</h2>
                   <div class="text-image-box">
                       <div class="text-container">
-                          <div class="table-syles">
-                              <table>
-                                  <tr>
-                                      <th>S. No.</th>
-                                      <th colspan="2">Project Brief</th>
-                                  </tr>
-                                  <tr>
-                                      <td>1.</td>
-                                      <td>Name of District</td>
-                                      <td>Amritsar</td>
-                                  </tr>
-                                  <tr>
-                                      <td>2.</td>
-                                      <td>Name of Project</td>
-                                      <td>Laying of Underground Pipeline in Agricultural Fields for Irrigation, Ajitpal Singh S/O Bua Singh, Village: Langomahal Teh- Ajnala District-Amritsar</td>
-                                  </tr>
-                                  <tr>
-                                      <td>3.</td>
-                                      <td>Name of Office under which project executed</td>
-                                      <td>
-                                          Divisional Soil Conservation Officer, Amritsar
-                                      </td>
-                                  </tr>
-                                  <tr>
-                                      <td>4.</td>
-                                      <td>Contact Details</td>
-                                      <td>Third Floor, Kheti Bhabhan, Ranjit Avenue, B-Block-Amritsar <br>Phone/Mobile No: 0183-2505449 <br>Email: asrdsco@gmail.com</td>
-                                  </tr>
-                                  <tr>
-                                      <td>5.</td>
-                                      <td>Date of Start of Project</td>
-                                      <td>20/04/2017</td>
-                                  </tr>
-                                  <tr>
-                                      <td>6.</td>
-                                      <td>Date of Completion of Project</td>
-                                      <td>23/06/2017</td>
-                                  </tr>
-                                  <tr>
-                                      <td>7.</td>
-                                      <td>Cost of project</td>
-                                      <td>
-                                          Total Cost : Rs. 1.68 (Lacs) <br>Assistance from RKVY: Rs 0.84 lakh <br>Beneficiary Share: Rs. 0.84 lakh
-                                      </td>
-                                  </tr>
-                              </table>
-                          </div>                   
-                          <h3>Number of Beneficiaries of project:</h3>
-                          <p>
-                              Total: 10 (nos) <br>Men 6 nos,<br>Women4 (nos) <br>Small Farmers: 6 (nos)
-                          </p>
                           <h3>Objectives of Project:</h3>
                           <p>
                               The aim of this success stories is to reflect the outstanding features of UGPL underground pipe line system. and to highlight the implementation and effectiveness of this irrigation system achieved through the initiatives and endeavours made by soil conservation department ,be it the extension, awareness or providing  financial assistance/subsidy through RKVY scheme. This story also highlights the successful adoption of this scheme by farmers, thus resulting in socio-economic upliftment of farmer and also shows the sincere efforts of conserving two most important of resources of  nature (soil and water) by the department.
                           </p>
-                          <h3>Pre Project Status / Problems of project area:</h3>
-                          <p>
-                              The unlevelled land of the field resulted in uneven distribution of applied irrigation water, thus amounting to vast wastage of water, electricity and labour. The farmer used traditional earthen channels/ kaccha khals as means of conveyance of irrigation water to fields. This resulted in not only seepage losses through percolation and evaporation but also resulted in  increase in labour cost involved in maintaining the earthen walls of basins/ channels. This resulted in increase in demand for water in peak season of summer, thus increasing the operational cost of tube wells and increase in electricity bill. The tail end water losses are high in this traditional method of flood irrigation.
-                          </p>
+                          <h3>Benefits/Outcomes of project:</h3>
+                          <ul>
+                              <li>
+                                  Problems arising due to water logging and soil erosion, unnecessary growth of weeds in irrigation channels are taken care of.
+                              </li>
+                              <li>
+                                  Decrease in pest problems and diseases which earlier occurred due to water logging.
+                              </li>
+                              <li>
+                                  Accessibility and delivery of water to upland areas of filed.
+                              </li>
+                              <li>
+                                  Elimination/ minimization of tail end water losses as the system operates under pressure, and there are no percolation and seepage losses.
+                              </li>
+                              <li>
+                                  Decrease in cost of labour, electricity, water application, thus minimizing the input costs involved in cultivation of crops especially paddy.
+                              </li>
+                              <li>
+                                  The channels which were earlier used for irrigation are brought under cultivation, thus increasing thus net sown area which obviously results in increased yield.
+                              </li>
+                              <li>
+                                  The inter connectivity of multiple tube wells/ water sources ensure uninterrupted supply of irrigation in event of fault/breakdown of one of the tube well.
+                              </li>
+                          </ul>
+                          <h4><a href="success-stories/Underground-Pipeline-Langomahal(Amritsar).html">Read Full Story>></a></h4>
                       </div>
-                      <div>
+                      <div class="image-container">
                           <figure>
-                              <img src="images/success-stories/image26.jpg" alt="mockup-image">                     
-                          </figure>
-                          <figure>
-                              <img src="images/success-stories/image27.jpg" alt="mockup-image">                     
+                              <img src="images/success-stories/image26.jpg" alt="story-image">                     
                           </figure>
                       </div>
                   </div>
-                  <div class="text-container">                          
-                      <h3>Details of Work executed:</h3>
-                      <p>
-                          UGPL consists of network of buried pipes (RCC/PVC) attached to tube well/ pump stand for conveying water to different points on farm required for efficient irrigation. The project is executed on farm of Ajitpal Singh S/o Bua Singh etc R/o Langomahal Teh- Ajnala District-Amritsar. The farmer was approached by Departments' officials after he showed interest in this system seen by his at farm of his relatives. The required documents were collected and estimate was prepared keeping in view the demands and problems of farmers.
-                      </p>
-                      <p>
-                           The Hydraulic gradient is calculated as per the level of the field and the diameter of the pipe is selected after calculating the effective head and discharge of the tube well. Once the estimate is finalized with the consent of farmer it is sent for approval to higher authorities and corresponding farmer farmer share is deposited as per passed estimate. Once the required inputs/material is received at farm the execution of project starts under the guidance of department officials. 
-                      </p>
-                      <p>
-                          A total of 370 meters length of 250mm diameter pipes of 188 no are laid down in trenches excavated as per the sanctioned plan to benefit a command area of 4.45 hec . Total  4 No of risers are provided at suitable points to ensure uniform water distribution and 5 no of wind pipes are provide at every 150m interval, T point or as per passed plan to facilitate the aeration and reduce friction losses. An end plug is provided at the termination point of each branch. After back filling of trenches the farmer is given a demo of how to operate the system and is advised about do’s and don’ts of system. Photographs are taken at various stages during execution of project which helps in highlighting the benefits of this system and, thus educating the interested farmers. 
-                      </p>
-                      <h3>Benefits/Outcomes of project:</h3>
-                      <ul>
-                          <li>
-                              Problems arising due to water logging and soil erosion, unnecessary growth of weeds in irrigation channels are taken care of.
-                          </li>
-                          <li>
-                              Decrease in pest problems and diseases which earlier occurred due to water logging.
-                          </li>
-                          <li>
-                              Accessibility and delivery of water to upland areas of filed.
-                          </li>
-                          <li>
-                              Elimination/ minimization of tail end water losses as the system operates under pressure, and there are no percolation and seepage losses.
-                          </li>
-                          <li>
-                              Decrease in cost of labour, electricity, water application, thus minimizing the input costs involved in cultivation of crops especially paddy.
-                          </li>
-                          <li>
-                              The channels which were earlier used for irrigation are brought under cultivation, thus increasing thus net sown area which obviously results in increased yield.
-                          </li>
-                          <li>
-                              The inter connectivity of multiple tube wells/ water sources ensure uninterrupted supply of irrigation in event of fault/breakdown of one of the tube well.
-                          </li>
-                      </ul>
-                      <div class="table-styles">
-                          <table>
-                              <tr>
-                                  <th>S. No.</th>
-                                  <th>Benefit Parameter</th>
-                                  <th>Annual Benefit Per Acre</th>
-                                  <th>Total Annual Benefits</th>
-                              </tr>
-                              <tr>
-                                  <td>1.</td>
-                                  <td>Land Saving (due to clearance of Open Conveyance Irrigation Channels</td>
-                                  <td>28 Sq m</td>
-                                  <td>
-                                      =28x1188207 <br>
-                                      =33269796 Sq m <br>
-                                      =3327 Hectares (8313 Acres)
-                                  </td>
-                              </tr>
-                              <tr>
-                                  <td>2.</td>
-                                  <td>Increase in Yield (by above mentioned Land Saving)</td>
-                                  <td>
-                                      <table class="inner-table">
-                                          <tr>
-                                              <td>Wheat</td>
-                                              <td>14 kgs</td>
-                                          </tr>
-                                          <tr>
-                                          <td>Paddy</td>
-                                          <td>20 kgs</td>
-                                      </tr>
-                                  </table>                                         
-                              </td>
-                              <td>
-                                  <table class="inner-table">
-                                      <tr>
-                                          <td>
-                                              =14x1188207 <br>
-                                              =16634898 kg <br>
-                                              =16.63 (000 tons)
-                                          </td>                                                  
-                                      </tr>
-                                      <tr>
-                                          <td>
-                                              =20x1188207 <br>
-                                              =23764140 kg <br>
-                                              =23.76 (000 tons)
-                                          </td>                                                  
-                                      </tr>
-                                  </table>   
-                              </td>
-                          </tr>
-                          <tr>
-                              <td>3.</td>
-                              <td>Increase in Yield (due to even, sufficient &amp; Timely application of irrigation water)</td>
-                              <td>
-                                  <table class="inner-table">
-                                      <tr>
-                                          <td>Wheat</td>
-                                          <td>1 Qtl.</td>
-                                      </tr>
-                                      <tr>
-                                          <td>Paddy</td>
-                                          <td>1.4 Qtl.</td>
-                                      </tr>
-                                  </table>                                         
-                              </td>
-                              <td>
-                                  <table class="inner-table">
-                                      <tr>
-                                          <td>
-                                              =1x1188207 <br>
-                                              =1188207 Qtls <br>
-                                              =166.35 (000 tons)
-                                          </td>                                                  
-                                      </tr>
-                                      <tr>
-                                          <td>
-                                              =1.4x1188207 <br>
-                                              =1663490 Qtls <br>
-                                              =166.35 (000 tons)
-                                          </td>                                                  
-                                      </tr>
-                                  </table>   
-                              </td>
-                          </tr>
-                          <tr>
-                              <td>4.</td>
-                              <td>Saving of irrigation Water (due to reduced losses)</td>
-                              <td>
-                                  <table class="inner-table">
-                                      <tr>
-                                          <th>Crop</th>
-                                          <th>Water Use</th>
-                                          <th>Saving @30%</th>
-                                      </tr>
-                                      <tr>
-                                          <td>Wheat</td>
-                                          <td>1400 cum</td>
-                                          <td>420 cum</td>
-                                      </tr>
-                                      <tr>
-                                          <td>Paddy</td>
-                                          <td>2920 cum</td>
-                                          <td>878 cum</td>
-                                      </tr>
-                                      <tr class="sub-total">
-                                          <td>Total</td>
-                                          <td>4320 cum</td>
-                                          <td>1296 cum</td>
-                                      </tr>
-                                  </table>
-                              </td>
-                              <td>
-                                  =1296x1188207 <br>
-                                  =1539916275 Units <br>
-                                  =1540 Million Units
-                              </td>
-                          </tr>
-                          <tr>
-                              <td>5.</td>
-                              <td>Electricity Saving (due to lesser drawl of irrigation water from a lesser head)</td>
-                              <td>
-                                  <table class="inner-table">
-                                      <tr>
-                                          <th>Crop</th>
-                                          <th>Consumption</th>
-                                          <th>Saving @30%</th>
-                                      </tr>
-                                      <tr>
-                                          <td>Wheat</td>
-                                          <td>500 units</td>
-                                          <td>125 units</td>
-                                      </tr>
-                                      <tr>
-                                          <td>Paddy</td>
-                                          <td>1200 units</td>
-                                          <td>300 units</td>
-                                      </tr>
-                                      <tr class="sub-total">
-                                          <td>Total</td>
-                                          <td>1700</td>
-                                          <td>425 units</td>
-                                      </tr>
-                                  </table>
-                              </td>
-                              <td>
-                                  =1296x1188207 <br>
-                                  =504987975 Units <br>
-                                  =505 Million Units
-                              </td>
-                          </tr>
-                          <tr>
-                              <td>6.</td>
-                              <td>Labour Saving (due to saving of labour involved in maintenance )</td>
-                              <td>
-                                  <table class="inner-table">
-                                      <tr>
-                                          <th>Crop</th>
-                                          <th>Irrigation<br>Hours</th>
-                                          <th>Hours @25%</th>
-                                          <th>in Man-days</th>
-                                      </tr>
-                                      <tr>
-                                          <td>Wheat</td>
-                                          <td>100</td>
-                                          <td>25</td>
-                                          <td>3.125</td>
-                                      </tr>
-                                      <tr>
-                                          <td>Paddy</td>
-                                          <td>240</td>
-                                          <td>60</td>
-                                          <td>7.500</td>
-                                      </tr>
-                                      <tr class="sub-total">
-                                          <td>Total</td>
-                                          <td>340</td>
-                                          <td>85</td>
-                                          <td>10.625</td>                                                  
-                                      </tr>
-                                  </table>
-                              </td>
-                              <td>
-                                  =10.625x1188207 <br>
-                                  =126274700 Man-days <br>
-                                  =126.25 Lakh Man-days
-                              </td>
-                          </tr>
-                          <tr>
-                              <td>7.</td>
-                              <td>Minimum Additional Income generated by way of above and benefits at S. No. 1-6</td>
-                              <td>Rs. 3895</td>
-                              <td>
-                                  =3895x1188207 <br>
-                                  =Rs. 4628066285 <br>
-                                  =Rs. 463 Crores
-                              </td>
-                          </tr>
-                      </table>
-                  </div>
-                  <h3>Contact Person for this success story:</h3>
-                  <p>
-                      <strong>Name:</strong> Harpreet Singh, <br>
-                      <strong>Designation:</strong> SDSCO,Amritsar <br>
-                      <strong>Mobile No.</strong> 9463171862 <br>
-                      <strong>Email:</strong> asrdsco@gmail.com
-                  </p>
-                 </div>                  
               </div>
               <div class="project-box">
-                 <h2>Increasing Irrigation Water efficiency through Box Outlet underground pipeline conveyance system at village Hardialeana (Faridkot)</h2>
+                  <h2>Increasing Irrigation Water efficiency through Box Outlet Underground Pipeline Conveyance System at Village Hardialeana (Faridkot)</h2>
                   <div class="text-image-box">
                       <div class="text-container">
-                          <div class="table-syles">
-                              <table>
-                                  <tr>
-                                      <th>S. No.</th>
-                                      <th colspan="2">Project Brief</th>
-                                  </tr>
-                                  <tr>
-                                      <td>1.</td>
-                                      <td>Name of District</td>
-                                      <td>Faridkot</td>
-                                  </tr>
-                                  <tr>
-                                      <td>2.</td>
-                                      <td>Name of Project</td>
-                                      <td>Increasing Irrigation Water efficiency through Box Outlet underground pipeline conveyance system Lakhwinder Singh s/o Gurjant Singh etc, Village: Hardialeana</td>
-                                  </tr>
-                                  <tr>
-                                      <td>3.</td>
-                                      <td>Name of Office under which project executed</td>
-                                      <td>
-                                          Divisional Soil Conservation Officer Faridkot
-                                      </td>
-                                  </tr>
-                                  <tr>
-                                      <td>4.</td>
-                                      <td>Contact Details</td>
-                                      <td>Divisional Soil &amp; Water Conservation Office, Narayan Nagar, ST. NO. 2, Ferozepur Road, Faridkot <br>Phone/Mobile No. 01639-251183 <br>Email: dsco_faridkot@yahoo.com</td>
-                                  </tr>
-                                  <tr>
-                                      <td>5.</td>
-                                      <td>Date of Start of Project</td>
-                                      <td>22/05/2017</td>
-                                  </tr>
-                                  <tr>
-                                      <td>6.</td>
-                                      <td>Date of Completion of Project</td>
-                                      <td>19/06/2017</td>
-                                  </tr>
-                                  <tr>
-                                      <td>7.</td>
-                                      <td>Cost of project</td>
-                                      <td>
-                                          Total Cost: Rs. 30.20 Lakh <br>
-                                          Assistance from RKVY: Rs. 27.18 lakh  <br>
-                                          Beneficiary Share: Rs.3.02 lakh
-                                      </td>
-                                  </tr>
-                              </table>
-                          </div>
-                                                                    
+                          <h3>Objectives of  Project:</h3>
+                          <ul>
+                              <li>
+                                  Efficient use of water through pipeline for gross production in agriculture and to increase the fertility of soil as well as productivity.
+                              </li>
+                              <li>
+                                  To increase the cultivated area and decrease the weeds.
+                              </li>
+                              <li>
+                                  To decrease the 40-50 % Labour cost.
+                              </li>
+                              <li>
+                                  To increased Area under cultivation. 
+                              </li>
+                              <li>
+                                  Increase in yeild per hactare
+                              </li>
+                              <li>
+                                  To avoid seepage from open broken channel
+                              </li>
+                          </ul>
+                          <h3>Benefits/Outcomes of project:</h3>
+                          <p>
+                              Very Efficient use of tubewell water through pipeline as a result  30-35 % crop  production increased and water Losses decreased as whole command area is now irrigated with tubewell water. The cultivated area also increased and hence the yield increased as the area under open channel was used for taking production and whole area got equal water. There was reduction in  maintenance cost and labour cost. The economic condition of the farmers increased as there was increased in production, reduction in labour and maintenance cost.
+                          </p>
+                          <h4><a href="success-stories/Underground-Pipeline-Village-Hardialeana(Faridkot).html">Read Full Story>></a></h4>
                       </div>
-                      <div>
+                      <div class="image-container">
                           <figure>
-                              <img src="images/success-stories/image28.jpg" alt="mockup-image">                     
-                          </figure>                          
+                              <img src="images/success-stories/image28.jpg" alt="story-image">                     
+                          </figure>
                       </div>
-                  </div>
-                  <div class="text-container">
-                      <h3>Objectives of  Project:</h3>
-                      <ul>
-                          <li>
-                              Efficient use of water through pipeline for gross production in agriculture and to increase the fertility of soil as well as productivity.
-                          </li>
-                          <li>
-                              To increase the cultivated area and decrease the weeds.
-                          </li>
-                          <li>
-                              To decrease the 40-50 % Labour cost.
-                          </li>
-                          <li>
-                              To increased Area under cultivation. 
-                          </li>
-                          <li>
-                              Increase in yeild per hactare
-                          </li>
-                          <li>
-                              To avoid seepage from open broken channel
-                          </li>
-                      </ul>                            
-                      <h3>Number of Beneficiaries of project:</h3>
-                      <p>
-                          Total 13 nos:    Men: 10 nos, Women: 03 nos <br>
-                          Marginal farmers    05   nos, Small Farmers:  3 nos Others:  05 nos
-                      </p>
-                      <h3>Pre Project Status/Problems of project area:</h3>
-                      <p>
-                          Water loses is more due to evaporation and seepage through open units channels. Crop production is Low as entire command area was not irrigated with tubewell water, Lower financial condition of farmers due to Labour cost and low production. The water did not reach the end fields and there was not uniform distrubution of water.
-                      </p>
-                      <h3>Details of Project executed:</h3>
-                      <p>
-                          Discharge of Tubewell - 2.41 cusec, <br>
-                          Area - 47.8  Hactare <br>
-                          Dia of Pipeline -  450 MM <br>
-                          Length of Pipeline - 3210  meter <br>
-                          No. of Air release valve/pipe -  27 No. (150 MM) <br>
-                          No. of Alfa Valve -  12 No. 450 MM
-                      </p>
-                      <div class="table-styles">
-                          <table>
-                              <tr>
-                                  <th>Pre Project</th>
-                                  <th>Post Prject</th>
-                              </tr>
-                              <tr>
-                                  <td style="font-weight: 400">Low Production of crops as tubewell water is not used. Water Losses is more. Lower financial condition  due to low production, and Labour cost.</td>
-                                  <td>30-35 % crop production increased. Now entire command area is cultivated &amp; irrigated with tubewell water, with which higher financial condition of farmers.</td>
-                              </tr>
-                          </table>
-                      </div>
-                      <h3>Benefits/Outcomes of project:</h3>
-                      <p>
-                          Very Efficient use of tubewell water through pipeline as a result  30-35 % crop  production increased and water Losses decreased as whole command area is now irrigated with tubewell water. The cultivated area also increased and hence the yield increased as the area under open channel was used for taking production and whole area got equal water. There was reduction in  maintenance cost and labour cost. The economic condition of the farmers increased as there was increased in production, reduction in labour and maintenance cost.
-                      </p>
-                      <h3>Contact Person for this sucess story:</h3>
-                      <p>
-                          <strong>Name:</strong> Sandeep Singh <br>
-                          <strong>Designation:</strong> Soil Conservation Officer <br>
-                          <strong>Mobile No.</strong> 98554-00359 <br>
-                          <strong>Email:</strong> dsco_faridkot@yahoo.com
-                      </p>
                   </div>
               </div>
               <div class="project-box">
                   <h2>Increasing Irrigation Water Efficiency at village Megowal Block (Hoshiarpur)</h2>
                   <div class="text-image-box">
                       <div class="text-container">
-                          <div class="table-syles">
-                              <table>
-                                  <tr>
-                                      <th>S. No.</th>
-                                      <th colspan="2">Project Brief</th>
-                                  </tr>
-                                  <tr>
-                                      <td>1.</td>
-                                      <td>Name of District</td>
-                                      <td>Hoshiarpur</td>
-                                  </tr>
-                                  <tr>
-                                      <td>2.</td>
-                                      <td>Name of Project</td>
-                                      <td>Increasing Irrigation Water Efficiency C/o Smt. Darshan Kaur etc W/o Sh. Daya Singh, Village: Megowal Block, Mlp, Teh. Garshankar , Hoshiarpur</td>
-                                  </tr>
-                                  <tr>
-                                      <td>3.</td>
-                                      <td>Name of Office under which project executed</td>
-                                      <td>
-                                          Divisional Soil Conservation Officer Hoshiarpur
-                                      </td>
-                                  </tr>
-                                  <tr>
-                                      <td>4.</td>
-                                      <td>Contact Details</td>
-                                      <td>
-                                          Divisional Soil Conservation Officer 4th Floor Mini Secretariat Hoshiapur <br>
-                                          Phone/Mobile No: 01882240192,<br>
-                                          Email: dscohsp1@yahoo.com
-                                      </td>
-                                  </tr>
-                                  <tr>
-                                      <td>5.</td>
-                                      <td>Date of Start of Project</td>
-                                      <td>24/06/2017</td>
-                                  </tr>
-                                  <tr>
-                                      <td>6.</td>
-                                      <td>Date of Completion of Project</td>
-                                      <td>29 /06 2017</td>
-                                  </tr>
-                                  <tr>
-                                      <td>7.</td>
-                                      <td>Cost of project</td>
-                                      <td>
-                                          Total Cost : Rs. 4,80,950/-(Lacs) 4.81 Lacs <br>
-                                          Assistance from RKVY: Rs. 3,89,400/- <br>
-                                          Beneficiary Share: Rs.1,94,700/-
-                                      </td>
-                                  </tr>
-                              </table>
-                          </div>
                           <h3>Objectives of Project:</h3>
                           <p>
                               The project area is situated in village Megowal which  falls in the Kandi Belt of Punjab. The Project area  has total 8.85 hectare area under agriculture.The main objective of the Project is to irrigate each and every part of the project area properly . So that beneficiary could get high yield of crops sown in project area. 
                           </p>
-                          <h3>Number of Beneficiaries of project:</h3>
-                          <p>
-                              Total  3 (nos), Men: 2 (nos), Women :1 (nos) <br>
-                              Marginal farmers : 3 (nos) 
-                          </p>
-                          <h3>Pre Project Status / Problems of project area:</h3>
-                          <p>
-                              The area of project is rain fed and undulating. Soils of project area are sandy due to which seepage rates are very high in the project area. Evaporation rates are also very high due to harsh sunshine especially in summer season. This project area has two bore well which are used by beneficiary for irrigation. The benificiaries  used to irrigate the project area by making Kucha Open Channel. Due to this reason the water losses are very high due excessive seepage of water in Kucha Open Channel. Evaporation losses are also very high in the project area during summer season.Moreover the Kucha channel need too much repair which increase the labour cost of farmer. Apart from this different kinds  weeds grow on the channel. Because of which kucha channel becomes suitable place for different kinds of weeds and diseases which ultimately attacks the crops in project area .
-                          </p>             
+                          <h3>Benefits/Outcomes of project:</h3>
+                          <ul>
+                              <li>
+                                  Increase in the area under agriculture.
+                              </li>
+                              <li>
+                                  Decrease in the labour cost.
+                              </li>
+                              <li>
+                                  Check seepage, evaporation losses and control soil erosion hence decrease in the wastage of excessive water  .
+                              </li>
+                              <li>
+                                  Provide assured irrigation to project area.
+                              </li>
+                              <li>
+                                  Save Electricity(Energy) and time.
+                              </li>
+                              <li>
+                                  Increase in yield and Quality of Crops.
+                              </li>
+                              <li>
+                                  Uplift the socio-economic status of beneficiary.
+                              </li>
+                          </ul>
+                          <h4><a href="success-stories/Increasing-Irrigation-Efficiency-Village-Megowal(Hoshiarpur).html">Read Full Story>></a></h4>
                       </div>
-                      <div>
+                      <div class="image-container">
                           <figure>
-                              <img src="images/success-stories/image29.jpg" alt="mockup-image">                     
+                              <img src="images/success-stories/image29.jpg" alt="story-image">                     
                           </figure>
                       </div>
                   </div>
-                  <div class="text-container">
-                      <h3>Details of Work executed:</h3>
-                      <p>
-                          To overcome the above mentioned problem beneficiary decided to lay the underground pipe line system to bring the project area under assured irrigation.The beneficiary contacted the Soil and Water conservation department officials to lay the UGPL. The department officials visited the project area and make the plan for laying UGPL. The officials decided to lay PVC pipe line with the consent of beneficiary After making the plan department officials assigned the job of laying UGPL to jain irrigation system limited. The department provide the subsidy of 194700/- to the beneficiary  for laying UGPL PVC in the project area as per the Govt guidelines.  Technical detail of project: <br>
-                          Length of pipe line: 114 m. <br>
-                          Dia of  pipe line: 110mm (4kg/cm2) <br>
-                          No of Riser: 20 No.
-                      </p>
-                      <h3>Benefits/Outcomes of project:</h3>
-                      <ul>
-                          <li>
-                              Increase in the area under agriculture.
-                          </li>
-                          <li>
-                              Decrease in the labour cost.
-                          </li>
-                          <li>
-                              Check seepage, evaporation losses and control soil erosion hence decrease in the wastage of excessive water  .
-                          </li>
-                          <li>
-                              Provide assured irrigation to project area.
-                          </li>
-                          <li>
-                              Save Electricity(Energy) and time.
-                          </li>
-                          <li>
-                              Increase in yield and Quality of Crops.
-                          </li>
-                          <li>
-                              Uplift the socio-economic status of beneficiary.
-                          </li>
-                      </ul>
-                      <h3>Pre Project and Post project status/comparison:</h3>
-                      <p>
-                          The beneficiary mainly grows Wheat, Maize, Paddy in the project area.He also grow some fodder crops like Bajra and Barseem  for his milking/domestic animals. Although the beneficiary has two bore well in the project area but it was difficult for him to properly irrigate the whole project area due to the above mentioned problem.So the yield of crops in the project area were very low due to lack of proper irrigation. After laying of UGPL it become possible for the beneficiary to bring the whole project area under assured irrigation.This helps the beneficiary to increase the yield of crops which increase there income  which ultimately helps to improve the socio- economic status of beneficiary. 
-                      </p>
-                      <p>
-                          Table below clearly stated that the  average yield of different crops sown in project are were very low before laying of under ground Pipe line system. But after laying of UGPL, there is marked increase in average yield of different crops sown in project area. Which helps to increase the income of beneficiary which ultimately uplift the socio-economic status of beneficiary.
-                      </p>
-                      <h3>Detail of  yield of crops and profit in project area in tabular form:</h3>
-                      <div class="table-styles">
-                          <table>
-                              <tr>
-                                  <th>S. No.</th>
-                                  <th>Crops</th>
-                                  <th>Pre Project Yield</th>
-                                  <th>Post Project Yield</th>
-                                  <th>In Crease in Yield</th>
-                              </tr>
-                              <tr class="table-sub-heading">
-                                  <td></td>
-                                  <td></td>
-                                  <td>Qtl./Acre</td>
-                                  <td>Qtl./Acre</td>
-                                  <td>Qtl./Acre</td>
-                              </tr>
-                              <tr>
-                                  <td>1.</td>
-                                  <td>Wheat</td>
-                                  <td>10-12</td>
-                                  <td>16-18</td>
-                                  <td>6.00</td>
-                              </tr>
-                              <tr>
-                                  <td>2.</td>
-                                  <td>Paddy</td>
-                                  <td>20-22</td>
-                                  <td>26-28</td>
-                                  <td>6.00</td>
-                              </tr>
-                              <tr>
-                                  <td>3.</td>
-                                  <td>Maize</td>
-                                  <td>12-14</td>
-                                  <td>16-18</td>
-                                  <td>4.00</td>
-                              </tr>
-                              <tr>
-                                  <td>4.</td>
-                                  <td>Bajra</td>
-                                  <td>500-550</td>
-                                  <td>800-850</td>
-                                  <td>300.00</td>
-                              </tr>
-                              <tr>
-                                  <td>5.</td>
-                                  <td>Barseem</td>
-                                  <td>200-250</td>
-                                  <td>300-350</td>
-                                  <td>100.00</td>
-                              </tr>
-                          </table>
-                      </div>
-                      <h3>Contact Person for this success story:</h3>
-                      <p>
-                          <strong>Name:</strong> Narinderpal <br>
-                          <strong>Designation:</strong> Sub Divisional Soil Conservation Officer <br>
-                          <strong>Mobile No.</strong> 9464159587 <br>
-                          <strong>Email:</strong>- sdscomahilpur@yahoo.com
-                      </p>
-                  </div>
-              </div>                 
+              </div>
           </section>
-          
-          <footer>
+         <footer>
               <div id="quick-links">
                   <h2>QUICK LINKS</h2>
                   <ul>
-                      <li><a href="#">Administrative Reports</a></li>
-                      <li><a href="#">Micro Irrigation</a></li>
-                      <li><a href="slub.html">SLUB</a></li>
-                      <li><a href="#">Organization Chart</a></li>
+                      <li><a href="administrative-reports.html">Administrative Reports</a></li>
+                      <li><a href="docs/rti-docs/RTI-Application_Form.pdf">RTI Application Form</a></li>
+                      <li><a href="micro-irrigation-page.html">Micro Irrigation</a></li>
+                      <li><a href="slub.html">State Land Use Board</a></li>
+                      <li><a href="docs/Organization_Chart.pdf">Organization Chart</a></li>
                   </ul>
                   <ul>
-                      <li><a href="#">Vigilance Officer</a></li>
-                      <li><a href="#">DPR-IWMP</a></li>
-                      <li><a href="#">Duty Chart</a></li>
-                      <li><a href="#">Soil Survey Reports</a></li>
-                      <li><a href="faq.html">FAQ</a></li>
+                      <li><a href="welfare-society.html">Sports &amp; Welfare Society</a></li>
+                      <li><a href="gpf-forms.html">GPF Forms</a></li>
+                      <li><a href="punjab_soils.html">Punjab Soils</a></li>
+                      <li><a href="punjab_waters.html">Punjab Waters</a></li>
+                      <li><a href="soil-survey-reports.html">Soil Survey Reports</a></li>
                   </ul>
+                  <ul>
+                      <li><a href="docs/CVO_DSWC.pdf">Vigilance Officer</a></li>
+                      <li><a href="docs/Duty_chart_deptt.pdf">Duty Chart</a></li>
+                      <li><a href="regional-offices.html">Regional Offices</a></li>
+                      <li><a href="faq.html">FAQ</a></li>
+                      <li><a href="fonts.html">Download Fonts</a></li>
+                  </ul>                  
               </div>
               
               <div id="connect">
@@ -2153,15 +676,22 @@
                   <ul>
                       <li><i class="fas fa-phone fa-2x"></i>0172 - 2777094, 2704857, 2716158</li>
                       <li><i class="far fa-envelope fa-2x"></i><a href="mailto:dswcpunjab@gmail.com">dswcpunjab@gmail.com</a></li>
+                      <li><i class="far fa-envelope fa-2x"></i><a href="mailto:ccs.clw@punjab.gov.in">ccs.clw@punjab.gov.in</a></li>
                   </ul>
-                  <a href="https://www.facebook.com/dswcpb/" target="_blank"><img src="images/fb_like_us.png" alt="facebook logo"></a>
+                  <ul>
+                      <li><i class="fab fa-facebook-f fa-2x"></i><a href="https://www.facebook.com/dswcpb/">DSWC Facebook</a></li>
+                      <li><i class="fab fa-twitter fa-2x"></i><a href="https://twitter.com/dswcpunjab">DSWC Twitter</a></li>
+                  </ul>                  
               </div>
               
               <div id="dev-note">
-                  This website belongs to Department of Soil and Water Conservation, Punjab, India.
+                  <p>
+                      This website belongs to Department of Soil and Water Conservation, Punjab, India. <br>
+                      <span>(For best experience, switch to Google Chrome or Mozilla FIrefox with resolution 1366 x 768 or higher.)</span>
+                  </p>
               </div>
               <div id="footer-links">
-                  <a href="developers_message.html">Developer Message</a> | <a href="disclaimer.html">Disclaimer</a> | <a href="#">Advertising policy</a> | <a href="terms_of_use.html">Terms &amp; Conditions</a> | <a href="hyperlink_policy.html">Hyperlink Policy</a> | <a href="contact_us.html">Contact Us</a>
+                  <a href="developers_message.html">Developer Message</a> | <a href="disclaimer.html">Disclaimer</a> | <a href="terms_of_use.html">Terms &amp; Conditions</a> | <a href="hyperlink_policy.html">Hyperlink Policy</a> | <a href="feedback.html">Feedback</a>
               </div>              
           </footer>
       </main>

@@ -23,21 +23,41 @@
   
   <body>
       <header>
-          <div class="govt-punjab-link">
-              <a href="http://punjab.gov.in/" target="_blank" title="GOVERNMENT OF PUNJAB, External Link that opens in a new window">GOVERNMENT OF PUNJAB</a>
+          <div class="top-bar">
+              <div class="govt-punjab-link">
+                  <a href="http://punjab.gov.in/" title="GOVERNMENT OF PUNJAB, External Link">GOVERNMENT OF PUNJAB<span>| ਪੰਜਾਬ ਸਰਕਾਰ</span></a>
+              </div>
+              <div class="site-tools">
+                  <a id="search-btn" href="#"><i class="fas fa-search"></i></a>
+                  <a href="site-map.html" title="Sitemap"><i class="fas fa-sitemap"></i></a>
+                  <a id="font-dec" href="#" title="Small Font">A<sup>-</sup></a>
+                  <a id="font-default" title="Medium Font" href="#">A</a>
+                  <a id="font-inc" href="#" title="Large Font">A<sup>+</sup></a>
+              </div>
+              <div id="custom-search" class="search-box">
+                 <script async src="https://cse.google.com/cse.js?cx=003156846267314940718:d95eba3fojr"></script>
+                    <div class="gcse-search"></div>
+              </div>
           </div>
           <div class="header-bar">
-              <div class="logo">
-                  <a href="../index.html"><img src="images/dswc_logo.png" alt="logo"></a>
+              <div class="dept-area">
+                  <div class="logo">
+                      <a href="../homepage.html" title="Department of Soil and Water Conservations Logo"><img src="images/dswc_logo.png" alt="Department of Soil and Water Conservations Logo"></a>
+                  </div>
+                  <div class="dept-title">
+                      <a href="../homepage.html" title="Department of Soil and Water Conservations"><h1><span>DEPARTMENT OF</span><br> SOIL &amp; WATER CONSERVATION, PUNJAB</h1></a>
+                  </div>
+                  <div id="fifty-year">
+                      <a href="http://www.550yearsofgurunanakdevji.com/" target="_blank" title="Celebrating 550 Years of Guru Nanak Dev Ji"><img src="images/sikhism-logo.png" alt="Celebrating 550 Years of Guru Nanak Dev Ji"></a>
+                  </div>
               </div>
-              <div class="dept-title">
-                  <a href="../index.html"><h1><span>DEPARTMENT OF</span><br> SOIL &amp; WATER CONSERVATION, PUNJAB</h1></a>
-              </div>
-              <div id="swachh">
-                  <img src="images/swachBharat.png" alt="">
-              </div>
-              <div id="emblem">
-                  <img src="images/emblem-dark.png" alt="">
+              <div class="logo-area">
+                  <div id="swachh">
+                      <img src="images/swachBharat.png" alt="Swachh Bharat Logo" title="Swachh Bharat logo">
+                  </div>
+                  <div id="emblem">
+                      <img src="images/scmip-footer-logos/punjab-govt.svg" alt="Government Of Punjab Logo" title="Government Of Punjab Logo">
+                  </div>
               </div>
               <div class="menu-toggler">
                   <a href="#">
@@ -51,65 +71,111 @@
           </div>
           <nav>
               <ul>
-                  <li><a href="../index.html"><i class="fas fa-home"></i></a></li>
-                  <li><a href="introduction.html">About</a></li>
-                  <li class="drop-down"><a href="#">Organization <i class="fas fa-sort-down"></i></a>
-                      <ul>
-                         <li><a href="#">Organization Chart</a></li>
-                         <li><a href="docs/Citizen_Charter_13.pdf" target="_blank">Citizen Charter</a></li>
-                      </ul>
+                  <li><a href="../homepage.html" title="Home"><i class="fas fa-home"></i></a></li>
+                  <li class="drop-down"><a href="#">About <i class="fas fa-sort-down"></i></a>
+                      <div class="drop-down-box">
+                          <ul>
+                             <li><a href="introduction.html">Department Introduction</a></li>
+                             <li><a href="docs/Organization_Chart.pdf">Organization Chart</a></li>
+                             <li><a href="docs/Citizen_Charter_13.pdf">Citizen Charter</a></li>         
+                          </ul>
+                          <ul>
+                              <li><a href="slub.html">State Land Use Board</a></li>
+                              <li><a href="punjab_soils.html">Punjab Soils</a></li>
+                              <li><a href="punjab_waters.html">Punjab Waters</a></li>
+                          </ul>
+                      </div>
                   </li>
                   <li class="drop-down"><a href="#">Guidelines <i class="fas fa-sort-down"></i></a>
-                      <ul>
-                         <li><a href="docs/PMKSY_Guidelines.pdf" target="_blank">PMKSY</a></li>
-                         <li><a href="docs/Guidelines_MI_PMKSY.pdf" target="_blank">Micro Irrigatiom</a></li>
-                         <li><a href="docs/CommonGuidelines2008.pdf" target="_blank">Watershed</a></li>
-                         <li><a href="docs/Rkvy.pdf" target="_blank">RKVY</a></li>
-                         <li><a href="docs/tdet_guidelines.pdf" target="_blank">TDET</a></li>
-                      </ul>
+                      <div class="drop-down-box">
+                          <ul>
+                             <li><a href="docs/PMKSY_Guidelines.pdf">Pradhan Mantri Krishi Sinchayee Yojna</a></li>
+                             <li><a href="docs/Guidelines_Micro-Irrigation.pdf">Micro Irrigatiom - Operational Guidelines</a></li>
+                             <li><a href="docs/Watershed.pdf">Guidelines for Watershed Developmeny</a></li>
+                             <li><a href="docs/RKVY_RAFTAAR.pdf">Rashtriya Krishi Vikas Yojana</a></li>
+                          </ul>
+                          <ul>
+                              <li><a href="docs/tdet_guidelines.pdf">Technology Development Extension Training</a></li>
+                              <li><a href="docs/CWC-Piped-Network.pdf">Guidelines of Planning &amp; Designing Pipeline Network</a></li>
+                          </ul>
+                      </div>
                   </li>
                   <li class="drop-down"><a href="#">Rules &amp; Acts <i class="fas fa-sort-down"></i></a>
-                      <ul>
-                         <li><a href="docs/Land_Impvt_Act.pdf" target="_blank">Land Improvement Act</a></li>
-                         <li><a href="docs/orders/Work_Manual-2018.pdf" target="_blank">Works Manual</a></li>
-                         <li><a href="docs/Group_A_Rules.pdf" target="_blank">Group A Rules</a></li>
-                         <li><a href="docs/Schemes_Rules.pdf" target="_blank">Schemes Rules</a></li>
-                         <li><a href="docs/Duty_chart_deptt.pdf" target="_blank">Duty Chart</a></li>
-                         <li><a href="docs/orders/Amendment_ACT-25-of-2017-Right-of-Way.pdf" target="_blank">UGPS Amendment</a></li>
-                      </ul>
+                      <div class="drop-down-box">
+                          <ul><h3>DSWC Rules</h3>
+                             <li><a href="docs/Rules%20of%20Business-DSWC.docx">Rules of Business DSWC</a></li>
+                             <li><a href="docs/Land_Impvt_Act.pdf">Land Improvement Act 1963</a></li>
+                             <li><a href="docs/Punjab_Land_Improvement_Schemes_2017.pdf">Punjab Land Improvement Amendment Act</a></li>
+                             <li><a href="docs/Notifcation%20Land%20Improvement%20Scheme%20(Amendment),%20Act,%202017.pdf">Notification Land Improvement Scheme</a></li>
+                             <li><a href="docs/Work_Manual-2018.pdf">Works Manual</a></li>
+                             <li><a href="docs/Group_A_Rules.pdf">Group A Service Rules 2014</a></li>
+                             <li><a href="docs/Schemes_Rules.pdf">Schemes Rules</a></li>
+                             <li><a href="docs/Duty_chart_deptt.pdf">Duty Chart</a></li>                             
+                          </ul>
+                          <ul><h3>Governemt of Punjab Rules</h3>
+                              <li><a href="docs/Pb-preservation-of-Subsoil-Act,2009.pdf">Punjab Preservation of Sub Soil Act</a></li>
+                              <li><a href="docs/Valuation%20under%20GST.pdf">Valuation Under GST</a></li>
+                              <li><a href="docs/Labour%20Cess_Rules.pdf">Labour Cess Notification</a></li>
+                              <li><a href="docs/TDS-%20GST.pdf">TDS Mechanism Under GST</a></li>
+                              <li><a href="docs/Work%20Contracts%20in%20GST.pdf">Work Contracts in GST</a></li>
+                              <li><a href="docs/GEM%20Notification.pdf">GeM Notification</a></li>                              
+                          </ul>
+                      </div>
                   </li>
-                  <li class="drop-down"><a href="#">Services <i class="fas fa-sort-down"></i></a>
-                      <ul>
-                         <li><a href="#">Machinery on Rent</a></li>
-                         <li><a href="#">Other Services</a></li>
-                      </ul>
+                   <li class="drop-down"><a href="#">Downloads <i class="fas fa-sort-down"></i></a>
+                      <div class="drop-down-box">
+                          <ul><h3>Forms for Employees</h3>
+                             <li><a href="gpf-forms.html">GPF Forms</a></li>
+                             <li><a href="docs/ITR%20Form.xls">ITR Form</a></li>
+                             <li><a href="docs/Form%2016.xls">Form 16</a></li>
+                             <li><a href="ltc-forms.html">LTC Forms</a></li>
+                             <li><a href="docs/Property%20Return%20Proforma.docx">Property Return Performa</a></li>
+                             <li><a href="docs/downloads/Medical_Reimbursement/Medical_Reimbursement.doc">Medical Reimbursement Form</a></li>
+                             <li><a href="docs/downloads/Pension_Form/PENSION_form.docx">Pension Form</a></li>
+                             <li><a href="docs/downloads/Registration_form_Digital_Certificate/Registration_Digital_Certificate.pdf">Registration for Digital Certificate</a></li>
+                          </ul>
+                          <ul><h3>Technical Instruction &amp; Orders</h3>
+                             <li><a href="docs/DSWC_Inspection_Schedule.pdf">DSWC Inspection Schedule</a></li>
+                             <li><a href="docs/DEPARTMENTAL%20FINANCIAL%20RULES.doc.pdf">Department Financial Rules</a></li>
+                             <li><a href="csr.html">Common Schedule of Rates</a></li>
+                             <li><a href="docs/pwd_specifications.pdf">PWD Specificatons</a></li>
+                             <li><a href="docs/PWD_Code23102017.pdf">PWD Code</a></li>
+                             <li><a href="civil-services-rules.html">Civil Services Rules</a></li>
+                             <li><a href="docs/The_Punjab_Government_Employees_(Conduct)_Rules.pdf">The Punjab Government Employees (Conduct) Rules, 1966</a></li>
+                             <li><a href="docs/The%20Punjab%20civil%20services%20(Punishment%20and%20Appeal)%20Rules,%201970.docx">The Punjab Civil Services (Punishment and Appeal) Rules, 1970</a></li>
+                          </ul>
+                      </div>
+                  </li>
+                  <li class="drop-down"><a href="#">Reports <i class="fas fa-sort-down"></i></a>
+                      <div class="drop-down-box">
+                          <ul>
+                             <li><a href="administrative-reports.html">Administrative Reports</a></li>
+                             <li><a href="soil-survey-reports.html">Soil Survey Reports</a></li>
+                          </ul>
+                      </div>
                   </li>
                   <li class="drop-down"><a href="#">RTI <i class="fas fa-sort-down"></i></a>
-                      <ul>
-                         <li><a href="pios-apios.html">PIOs &amp; APIOs </a></li>
-                         <li><a href="#">Other options</a></li>
-                      </ul>
+                      <div class="drop-down-box">
+                          <ul>
+                             <li><a href="state-information-comission.html">State Information Comission Orders</a></li>
+                             <li><a href="rti.html">RTI Proactive Manual</a></li>
+                             <li><a href="pios-apios.html">Public Information Officer </a></li>
+                             <li><a href="docs/rti-docs/RTI-Application_Form.pdf">RTI Application Form</a></li>
+                          </ul>
+                      </div>
                   </li>
-                  <li class="drop-down"><a href="#">Employee Center<i class="fas fa-sort-down"></i></a>
-                      <ul>
-                         <li><a href="downloads.html">Downloads</a></li>
-                         <li><a href="#">Other options</a></li>
-                      </ul>
-                  </li>
-                  <li><a href="faq.html">FAQ</a></li>
-                  <li><a href="contact_us.html">Contact Us</a></li>
-                  
+                  <li><a href="training.html">Trainings</a></li>
+                  <li><a href="regional-offices.html">Regional Offices</a></li>
+                  <li><a href="contact_us.html">Contact Us</a></li>                  
               </ul>
-          </nav>
+          </nav>          
+          <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-alt-circle-up"></i></button>
       </header>
       <main>
-          <section class="inner-masthead">
-             <figure>
-                  <img src="https://via.placeholder.com/800x200" alt="mockup-image">
-             </figure>
+          <section class="inner-masthead container">
+             <h1>ABOUT STATE LAND USE BOARD, PUNJAB (SLUB)</h1>
           </section>
           <section class="container">
-              <h1>ABOUT STATE LAND USE BOARD, PUNJAB (SLUB)</h1>
               <div class="project-box">
                   <h2>NOTIFICATION</h2>
                   <p>
@@ -117,106 +183,114 @@
                   </p>
                   <h2>FUNCTIONS AND ACTIVITIES OF STATE LAND USE BOARD</h2>
                   <div class="text-image-box">
-                      <ul>
-                          <li>
-                              To assess the land resources of the State and issue guidelines to various departments connected with the use of land with regard to the proper utilization of land resources.
-                          </li>
-                          <li>
-                              To prepare perspective plan for conservation, management and development of land resources of the State taking into account appropriate land use and soil capabilities.
-                          </li>
-                          <li>
-                              To coordinate the work of soil Conservation and land preservation.
-                          </li>
-                          <li>
-                              To make overall review of the programmes of the implementation of the schemes and programmes connected with surveys and development of soil and allied matters.
-                          </li>
-                          <li>
-                              To take suitable steps to prevent the use of agricultural land for non-agricultural purposes.
-                          </li>
-                          <li>
-                              To provide a forum for sharing technical and administrative experience pertaining to land utilization.
-                          </li>
-                          <li>
-                              To collect compile and furnish statistical data pertaining to land use for implementation of the suitable programmes.
-                          </li>
-                          <li>
-                              To lay down specifications for sound execution of the programme of land use, etc.
-                          </li>
-                      </ul>
-                      <figure>
-                         <img src="images/soil.jpg" alt="mockup-image">
-                         <figcaption>Er. M. Kanwal welcoming Dr. VN Sharda, Director CSWCRTI at SLUB Workshop</figcaption>
-                      </figure>                
+                      <div class="text-container">
+                          <ul>
+                              <li>
+                                  To assess the land resources of the State and issue guidelines to various departments connected with the use of land with regard to the proper utilization of land resources.
+                              </li>
+                              <li>
+                                  To prepare perspective plan for conservation, management and development of land resources of the State taking into account appropriate land use and soil capabilities.
+                              </li>
+                              <li>
+                                  To coordinate the work of soil Conservation and land preservation.
+                              </li>
+                              <li>
+                                  To make overall review of the programmes of the implementation of the schemes and programmes connected with surveys and development of soil and allied matters.
+                              </li>
+                              <li>
+                                  To take suitable steps to prevent the use of agricultural land for non-agricultural purposes.
+                              </li>
+                              <li>
+                                  To provide a forum for sharing technical and administrative experience pertaining to land utilization.
+                              </li>
+                              <li>
+                                  To collect compile and furnish statistical data pertaining to land use for implementation of the suitable programmes.
+                              </li>
+                              <li>
+                                  To lay down specifications for sound execution of the programme of land use, etc.
+                              </li>
+                          </ul>
+                      </div>
+                      <div class="image-container">
+                          <figure>
+                             <img src="images/slub-1.JPG" alt="slub-image">
+                             <figcaption>Er. M. Kanwal welcoming Dr. VN Sharda, Director CSWCRTI at SLUB Workshop</figcaption>
+                          </figure>
+                      </div>                
                   </div>
 
                   <h2>ACTIVITIES OF STATE LAND USE BOARD</h2>
                   <div class="text-image-box">
-                      <ul>
-                          <li>
-                              Make and overall review of the progress of implementation of ongoing schemes and programmes connected with conservation and development of land resources, soil and allied matters.
-                          </li>
-                          <li>
-                               Consider and review proposals concerning soil surveys and assess land resources degraded / Wastelands or extent of areas subject to soil erosion, deforestation and various types of degradation.
-                          </li>
-                          <li>
-                              Sponsor surveys to monitor land use changes over years and obtain basic data for planning.
-                          </li>
-                          <li>
-                              Create a reliable database and documentation centre on related aspects of degraded wastelands development and management.
-                          </li>
-                          <li>
-                              Promote initiative for perspective plans of land resources conservation, development and management and provide guidelines to Departments and agencies.
-                          </li>
-                          <li>
-                              Sponsor development of appropriate technology and management practices for wastelands development.
-                          </li>
-                          <li>
-                              Collaborate with the Central and State Government departments, agencies, local bodies and voluntary agencies with a view to mobilizing manpower, funds and other inputs required for wastelands development programmes.
-                          </li>
-                          <li>
-                              Take measures for creating greater awareness about the importance and problems of proper land and soil management with a view to evolve measures ensuring minimum diversion of arable land to non-arable uses.
-                          </li>
-                          <li>
-                              Create general awareness in favour of restoration and development of degraded/wastelands specially through the education system.
-                          </li>
-                          <li>
-                              Sponsor studies, organize regional and national debates/deliberations/seminars/workshops though various agencies in collaboration with State Land Use Boards, Universities, research institutes, etc.
-                          </li>
-                          <li>
-                              Promote training programmes and training materials for workers at various levels for optimal development/utilization of wastelands.
-                          </li>
-                          <li>
-                               Provide support for preparation of manuals and tools for increasing application of Scientific data in planning, designing, implementation and monitoring of programmes.
-                          </li>
-                          <li>
-                              To take steps to implement the decisions of National Land Use and Wastelands Development Council and National Land Use and Conservation Board and National Wastelands Development Board.
-                          </li>
-                          <li>
-                              To work as a coordinating and monitoring agency in respect of the programmes relating to the use of land within the State.
-                          </li>
-                          <li>
-                              To promote follow up action of Land Use Policy by increased use of improved rainfed farming technology, including moisture conservation and water harvesting technology.
-                          </li>
-                          <li>
-                              To encourage raising of vegetation grass, shrub and trees as part of farming system, and on farm land and homestead ensuring higher productivity of land and better environment.
-                          </li>
-                          <li>
-                              To promote initiative for adoption of livestock management on scientific lines and as integral to farming and rural living through more effective management of country’s grazing resources and development of fodder.
-                          </li>
-                          <li>
-                              Promote a network of nurseries and “Seed Banks” to supply quality certified planting material and seeds.
-                          </li>
-                          <li>
-                               To undertake functions as decided by the National Land Use and Conservation Board and the National Land Use and Wastelands Development Council or by the State Government from time to time.
-                          </li>
-                          <li>
-                              To prepare and forward quarterly and annual progress review/reports to National Land Use and Conservation Board with copy to National Wastelands Development Board.
-                          </li>
-                      </ul>
-                      <figure>
-                         <img src="images/soil.jpg" alt="mockup-image">
-                         <figcaption>Er. M. Kanwal along with central govt. team - visit to Harike Wetland</figcaption>
-                    </figure>
+                      <div class="text-container">
+                          <ul>
+                              <li>
+                                  Make and overall review of the progress of implementation of ongoing schemes and programmes connected with conservation and development of land resources, soil and allied matters.
+                              </li>
+                              <li>
+                                   Consider and review proposals concerning soil surveys and assess land resources degraded / Wastelands or extent of areas subject to soil erosion, deforestation and various types of degradation.
+                              </li>
+                              <li>
+                                  Sponsor surveys to monitor land use changes over years and obtain basic data for planning.
+                              </li>
+                              <li>
+                                  Create a reliable database and documentation centre on related aspects of degraded wastelands development and management.
+                              </li>
+                              <li>
+                                  Promote initiative for perspective plans of land resources conservation, development and management and provide guidelines to Departments and agencies.
+                              </li>
+                              <li>
+                                  Sponsor development of appropriate technology and management practices for wastelands development.
+                              </li>
+                              <li>
+                                  Collaborate with the Central and State Government departments, agencies, local bodies and voluntary agencies with a view to mobilizing manpower, funds and other inputs required for wastelands development programmes.
+                              </li>
+                              <li>
+                                  Take measures for creating greater awareness about the importance and problems of proper land and soil management with a view to evolve measures ensuring minimum diversion of arable land to non-arable uses.
+                              </li>
+                              <li>
+                                  Create general awareness in favour of restoration and development of degraded/wastelands specially through the education system.
+                              </li>
+                              <li>
+                                  Sponsor studies, organize regional and national debates/deliberations/seminars/workshops though various agencies in collaboration with State Land Use Boards, Universities, research institutes, etc.
+                              </li>
+                              <li>
+                                  Promote training programmes and training materials for workers at various levels for optimal development/utilization of wastelands.
+                              </li>
+                              <li>
+                                   Provide support for preparation of manuals and tools for increasing application of Scientific data in planning, designing, implementation and monitoring of programmes.
+                              </li>
+                              <li>
+                                  To take steps to implement the decisions of National Land Use and Wastelands Development Council and National Land Use and Conservation Board and National Wastelands Development Board.
+                              </li>
+                              <li>
+                                  To work as a coordinating and monitoring agency in respect of the programmes relating to the use of land within the State.
+                              </li>
+                              <li>
+                                  To promote follow up action of Land Use Policy by increased use of improved rainfed farming technology, including moisture conservation and water harvesting technology.
+                              </li>
+                              <li>
+                                  To encourage raising of vegetation grass, shrub and trees as part of farming system, and on farm land and homestead ensuring higher productivity of land and better environment.
+                              </li>
+                              <li>
+                                  To promote initiative for adoption of livestock management on scientific lines and as integral to farming and rural living through more effective management of country’s grazing resources and development of fodder.
+                              </li>
+                              <li>
+                                  Promote a network of nurseries and “Seed Banks” to supply quality certified planting material and seeds.
+                              </li>
+                              <li>
+                                   To undertake functions as decided by the National Land Use and Conservation Board and the National Land Use and Wastelands Development Council or by the State Government from time to time.
+                              </li>
+                              <li>
+                                  To prepare and forward quarterly and annual progress review/reports to National Land Use and Conservation Board with copy to National Wastelands Development Board.
+                              </li>
+                          </ul>
+                      </div>
+                      <div class="image-container">
+                          <figure>
+                             <img src="images/slub-2.jpg" alt="slub-image">
+                             <figcaption>Er. M. Kanwal along with central govt. team - visit to Harike Wetland</figcaption>
+                          </figure>
+                      </div>
                   </div>
                   <h2>ACHIEVEMENTS</h2>
                   <ul>
@@ -247,23 +321,30 @@
                   </ul>
               </div>
           </section>
-          
           <footer>
               <div id="quick-links">
                   <h2>QUICK LINKS</h2>
                   <ul>
-                      <li><a href="#">Administrative Reports</a></li>
-                      <li><a href="#">Micro Irrigation</a></li>
-                      <li><a href="slub.html">SLUB</a></li>
-                      <li><a href="#">Organization Chart</a></li>
+                      <li><a href="administrative-reports.html">Administrative Reports</a></li>
+                      <li><a href="docs/rti-docs/RTI-Application_Form.pdf">RTI Application Form</a></li>
+                      <li><a href="micro-irrigation-page.html">Micro Irrigation</a></li>
+                      <li><a href="slub.html">State Land Use Board</a></li>
+                      <li><a href="docs/Organization_Chart.pdf">Organization Chart</a></li>
                   </ul>
                   <ul>
-                      <li><a href="#">Vigilance Officer</a></li>
-                      <li><a href="#">DPR-IWMP</a></li>
-                      <li><a href="#">Duty Chart</a></li>
-                      <li><a href="#">Soil Survey Reports</a></li>
-                      <li><a href="faq.html">FAQ</a></li>
+                      <li><a href="welfare-society.html">Sports &amp; Welfare Society</a></li>
+                      <li><a href="gpf-forms.html">GPF Forms</a></li>
+                      <li><a href="punjab_soils.html">Punjab Soils</a></li>
+                      <li><a href="punjab_waters.html">Punjab Waters</a></li>
+                      <li><a href="soil-survey-reports.html">Soil Survey Reports</a></li>
                   </ul>
+                  <ul>
+                      <li><a href="docs/CVO_DSWC.pdf">Vigilance Officer</a></li>
+                      <li><a href="docs/Duty_chart_deptt.pdf">Duty Chart</a></li>
+                      <li><a href="regional-offices.html">Regional Offices</a></li>
+                      <li><a href="faq.html">FAQ</a></li>
+                      <li><a href="fonts.html">Download Fonts</a></li>
+                  </ul>                  
               </div>
               
               <div id="connect">
@@ -271,15 +352,22 @@
                   <ul>
                       <li><i class="fas fa-phone fa-2x"></i>0172 - 2777094, 2704857, 2716158</li>
                       <li><i class="far fa-envelope fa-2x"></i><a href="mailto:dswcpunjab@gmail.com">dswcpunjab@gmail.com</a></li>
+                      <li><i class="far fa-envelope fa-2x"></i><a href="mailto:ccs.clw@punjab.gov.in">ccs.clw@punjab.gov.in</a></li>
                   </ul>
-                  <a href="https://www.facebook.com/dswcpb/" target="_blank"><img src="images/fb_like_us.png" alt="facebook logo"></a>
+                  <ul>
+                      <li><i class="fab fa-facebook-f fa-2x"></i><a href="https://www.facebook.com/dswcpb/">DSWC Facebook</a></li>
+                      <li><i class="fab fa-twitter fa-2x"></i><a href="https://twitter.com/dswcpunjab">DSWC Twitter</a></li>
+                  </ul>                  
               </div>
               
               <div id="dev-note">
-                  This website belongs to Department of Soil and Water Conservation, Punjab, India.
+                  <p>
+                      This website belongs to Department of Soil and Water Conservation, Punjab, India. <br>
+                      <span>(For best experience, switch to Google Chrome or Mozilla FIrefox with resolution 1366 x 768 or higher.)</span>
+                  </p>
               </div>
               <div id="footer-links">
-                  <a href="developers_message.html">Developer Message</a> | <a href="disclaimer.html">Disclaimer</a> | <a href="#">Advertising policy</a> | <a href="terms_of_use.html">Terms &amp; Conditions</a> | <a href="hyperlink_policy.html">Hyperlink Policy</a> | <a href="contact_us.html">Contact Us</a>
+                  <a href="developers_message.html">Developer Message</a> | <a href="disclaimer.html">Disclaimer</a> | <a href="terms_of_use.html">Terms &amp; Conditions</a> | <a href="hyperlink_policy.html">Hyperlink Policy</a> | <a href="feedback.html">Feedback</a>
               </div>              
           </footer>
       </main>

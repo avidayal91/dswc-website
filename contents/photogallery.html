@@ -19,25 +19,47 @@
        
 <!--    font awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<!--    lightbox css-->
+    <link rel="stylesheet" href="css/lightbox.css" type="text/css">
   </head>
   
   <body>
       <header>
-          <div class="govt-punjab-link">
-              <a href="http://punjab.gov.in/" target="_blank" title="GOVERNMENT OF PUNJAB, External Link that opens in a new window">GOVERNMENT OF PUNJAB</a>
+          <div class="top-bar">
+              <div class="govt-punjab-link">
+                  <a href="http://punjab.gov.in/" title="GOVERNMENT OF PUNJAB, External Link">GOVERNMENT OF PUNJAB<span>| ਪੰਜਾਬ ਸਰਕਾਰ</span></a>
+              </div>
+              <div class="site-tools">
+                  <a id="search-btn" href="#"><i class="fas fa-search"></i></a>
+                  <a href="site-map.html" title="Sitemap"><i class="fas fa-sitemap"></i></a>
+                  <a id="font-dec" href="#" title="Small Font">A<sup>-</sup></a>
+                  <a id="font-default" title="Medium Font" href="#">A</a>
+                  <a id="font-inc" href="#" title="Large Font">A<sup>+</sup></a>
+              </div>
+              <div id="custom-search" class="search-box">
+                 <script async src="https://cse.google.com/cse.js?cx=003156846267314940718:d95eba3fojr"></script>
+                    <div class="gcse-search"></div>
+              </div>
           </div>
           <div class="header-bar">
-              <div class="logo">
-                  <a href="../index.html"><img src="images/dswc_logo.png" alt="logo"></a>
+              <div class="dept-area">
+                  <div class="logo">
+                      <a href="../homepage.html" title="Department of Soil and Water Conservations Logo"><img src="images/dswc_logo.png" alt="Department of Soil and Water Conservations Logo"></a>
+                  </div>
+                  <div class="dept-title">
+                      <a href="../homepage.html" title="Department of Soil and Water Conservations"><h1><span>DEPARTMENT OF</span><br> SOIL &amp; WATER CONSERVATION, PUNJAB</h1></a>
+                  </div>
+                  <div id="fifty-year">
+                      <a href="http://www.550yearsofgurunanakdevji.com/" target="_blank" title="Celebrating 550 Years of Guru Nanak Dev Ji"><img src="images/sikhism-logo.png" alt="Celebrating 550 Years of Guru Nanak Dev Ji"></a>
+                  </div>
               </div>
-              <div class="dept-title">
-                  <a href="../index.html"><h1><span>DEPARTMENT OF</span><br> SOIL &amp; WATER CONSERVATION, PUNJAB</h1></a>
-              </div>
-              <div id="swachh">
-                  <img src="images/swachBharat.png" alt="">
-              </div>
-              <div id="emblem">
-                  <img src="images/emblem-dark.png" alt="">
+              <div class="logo-area">
+                  <div id="swachh">
+                      <img src="images/swachBharat.png" alt="Swachh Bharat Logo" title="Swachh Bharat logo">
+                  </div>
+                  <div id="emblem">
+                      <img src="images/scmip-footer-logos/punjab-govt.svg" alt="Government Of Punjab Logo" title="Government Of Punjab Logo">
+                  </div>
               </div>
               <div class="menu-toggler">
                   <a href="#">
@@ -51,119 +73,234 @@
           </div>
           <nav>
               <ul>
-                  <li><a href="../index.html"><i class="fas fa-home"></i></a></li>
-                  <li><a href="introduction.html">About</a></li>
-                  <li class="drop-down"><a href="#">Organization <i class="fas fa-sort-down"></i></a>
-                      <ul>
-                         <li><a href="docs/Organization_Chart.pdf" target="_blank">Organization Chart</a></li>
-                         <li><a href="docs/Citizen_Charter_13.pdf" target="_blank">Citizen Charter</a></li>
-                      </ul>
+                  <li><a href="../homepage.html" title="Home"><i class="fas fa-home"></i></a></li>
+                  <li class="drop-down"><a href="#">About <i class="fas fa-sort-down"></i></a>
+                      <div class="drop-down-box">
+                          <ul>
+                             <li><a href="introduction.html">Department Introduction</a></li>
+                             <li><a href="docs/Organization_Chart.pdf">Organization Chart</a></li>
+                             <li><a href="docs/Citizen_Charter_13.pdf">Citizen Charter</a></li>         
+                          </ul>
+                          <ul>
+                              <li><a href="slub.html">State Land Use Board</a></li>
+                              <li><a href="punjab_soils.html">Punjab Soils</a></li>
+                              <li><a href="punjab_waters.html">Punjab Waters</a></li>
+                          </ul>
+                      </div>
                   </li>
                   <li class="drop-down"><a href="#">Guidelines <i class="fas fa-sort-down"></i></a>
-                      <ul>
-                         <li><a href="docs/PMKSY_Guidelines.pdf" target="_blank">PMKSY</a></li>
-                         <li><a href="docs/Guidelines_MI_PMKSY.pdf" target="_blank">Micro Irrigatiom</a></li>
-                         <li><a href="docs/CommonGuidelines2008.pdf" target="_blank">Watershed</a></li>
-                         <li><a href="docs/Rkvy.pdf" target="_blank">RKVY</a></li>
-                         <li><a href="docs/tdet_guidelines.pdf" target="_blank">TDET</a></li>
-                      </ul>
+                      <div class="drop-down-box">
+                          <ul>
+                             <li><a href="docs/PMKSY_Guidelines.pdf">Pradhan Mantri Krishi Sinchayee Yojna</a></li>
+                             <li><a href="docs/Guidelines_Micro-Irrigation.pdf">Micro Irrigatiom - Operational Guidelines</a></li>
+                             <li><a href="docs/Watershed.pdf">Guidelines for Watershed Developmeny</a></li>
+                             <li><a href="docs/RKVY_RAFTAAR.pdf">Rashtriya Krishi Vikas Yojana</a></li>
+                          </ul>
+                          <ul>
+                              <li><a href="docs/tdet_guidelines.pdf">Technology Development Extension Training</a></li>
+                              <li><a href="docs/CWC-Piped-Network.pdf">Guidelines of Planning &amp; Designing Pipeline Network</a></li>
+                          </ul>
+                      </div>
                   </li>
                   <li class="drop-down"><a href="#">Rules &amp; Acts <i class="fas fa-sort-down"></i></a>
-                      <ul>
-                         <li><a href="docs/Land_Impvt_Act.pdf" target="_blank">Land Improvement Act</a></li>
-                         <li><a href="docs/orders/Work_Manual-2018.pdf" target="_blank">Works Manual</a></li>
-                         <li><a href="docs/Group_A_Rules.pdf" target="_blank">Group A Service Rules 2014</a></li>
-                         <li><a href="docs/Schemes_Rules.pdf" target="_blank">Schemes Rules</a></li>
-                         <li><a href="docs/Duty_chart_deptt.pdf" target="_blank">Duty Chart</a></li>
-                         <li><a href="docs/Punjab_Land_Improvement_Schemes_2017.pdf" target="_blank">Punjab Land Improvement Schemes Act, 2017<br>(Right of Way)</a></li>
-                      </ul>
+                      <div class="drop-down-box">
+                          <ul><h3>DSWC Rules</h3>
+                             <li><a href="docs/Rules%20of%20Business-DSWC.docx">Rules of Business DSWC</a></li>
+                             <li><a href="docs/Land_Impvt_Act.pdf">Land Improvement Act 1963</a></li>
+                             <li><a href="docs/Punjab_Land_Improvement_Schemes_2017.pdf">Punjab Land Improvement Amendment Act</a></li>
+                             <li><a href="docs/Notifcation%20Land%20Improvement%20Scheme%20(Amendment),%20Act,%202017.pdf">Notification Land Improvement Scheme</a></li>
+                             <li><a href="docs/Work_Manual-2018.pdf">Works Manual</a></li>
+                             <li><a href="docs/Group_A_Rules.pdf">Group A Service Rules 2014</a></li>
+                             <li><a href="docs/Schemes_Rules.pdf">Schemes Rules</a></li>
+                             <li><a href="docs/Duty_chart_deptt.pdf">Duty Chart</a></li>                             
+                          </ul>
+                          <ul><h3>Governemt of Punjab Rules</h3>
+                              <li><a href="docs/Pb-preservation-of-Subsoil-Act,2009.pdf">Punjab Preservation of Sub Soil Act</a></li>
+                              <li><a href="docs/Valuation%20under%20GST.pdf">Valuation Under GST</a></li>
+                              <li><a href="docs/Labour%20Cess_Rules.pdf">Labour Cess Notification</a></li>
+                              <li><a href="docs/TDS-%20GST.pdf">TDS Mechanism Under GST</a></li>
+                              <li><a href="docs/Work%20Contracts%20in%20GST.pdf">Work Contracts in GST</a></li>
+                              <li><a href="docs/GEM%20Notification.pdf">GeM Notification</a></li>                              
+                          </ul>
+                      </div>
                   </li>
-                  <li class="drop-down"><a href="#">Services <i class="fas fa-sort-down"></i></a>
-                      <ul>
-                         <li><a href="#">Machinery on Rent</a></li>
-                         <li><a href="#">Other Services</a></li>
-                      </ul>
+                   <li class="drop-down"><a href="#">Downloads <i class="fas fa-sort-down"></i></a>
+                      <div class="drop-down-box">
+                          <ul><h3>Forms for Employees</h3>
+                             <li><a href="gpf-forms.html">GPF Forms</a></li>
+                             <li><a href="docs/ITR%20Form.xls">ITR Form</a></li>
+                             <li><a href="docs/Form%2016.xls">Form 16</a></li>
+                             <li><a href="ltc-forms.html">LTC Forms</a></li>
+                             <li><a href="docs/Property%20Return%20Proforma.docx">Property Return Performa</a></li>
+                             <li><a href="docs/downloads/Medical_Reimbursement/Medical_Reimbursement.doc">Medical Reimbursement Form</a></li>
+                             <li><a href="docs/downloads/Pension_Form/PENSION_form.docx">Pension Form</a></li>
+                             <li><a href="docs/downloads/Registration_form_Digital_Certificate/Registration_Digital_Certificate.pdf">Registration for Digital Certificate</a></li>
+                          </ul>
+                          <ul><h3>Technical Instruction &amp; Orders</h3>
+                             <li><a href="docs/DSWC_Inspection_Schedule.pdf">DSWC Inspection Schedule</a></li>
+                             <li><a href="docs/DEPARTMENTAL%20FINANCIAL%20RULES.doc.pdf">Department Financial Rules</a></li>
+                             <li><a href="csr.html">Common Schedule of Rates</a></li>
+                             <li><a href="docs/pwd_specifications.pdf">PWD Specificatons</a></li>
+                             <li><a href="docs/PWD_Code23102017.pdf">PWD Code</a></li>
+                             <li><a href="civil-services-rules.html">Civil Services Rules</a></li>
+                             <li><a href="docs/The_Punjab_Government_Employees_(Conduct)_Rules.pdf">The Punjab Government Employees (Conduct) Rules, 1966</a></li>
+                             <li><a href="docs/The%20Punjab%20civil%20services%20(Punishment%20and%20Appeal)%20Rules,%201970.docx">The Punjab Civil Services (Punishment and Appeal) Rules, 1970</a></li>
+                          </ul>
+                      </div>
+                  </li>
+                  <li class="drop-down"><a href="#">Reports <i class="fas fa-sort-down"></i></a>
+                      <div class="drop-down-box">
+                          <ul>
+                             <li><a href="administrative-reports.html">Administrative Reports</a></li>
+                             <li><a href="soil-survey-reports.html">Soil Survey Reports</a></li>
+                          </ul>
+                      </div>
                   </li>
                   <li class="drop-down"><a href="#">RTI <i class="fas fa-sort-down"></i></a>
-                      <ul>
-                         <li><a href="rti.html">Information</a></li>
-                         <li><a href="pios-apios.html">PIOs &amp; APIOs </a></li>
-                         <li><a href="#">Other options</a></li>
-                      </ul>
+                      <div class="drop-down-box">
+                          <ul>
+                             <li><a href="state-information-comission.html">State Information Comission Orders</a></li>
+                             <li><a href="rti.html">RTI Proactive Manual</a></li>
+                             <li><a href="pios-apios.html">Public Information Officer </a></li>
+                             <li><a href="docs/rti-docs/RTI-Application_Form.pdf">RTI Application Form</a></li>
+                          </ul>
+                      </div>
                   </li>
-                  <li class="drop-down"><a href="#">Employee Center<i class="fas fa-sort-down"></i></a>
-                      <ul>
-                         <li><a href="downloads.html">Downloads</a></li>
-                         <li><a href="#">Other options</a></li>
-                      </ul>
-                  </li>
-                  <li><a href="faq.html">FAQ</a></li>
-                  <li><a href="contact_us.html">Contact Us</a></li>
-                  
+                  <li><a href="training.html">Trainings</a></li>
+                  <li><a href="regional-offices.html">Regional Offices</a></li>
+                  <li><a href="contact_us.html">Contact Us</a></li>                  
               </ul>
-          </nav>
+          </nav>          
+          <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-alt-circle-up"></i></button>
       </header>
       <main>
-          <section class="inner-masthead">
-            
-             <figure>
-                  <img src="https://via.placeholder.com/800x200" alt="mockup-image">
-             </figure>
+          <section class="inner-masthead container">            
+             <h1>PHOTO GALLERY</h1>
           </section>
           <section class="container">
-            <h1>PHOTO GALLERY</h1>
-            <div class="project-box photo-gallery">
-                <figure>
-                     <img src="https://via.placeholder.com/400x300" alt="mockup-image">
-                     <figcaption>Photo 1</figcaption>
-                </figure>
-                <figure>
-                     <img src="https://via.placeholder.com/400x300" alt="mockup-image">
-                     <figcaption>Photo 2</figcaption>
-                </figure>
-                <figure>
-                     <img src="https://via.placeholder.com/400x300" alt="mockup-image">
-                     <figcaption>Photo 3</figcaption>
-                </figure>
-                <figure>
-                     <img src="https://via.placeholder.com/400x300" alt="mockup-image">
-                     <figcaption>Photo 4</figcaption>
-                </figure>
-                <figure>
-                     <img src="https://via.placeholder.com/400x300" alt="mockup-image">
-                     <figcaption>Photo 5</figcaption>
-                </figure>
-                <figure>
-                     <img src="https://via.placeholder.com/400x300" alt="mockup-image">
-                     <figcaption>Photo 6</figcaption>
-                </figure>
-                <figure>
-                     <img src="https://via.placeholder.com/400x300" alt="mockup-image">
-                     <figcaption>Photo 7</figcaption>
-                </figure>
-                <figure>
-                     <img src="https://via.placeholder.com/400x300" alt="mockup-image">
-                     <figcaption>Photo 8</figcaption>
-                </figure>
+            <div class="project-box">
+                <h2>CHECK DAMS</h2>
+                <div class="photo-gallery">
+                    <figure><img src="images/photo-gallery/002.jpg" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/009.jpg" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/015.jpg" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/018.jpg" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/024.jpg" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/026.jpg" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/028.jpg" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/047.JPG" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/059.JPG" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/060.jpg" alt="gallery-image"></figure>                    
+                </div>
+                <h2>WATER HARVESTING STRUCTURES</h2>
+                <div class="photo-gallery">
+                    <figure><img src="images/photo-gallery/003.jpg" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/013.jpg" alt="gallery-image"></figure>                    
+                    <figure><img src="images/photo-gallery/051.JPG" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/052.jpg" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/108.jpg" alt="gallery-image"></figure>
+                </div>
+                <h2>RENOVATION OF POND / WATER BODIES</h2>
+                <div class="photo-gallery">
+                    <figure><img src="images/photo-gallery/019.jpg" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/020.jpg" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/033.jpg" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/034.jpg" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/035.jpg" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/037.jpg" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/043.jpg" alt="gallery-image"></figure>
+                </div>
+                <h2>MICRO IRRIGATION</h2>
+                <div class="photo-gallery">
+                    <figure><img src="images/photo-gallery/006.jpg" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/053.JPG" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/054.jpg" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/055.JPG" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/057.jpg" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/058.jpg" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/089.JPG" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/095.JPG" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/096.JPG" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/097.JPG" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/101.JPG" alt="gallery-image"></figure>
+                </div>
+                <h2>RETAINING WALLS / FLOOD PROTECTION</h2>
+                <div class="photo-gallery">
+                    <figure><img src="images/photo-gallery/011.jpg" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/025.jpg" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/027.jpg" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/036.jpg" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/044.JPG" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/048.jpg" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/049.jpg" alt="gallery-image"></figure>
+                </div>
+                <h2>SOLAR POWERED MICRO IRRIGATION</h2>
+                <div class="photo-gallery">
+                    <figure><img src="images/photo-gallery/001.png" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/004.jpg" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/005.jpg" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/008.jpg" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/012.jpg" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/074.JPG" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/093.JPG" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/098.JPG" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/099.JPG" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/104.jpg" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/105.jpg" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/106.jpg" alt="gallery-image"></figure>
+                </div>
+                <h2>UTILISATION OF TREATED WATER</h2>
+                <div class="photo-gallery">
+                    <figure><img src="images/photo-gallery/038.JPG" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/039.JPG" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/040.JPG" alt="gallery-image"></figure>
+                </div>
+                <h2>MACHINERY WORKS</h2>
+                <div class="photo-gallery">
+                    <figure><img src="images/photo-gallery/007.jpg" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/067.JPG" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/068.JPG" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/069.JPG" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/070.JPG" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/071.JPG" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/081.JPG" alt="gallery-image"></figure>
+                </div>
+                <h2>TRAINING SELF-HELP WORKSHOPS</h2>
+                <div class="photo-gallery">
+                    <figure><img src="images/photo-gallery/109.jpg" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/110.jpg" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/111.jpg" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/112.jpg" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/113.jpg" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/114.jpg" alt="gallery-image"></figure>
+                    <figure><img src="images/photo-gallery/115.jpg" alt="gallery-image"></figure>
+                </div>
             </div>
           </section>
-          
           <footer>
               <div id="quick-links">
                   <h2>QUICK LINKS</h2>
                   <ul>
-                      <li><a href="#">Administrative Reports</a></li>
-                      <li><a href="#">Micro Irrigation</a></li>
-                      <li><a href="slub.html">SLUB</a></li>
-                      <li><a href="#">Organization Chart</a></li>
+                      <li><a href="administrative-reports.html">Administrative Reports</a></li>
+                      <li><a href="docs/rti-docs/RTI-Application_Form.pdf">RTI Application Form</a></li>
+                      <li><a href="micro-irrigation-page.html">Micro Irrigation</a></li>
+                      <li><a href="slub.html">State Land Use Board</a></li>
+                      <li><a href="docs/Organization_Chart.pdf">Organization Chart</a></li>
                   </ul>
                   <ul>
-                      <li><a href="#">Vigilance Officer</a></li>
-                      <li><a href="#">DPR-IWMP</a></li>
-                      <li><a href="#">Duty Chart</a></li>
-                      <li><a href="#">Soil Survey Reports</a></li>
-                      <li><a href="faq.html">FAQ</a></li>
+                      <li><a href="welfare-society.html">Sports &amp; Welfare Society</a></li>
+                      <li><a href="gpf-forms.html">GPF Forms</a></li>
+                      <li><a href="punjab_soils.html">Punjab Soils</a></li>
+                      <li><a href="punjab_waters.html">Punjab Waters</a></li>
+                      <li><a href="soil-survey-reports.html">Soil Survey Reports</a></li>
                   </ul>
+                  <ul>
+                      <li><a href="docs/CVO_DSWC.pdf">Vigilance Officer</a></li>
+                      <li><a href="docs/Duty_chart_deptt.pdf">Duty Chart</a></li>
+                      <li><a href="regional-offices.html">Regional Offices</a></li>
+                      <li><a href="faq.html">FAQ</a></li>
+                      <li><a href="fonts.html">Download Fonts</a></li>
+                  </ul>                  
               </div>
               
               <div id="connect">
@@ -171,18 +308,26 @@
                   <ul>
                       <li><i class="fas fa-phone fa-2x"></i>0172 - 2777094, 2704857, 2716158</li>
                       <li><i class="far fa-envelope fa-2x"></i><a href="mailto:dswcpunjab@gmail.com">dswcpunjab@gmail.com</a></li>
+                      <li><i class="far fa-envelope fa-2x"></i><a href="mailto:ccs.clw@punjab.gov.in">ccs.clw@punjab.gov.in</a></li>
                   </ul>
-                  <a href="https://www.facebook.com/dswcpb/" target="_blank"><img src="images/fb_like_us.png" alt="facebook logo"></a>
+                  <ul>
+                      <li><i class="fab fa-facebook-f fa-2x"></i><a href="https://www.facebook.com/dswcpb/">DSWC Facebook</a></li>
+                      <li><i class="fab fa-twitter fa-2x"></i><a href="https://twitter.com/dswcpunjab">DSWC Twitter</a></li>
+                  </ul>                  
               </div>
               
               <div id="dev-note">
-                  This website belongs to Department of Soil and Water Conservation, Punjab, India.
+                  <p>
+                      This website belongs to Department of Soil and Water Conservation, Punjab, India. <br>
+                      <span>(For best experience, switch to Google Chrome or Mozilla FIrefox with resolution 1366 x 768 or higher.)</span>
+                  </p>
               </div>
               <div id="footer-links">
-                  <a href="developers_message.html">Developer Message</a> | <a href="disclaimer.html">Disclaimer</a> | <a href="#">Advertising policy</a> | <a href="terms_of_use.html">Terms &amp; Conditions</a> | <a href="hyperlink_policy.html">Hyperlink Policy</a> | <a href="contact_us.html">Contact Us</a>
+                  <a href="developers_message.html">Developer Message</a> | <a href="disclaimer.html">Disclaimer</a> | <a href="terms_of_use.html">Terms &amp; Conditions</a> | <a href="hyperlink_policy.html">Hyperlink Policy</a> | <a href="feedback.html">Feedback</a>
               </div>              
           </footer>
       </main>
+      <script type="text/javascript" src="js/lightbox.js"></script>
       <script type="text/javascript" src="js/owl.carousel.min.js"></script>
       <script type="text/javascript" src="js/main.js"></script>
   </body>
